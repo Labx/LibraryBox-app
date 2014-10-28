@@ -1,5 +1,7 @@
 Ui to manage [LibraryBox](http://librarybox.us/)
 
+Nous avons pour objectif d'automatiser la gestion des LibraryBox et leurs contenus.
+
 
 ## Development Requirements
 
