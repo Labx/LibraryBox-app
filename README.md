@@ -18,7 +18,8 @@ Nous avons pour objectif d'automatiser la gestion des LibraryBox et leurs conten
   * `gulp`
 
 ```bash
- apt-get install sqlite3 sqlitebrowser
+ sudo apt-get install sqlite3 sqlitebrowser
+ sudo npm install -g generator-gulp-angular
 ```
 
 ## Data extraction
