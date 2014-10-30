@@ -16,5 +16,6 @@ endif
 SHELL := /bin/bash
 
 install-devtools:
-	sudo apt-get install sqlite3 sqlitebrowser npm
+	sudo apt-get install sqlite3 sqlitebrowser nodejs
 	sudo npm install -g yo bower gulp generator-gulp-angular
+
