@@ -1,4 +1,7 @@
 data/
+.tmp
+.sass-cache
+src/bower_components
 
 ###Node###
 
