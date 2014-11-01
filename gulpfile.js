@@ -1,7 +1,12 @@
 'use strict';
 // generated on 2014-11-01 using generator-gulp-webapp 0.1.0
 
-var gulp = require('gulp');
+var gulp = require('gulp'),
+    SqliteToJson = require('sqlite-to-json'),
+    sqlite3 = require('sqlite3')
+;
+var db = new sqlite3.Database('data.sqlite3'),
+    exporter = new SqliteToJson({client: db});
 
 // load plugins
 var $ = require('gulp-load-plugins')();
@@ -23,6 +28,45 @@ gulp.task('scripts', function () {
         .pipe($.jshint.reporter(require('jshint-stylish')))
         .pipe($.size());
 });
+
+
+gulp.task('db:list-tables', function () {
+    var db = new sqlite3.Database('data.sqlite3');
+    var exporter = new SqliteToJson({client: db});
+    exporter.tables(function (err, tables) {
+        for (var t in tables) {
+            console.info(tables[t]);
+        }
+    });
+
+    return exporter;
+});
+
+gulp.task('db:authors', function () {
+    var table = 'authors';
+    exporter.save(table, 'dump-'+table+'.json', function (err) {
+        if (err) { console.error("\tdumping '"+table+"'… failed!")}
+        else { console.log("\tdumping '"+table+"'… succeed :)"); }
+    });
+});
+
+gulp.task('db:books', function () {
+    var table = 'books';
+    exporter.save(table, 'dump-'+table+'.json', function (err) {
+        if (err) { console.error("\tdumping '"+table+"'… failed!")}
+        else { console.log("\tdumping '"+table+"'… succeed :)"); }
+    });
+});
+
+gulp.task('db:tags', function () {
+    var table = 'tags';
+    exporter.save(table, 'dump-'+table+'.json', function (err) {
+        if (err) { console.error("\tdumping '"+table+"'… failed!")}
+        else { console.log("\tdumping '"+table+"'… succeed :)"); }
+    });
+});
+
+gulp.task('db:dump', ['db:authors', 'db:books', 'db:tags'], function () { });
 
 
 gulp.task('html', ['styles', 'scripts'], function () {
