@@ -24,5 +24,13 @@ sudo make install-devtools
 ## Data extraction
 
 ```bash
-sqlite3 data/metadata.db 'SELECT * FROM authors'
+gulp db:dump
+```
+
+Or on a per-table basis
+ 
+```bash
+db:authors
+db:books
+db:tags
 ```
