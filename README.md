@@ -11,11 +11,11 @@ Nous avons pour objectif d'automatiser la gestion des LibraryBox et leurs conten
 ## Development Requirements
 
 * `nodejs`, `npm`
-  * `angular` ;
+  * `angularJS` ;
 * tooling:
-  * `yo`
-  * `bower`
-  * `gulp`
+    * `yo` (scaffolding) ;
+    * `bower` (dependencies management) ;
+    * `gulp` (task management) ;
 
 ```bash
 sudo make install-devtools
