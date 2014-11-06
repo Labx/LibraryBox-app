@@ -33,6 +33,11 @@ var pathes = {
         dir: null,
         src: 'app/views/**/*.html',
         dest: null
+    },
+    data: {
+    	  dir: 'app/data',
+        src: 'app/data/**/*',
+        dest: 'dist/data'
     }
 };
 
@@ -40,7 +45,7 @@ var  gulp = require('gulp')
     ,SqliteToJson = require('sqlite-to-json')
     ,sqlite3 = require('sqlite3')
 ;
-var db = new sqlite3.Database('data.sqlite3'),
+var db = new sqlite3.Database(pathes.data.dir+'/data.sqlite3'),
     exporter = new SqliteToJson({client: db})
 ;
 
@@ -83,7 +88,7 @@ gulp.task('db:list-tables', function () {
 
 gulp.task('db:authors', function () {
     var table = 'authors';
-    exporter.save(table, 'dump-'+table+'.json', function (err) {
+    exporter.save(table, pathes.data.dir+'/dump-'+table+'.json', function (err) {
         if (err) { console.error("\tdumping '"+table+"'… failed!")}
         else { console.log("\tdumping '"+table+"'… succeed :)"); }
     });
@@ -91,7 +96,7 @@ gulp.task('db:authors', function () {
 
 gulp.task('db:books', function () {
     var table = 'books';
-    exporter.save(table, 'dump-'+table+'.json', function (err) {
+    exporter.save(table, pathes.data.dir+'/dump-'+table+'.json', function (err) {
         if (err) { console.error("\tdumping '"+table+"'… failed!")}
         else { console.log("\tdumping '"+table+"'… succeed :)"); }
     });
@@ -99,13 +104,21 @@ gulp.task('db:books', function () {
 
 gulp.task('db:tags', function () {
     var table = 'tags';
-    exporter.save(table, 'dump-'+table+'.json', function (err) {
+    exporter.save(table, pathes.data.dir+'/dump-'+table+'.json', function (err) {
         if (err) { console.error("\tdumping '"+table+"'… failed!")}
         else { console.log("\tdumping '"+table+"'… succeed :)"); }
     });
 });
 
-gulp.task('db:dump', ['db:authors', 'db:books', 'db:tags'], function () { });
+gulp.task('db:series', function () {
+    var table = 'series';
+    exporter.save(table, pathes.data.dir+'/dump-'+table+'.json', function (err) {
+        if (err) { console.error("\tdumping '"+table+"'… failed!")}
+        else { console.log("\tdumping '"+table+"'… succeed :)"); }
+    });
+});
+
+gulp.task('db:dump', ['db:authors', 'db:books', 'db:tags', 'db:series'], function () { });
 
 gulp.task('data', function () {
 	require('gulp-util').log(pathes.scripts.dir+'/*.json');
