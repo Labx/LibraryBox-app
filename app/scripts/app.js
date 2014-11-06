@@ -33,6 +33,10 @@ angular
           templateUrl: 'views/authors.html',
           controller: 'AuthorListCtrl'
         })
+        .when('/author/:authorId', {
+          templateUrl: 'views/author-detail.html',
+          controller: 'AuthorDetailCtrl'
+        })
         .otherwise({
           redirectTo: '/'
         });
