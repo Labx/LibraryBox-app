@@ -1,1 +1,7 @@
 <p>This is the authors view.</p>
+
+<div data-ng-controller="AuthorListCtrl">
+	<ol>
+		<li data-ng-repeat="author in authors">{{author.name}}</li>
+	</ol>
+</div>

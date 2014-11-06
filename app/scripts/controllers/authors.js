@@ -7,11 +7,10 @@
  * # AuthorsCtrl
  * Controller of the libraryboxApp
  */
-angular.module('libraryboxApp')
-  .controller('AuthorsCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+
+var libraryboxControllers = angular.module('libraryboxControllers', []);
+
+libraryboxControllers.controller('AuthorListCtrl', ['$scope', 'Authors', function($scope, Authors) {
+  $scope.authors = Authors.query();
+  $scope.orderProp = 'name';
+}]);

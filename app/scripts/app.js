@@ -14,23 +14,26 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+	'libraryboxControllers',
+	// 'libraryboxFilters',
+	'libraryboxServices'
   ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
-      })
-      .when('/authors', {
-        templateUrl: 'views/authors.html',
-        controller: 'AuthorsCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+  .config(['$routeProvider', function ($routeProvider) {
+      $routeProvider
+        .when('/', {
+          templateUrl: 'views/main.html',
+          controller: 'MainCtrl'
+        })
+        .when('/about', {
+          templateUrl: 'views/about.html',
+          controller: 'AboutCtrl'
+        })
+        .when('/authors', {
+          templateUrl: 'views/authors.html',
+          controller: 'AuthorListCtrl'
+        })
+        .otherwise({
+          redirectTo: '/'
+        });
+    }]);
