@@ -70,7 +70,7 @@ gulp.task('scripts', function () {
         .pipe($.jshint())
         .pipe($.jshint.reporter(require('jshint-stylish')))
         .pipe($.size())
-        .pipe($.dest(pathes.buildDir))
+        .pipe(gulp.dest(pathes.buildDir))
     ;
 });
 
