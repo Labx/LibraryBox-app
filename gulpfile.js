@@ -220,7 +220,6 @@ gulp.task('watch', ['connect', 'serve'], function () {
     var server = $.livereload();
 
     // watch for changes
-
     gulp.watch([
         pathes.appDir+'/*.html',
         '.tmp/styles/**/*.css',
