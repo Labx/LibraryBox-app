@@ -23,14 +23,14 @@
 
         <div class="container">
             <div class="header">
-                <ul class="nav nav-pills pull-right">
-		          <li class="active"><a ng-href="#">Home</a></li>
-		          <li><a ng-href="#/authors">Authors</a></li>
-		          <li><a ng-href="#/books">Books</a></li>
-		          <li><a ng-href="#/series">Series</a></li>
-		          <li><a ng-href="#/tags">Tags</a></li>
-		          <li><a ng-href="#/about">About</a></li>
-		          <li><a ng-href="#">Contact</a></li>
+                <ul class="nav nav-pills pull-right" data-ng-controller="MenuCtrl">
+		          <li ng-class="{ active: isActive('/')}"><a ng-href="/">Home</a></li>
+		          <li ng-class="{ active: isActive('/authors')}"><a ng-href="#/authors">Authors</a></li>
+		          <li ng-class="{ active: isActive('/books')}"><a ng-href="#/books">Books</a></li>
+		          <li ng-class="{ active: isActive('/series')}"><a ng-href="#/series">Series</a></li>
+		          <li ng-class="{ active: isActive('/tags')}"><a ng-href="#/tags">Tags</a></li>
+		          <li ng-class="{ active: isActive('/about')}"><a ng-href="#/about">About</a></li>
+		          <li ng-class="{ active: isActive('/contact')}"><a ng-href="#/contact">Contact</a></li>
                 </ul>
                 <h3 class="text-muted">librarybox ui</h3>
             </div>
@@ -94,6 +94,7 @@
         <script src="scripts/services/series.js"></script>
         <script src="scripts/controllers/tags.js"></script>
         <script src="scripts/services/tags.js"></script>
+        <script src="scripts/controllers/menu.js"></script>
         <!-- endbuild -->
 </body>
 </html>
