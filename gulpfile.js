@@ -74,7 +74,7 @@ gulp.task('scripts', function () {
     ;
 });
 
-gulp.task('db:list-tables', function () {
+gulp.task('db-list-tables', function () {
     var db = new sqlite3.Database('data.sqlite3');
     var exporter = new SqliteToJson({client: db});
     exporter.tables(function (err, tables) {
@@ -86,7 +86,7 @@ gulp.task('db:list-tables', function () {
     return exporter;
 });
 
-gulp.task('db:authors', function () {
+gulp.task('db-authors', function () {
     var table = 'authors';
     exporter.save(table, pathes.data.dir+'/dump-'+table+'.json', function (err) {
         if (err) { console.error("\tdumping '"+table+"'… failed!")}
@@ -94,7 +94,7 @@ gulp.task('db:authors', function () {
     });
 });
 
-gulp.task('db:books', function () {
+gulp.task('db-books', function () {
     var table = 'books';
     exporter.save(table, pathes.data.dir+'/dump-'+table+'.json', function (err) {
         if (err) { console.error("\tdumping '"+table+"'… failed!")}
@@ -102,7 +102,7 @@ gulp.task('db:books', function () {
     });
 });
 
-gulp.task('db:tags', function () {
+gulp.task('db-tags', function () {
     var table = 'tags';
     exporter.save(table, pathes.data.dir+'/dump-'+table+'.json', function (err) {
         if (err) { console.error("\tdumping '"+table+"'… failed!")}
@@ -110,7 +110,7 @@ gulp.task('db:tags', function () {
     });
 });
 
-gulp.task('db:series', function () {
+gulp.task('db-series', function () {
     var table = 'series';
     exporter.save(table, pathes.data.dir+'/dump-'+table+'.json', function (err) {
         if (err) { console.error("\tdumping '"+table+"'… failed!")}
@@ -118,7 +118,7 @@ gulp.task('db:series', function () {
     });
 });
 
-gulp.task('db:dump', ['db:authors', 'db:books', 'db:tags', 'db:series'], function () { });
+gulp.task('db-dump', ['db:authors', 'db:books', 'db:tags', 'db:series'], function () { });
 
 gulp.task('data', function () {
 	require('gulp-util').log(pathes.scripts.dir+'/*.json');
