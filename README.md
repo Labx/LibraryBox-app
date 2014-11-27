@@ -1,6 +1,8 @@
 Ui to manage [LibraryBox](http://librarybox.us/)
 
 Nous avons pour objectif d'automatiser la gestion des LibraryBox et leurs contenus.
+Une LibraryBox, dérivée de la PirateBox, permet de diffuser des contenus libres de droits. Composée d'un routeur wifi et d'une clé USB, elle permet aux bibliothèques de proposer au sein de leur établissement des contenus numériques libres de droits (domaine public, licences Creative Commons, etc.) : ebooks, musique, films, logiciels, jeux.
+Pour plus d'information sur les LibraryBox (ou BiblioBox) en France : http://bibliobox.net/
 
 ## Architecture
 
