@@ -3,7 +3,7 @@
 #	Project utility to install client/server, deploy, etc.
 #
 # USAGE
-#	make intsall
+#	make install
 #
 # AUTHOR
 #	Édouard Lopez <dev+librarybox@edouard-lopez.com>
@@ -14,6 +14,9 @@ endif
 
 # force use of Bash
 SHELL := /bin/bash
+
+install:
+	npm install && bower install
 
 install-devtools:
 	apt-get install sqlite3 sqlitebrowser nodejs
