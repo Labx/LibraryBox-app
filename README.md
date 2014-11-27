@@ -14,9 +14,14 @@ Pour plus d'information sur les _LibraryBox_ en France : http://bibliobox.net/
 2. export des données de la base `sqlite` en `JSON` ;
 3. mise en forme coté client via un système de template (p. ex. [AngularJS](https://angularjs.org/) ou <del>[HandlebarsJS](http://handlebarsjs.com/)</del>)
 
+## Installation
 
 ```bash
-sudo make install-devtools
+git clone git@github.com:Labx/librarybox.git && cd librarybox
+# install requirement to start application
+sudo make install
+# open application in browser
+gulp serve  
 ```
 
 ## Data extraction
