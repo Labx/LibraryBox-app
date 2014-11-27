@@ -24,13 +24,15 @@ sudo make install-devtools
 ## Data extraction
 
 ```bash
-gulp db:dump
+gulp db-list-tables
+gulp db-dump
 ```
 
 Or on a per-table basis
  
 ```bash
-db:authors
-db:books
-db:tags
+gulp db-authors
+gulp db-books
+gulp db-tags
+gulp db-series
 ```
