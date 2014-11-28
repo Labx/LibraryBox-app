@@ -82,7 +82,17 @@ gulp.task('scripts', function () {
     ;
 });
 
+gulp.task('templates', function() {
+    var YOUR_LOCALS = {};
 
+    return gulp.src('app/*.jade')
+        .pipe(jade({
+            locals: YOUR_LOCALS,
+            pretty: true
+        }))
+        .pipe(gulp.dest('.tmp'))
+        .pipe($.size());
+});
 
 
 
