@@ -23,43 +23,43 @@ angular
   .config(['$routeProvider', function ($routeProvider) {
       $routeProvider
         .when('/', {
-          templateUrl: 'partials/main',
+          templateUrl: 'partials/main.html',
           controller: 'MainCtrl'
         })
         .when('/about', {
-          templateUrl: 'partials/about',
+          templateUrl: 'partials/about.html',
           controller: 'AboutCtrl'
         })
         .when('/authors', {
-          templateUrl: 'partials/authors',
+          templateUrl: 'partials/authors.html',
           controller: 'AuthorListCtrl'
         })
         .when('/author/:authorId', {
-          templateUrl: 'partials/author-detail',
+          templateUrl: 'partials/author-detail.html',
           controller: 'AuthorDetailCtrl'
         })
         .when('/books', {
-          templateUrl: 'partials/books',
+          templateUrl: 'partials/books.html',
           controller: 'BookListCtrl'
         })
         .when('/book/:bookId', {
-          templateUrl: 'partials/book-detail',
+          templateUrl: 'partials/book-detail.html',
           controller: 'BookDetailCtrl'
         })
         .when('/series', {
-          templateUrl: 'partials/series',
+          templateUrl: 'partials/series.html',
           controller: 'SerieListCtrl'
         })
         .when('/serie/:serieId', {
-          templateUrl: 'partials/serie-detail',
+          templateUrl: 'partials/serie-detail.html',
           controller: 'SerieDetailCtrl'
         })
         .when('/tags', {
-          templateUrl: 'partials/tags',
+          templateUrl: 'partials/tags.html',
           controller: 'TagListCtrl'
         })
         .when('/tag/:tagId', {
-          templateUrl: 'partials/tag-detail',
+          templateUrl: 'partials/tag-detail.html',
           controller: 'TagDetailCtrl'
         })
         .otherwise({

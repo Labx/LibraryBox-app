@@ -43,7 +43,7 @@ var pathes = {
     partials: {
         dir: 'app/views',
         src: 'app/views/*.jade',
-        dest: 'dist/partials'
+        dest: '.tmp/partials'
     },
     data: {
     	dir: 'app/data',
@@ -233,7 +233,7 @@ gulp.task('connect', function () {
         });
 });
 
-gulp.task('serve', ['connect', 'styles'], function () {
+gulp.task('serve', ['connect', 'partials', 'templates', 'styles'], function () {
     require('opn')('http://localhost:'+project.port);
 });
 
@@ -255,7 +255,7 @@ gulp.task('wiredep', function () {
         .pipe(gulp.dest(pathes.appDir));
 });
 
-gulp.task('watch', ['connect', 'serve'], function () {
+gulp.task('watch', ['connect', 'partials', 'templates', 'serve'], function () {
     var server = $.livereload();
 
     // watch for changes
