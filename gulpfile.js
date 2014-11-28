@@ -36,9 +36,14 @@ var pathes = {
         dest: null
     },
     templates: {
+        dir: 'app',
+        src: 'app/*.jade',
+        dest: '.tmp'
+    },
+    partials: {
         dir: 'app/views',
-        src: 'app/views/**/*.jade',
-        dest: 'dist/views'
+        src: 'app/views/*.jade',
+        dest: 'dist/partials'
     },
     data: {
     	dir: 'app/data',
@@ -83,14 +88,22 @@ gulp.task('scripts', function () {
 });
 
 gulp.task('templates', function() {
-    var YOUR_LOCALS = {};
 
-    return gulp.src('app/*.jade')
+    return gulp.src(pathes.templates.src)
         .pipe(jade({
-            locals: YOUR_LOCALS,
             pretty: true
         }))
-        .pipe(gulp.dest('.tmp'))
+        .pipe(gulp.dest(pathes.templates.dest))
+        .pipe($.size());
+});
+
+gulp.task('partials', function() {
+
+    return gulp.src(pathes.partials.src)
+        .pipe(jade({
+            pretty: true
+        }))
+        .pipe(gulp.dest(pathes.partials.dest))
         .pipe($.size());
 });
 
@@ -153,7 +166,7 @@ gulp.task('data', function () {
         .pipe($.size());
 });
 
-gulp.task('html', ['templates', 'styles', 'scripts'], function () {
+gulp.task('html', ['partials', 'templates', 'styles', 'scripts'], function () {
     var jsFilter = $.filter('**/*.js');
     var cssFilter = $.filter('**/*.css');
 
@@ -199,7 +212,7 @@ gulp.task('clean', function () {
     return gulp.src(['.tmp', pathes.buildDir], { read: false }).pipe($.clean());
 });
 
-gulp.task('build', ['templates', 'html', 'images', 'fonts', 'extras']);
+gulp.task('build', ['partials', 'templates', 'html', 'images', 'fonts', 'extras']);
 
 gulp.task('default', ['clean'], function () {
     gulp.start('build');
@@ -251,12 +264,14 @@ gulp.task('watch', ['connect', 'serve'], function () {
         '.tmp/styles/**/*.css',
         pathes.scripts.src,
         pathes.images.src,
+        pathes.partials.src,
         pathes.templates.src
     ]).on('change', function (file) {
         server.changed(file.path);
     });
 
     gulp.watch(pathes.styles.src    , ['styles']);
+    gulp.watch(pathes.partials.src  , ['partials']);
     gulp.watch(pathes.templates.src , ['templates']);
     gulp.watch(pathes.scripts.src   , ['scripts']);
     gulp.watch(pathes.images.src    , ['images']);
