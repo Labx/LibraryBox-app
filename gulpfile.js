@@ -6,6 +6,7 @@ var project = {
   port: 9282,
   livereloadPort: 56242
 };
+
 var pathes = {
     appDir: 'app',
     buildDir: 'dist',
@@ -34,17 +35,24 @@ var pathes = {
         src: 'app/views/**/*.html',
         dest: null
     },
+    templates: {
+        dir: 'app/views',
+        src: 'app/views/**/*.jade',
+        dest: 'dist/views'
+    },
     data: {
-    	  dir: 'app/data',
+    	dir: 'app/data',
         src: 'app/data/**/*',
         dest: 'dist/data'
     }
 };
 
-var  gulp = require('gulp')
-    ,SqliteToJson = require('sqlite-to-json')
-    ,sqlite3 = require('sqlite3')
+var gulp = require('gulp'),
+    SqliteToJson = require('sqlite-to-json'),
+    sqlite3 = require('sqlite3'),
+    jade = require('gulp-jade')
 ;
+
 var db = new sqlite3.Database(pathes.data.dir+'/data.sqlite3'),
     exporter = new SqliteToJson({client: db})
 ;
@@ -73,6 +81,10 @@ gulp.task('scripts', function () {
         .pipe(gulp.dest(pathes.buildDir))
     ;
 });
+
+
+
+
 
 gulp.task('db-list-tables', function () {
     var db = new sqlite3.Database('data.sqlite3');
@@ -120,6 +132,10 @@ gulp.task('db-series', function () {
 
 gulp.task('db-dump', ['db:authors', 'db:books', 'db:tags', 'db:series'], function () { });
 
+
+
+
+
 gulp.task('data', function () {
 	require('gulp-util').log(pathes.scripts.dir+'/*.json');
     return gulp.src(pathes.scripts.dir+'/*.json')
@@ -127,11 +143,11 @@ gulp.task('data', function () {
         .pipe($.size());
 });
 
-gulp.task('html', ['styles', 'scripts'], function () {
+gulp.task('html', ['templates', 'styles', 'scripts'], function () {
     var jsFilter = $.filter('**/*.js');
     var cssFilter = $.filter('**/*.css');
 
-    return gulp.src(pathes.appDir+'/*.html')
+    return gulp.src('.tmp/*.html')
         .pipe($.useref.assets({searchPath: '{.tmp,app}'}))
         .pipe(jsFilter)
         .pipe($.uglify())
@@ -173,7 +189,7 @@ gulp.task('clean', function () {
     return gulp.src(['.tmp', pathes.buildDir], { read: false }).pipe($.clean());
 });
 
-gulp.task('build', ['html', 'images', 'fonts', 'extras']);
+gulp.task('build', ['templates', 'html', 'images', 'fonts', 'extras']);
 
 gulp.task('default', ['clean'], function () {
     gulp.start('build');
@@ -208,7 +224,7 @@ gulp.task('wiredep', function () {
         }))
         .pipe(gulp.dest(pathes.styles.dir));
 
-    gulp.src(pathes.appDir+'/*.html')
+    gulp.src(pathes.appDir+'/*.jade')
         .pipe(wiredep({
             directory: pathes.appDir+'/bower_components',
             exclude: ['bootstrap-sass-official']
@@ -224,13 +240,15 @@ gulp.task('watch', ['connect', 'serve'], function () {
         pathes.appDir+'/*.html',
         '.tmp/styles/**/*.css',
         pathes.scripts.src,
-        pathes.images.src
+        pathes.images.src,
+        pathes.templates.src
     ]).on('change', function (file) {
         server.changed(file.path);
     });
 
-    gulp.watch(pathes.styles.src, ['styles']);
-    gulp.watch(pathes.scripts.src, ['scripts']);
-    gulp.watch(pathes.images.src, ['images']);
-    gulp.watch('bower.json', ['wiredep']);
+    gulp.watch(pathes.styles.src    , ['styles']);
+    gulp.watch(pathes.templates.src , ['templates']);
+    gulp.watch(pathes.scripts.src   , ['scripts']);
+    gulp.watch(pathes.images.src    , ['images']);
+    gulp.watch('bower.json'         , ['wiredep']);
 });
