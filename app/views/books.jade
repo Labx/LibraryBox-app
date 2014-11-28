@@ -1,0 +1,4 @@
+div(data-ng-controller='BookListCtrl')
+    ol
+        li(data-ng-repeat='book in books')
+          a(data-ng-href='#/book/{{book.id}}') {{book.sort}}

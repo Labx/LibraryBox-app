@@ -1,0 +1,4 @@
+div(data-ng-controller='TagListCtrl')
+    ol
+        li(data-ng-repeat='tag in tags')
+          a(data-ng-href='#/tag/{{tag.id}}') {{tag.name}}
