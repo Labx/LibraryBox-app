@@ -1,5 +1,15 @@
 <div data-ng-controller="TagListCtrl">
+
+  <div class='row'>
+    <div class="input-group col-md-10 col-md-offset-1 searchBar">
+      <div class="input-group-addon">
+        <div class="input-md"><i class="glyphicon glyphicon-search"></i></div>
+      </div>
+      <input class="form-control input-md" placeholder="recherche rapide par étiquette..." ng-model='search' type="text" />
+    </div>
+  </div>
+
 	<ol>
-		<li data-ng-repeat="tag in tags"><a data-ng-href="#/tag/{{tag.id}}">{{tag.name}}</a></li>
+		<li data-ng-repeat="tag in tags | filter:{name: search}"><a data-ng-href="#/tag/{{tag.id}}">{{tag.name}}</a></li>
 	</ol>
 </div>
