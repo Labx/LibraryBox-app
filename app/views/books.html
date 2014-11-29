@@ -1,13 +1,6 @@
 <div data-ng-controller="BookListCtrl">
 
-  <div class='row'>
-    <div class="input-group col-md-10 col-md-offset-1 searchBar">
-      <div class="input-group-addon">
-        <div class="input-md"><i class="glyphicon glyphicon-search"></i></div>
-      </div>
-      <input class="form-control input-md" placeholder="recherche rapide par titre de livre..." ng-model='search' type="text" />
-    </div>
-  </div>
+  <div data-search for="'books'"></div>
 
 	<ol>
 		<li data-ng-repeat="book in books | filter:{title: search}"><a data-ng-href="#/book/{{book.id}}">{{book.sort}}</a></li>

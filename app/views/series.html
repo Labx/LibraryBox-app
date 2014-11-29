@@ -1,13 +1,6 @@
 <div data-ng-controller="SerieListCtrl">
 
-  <div class='row'>
-    <div class="input-group col-md-10 col-md-offset-1 searchBar">
-      <div class="input-group-addon">
-        <div class="input-md"><i class="glyphicon glyphicon-search"></i></div>
-      </div>
-      <input class="form-control input-md" placeholder="recherche rapide par nom de série..." ng-model='search' type="text" />
-    </div>
-  </div>
+  <div data-search for="'series'"></div>
 
 	<ol>
 		<li data-ng-repeat="serie in series | filter:{name: search}"><a data-ng-href="#/serie/{{serie.id}}">{{serie.sort}}</a></li>
