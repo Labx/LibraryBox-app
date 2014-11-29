@@ -1,4 +1,7 @@
 div(data-ng-controller='BookListCtrl')
+
+    data-search(for="'books'")
+
     ol
-        li(data-ng-repeat='book in books')
+        li(data-ng-repeat="book in books | filter:{title: search} | orderBy: 'sort'")
           a(data-ng-href='#/book/{{book.id}}') {{book.sort}}

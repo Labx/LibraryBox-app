@@ -16,6 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
+    'angular.filter',
+    'app.directives.search'
 	// 'libraryboxControllers',
 	// 'libraryboxFilters',
 	// 'libraryboxServices'.
@@ -23,43 +25,43 @@ angular
   .config(['$routeProvider', function ($routeProvider) {
       $routeProvider
         .when('/', {
-          templateUrl: 'partials/main.html',
+          templateUrl: 'views/main.html',
           controller: 'MainCtrl'
         })
         .when('/about', {
-          templateUrl: 'partials/about.html',
+          templateUrl: 'views/about.html',
           controller: 'AboutCtrl'
         })
         .when('/authors', {
-          templateUrl: 'partials/authors.html',
+          templateUrl: 'views/authors.html',
           controller: 'AuthorListCtrl'
         })
         .when('/author/:authorId', {
-          templateUrl: 'partials/author-detail.html',
+          templateUrl: 'views/author-detail.html',
           controller: 'AuthorDetailCtrl'
         })
         .when('/books', {
-          templateUrl: 'partials/books.html',
+          templateUrl: 'views/books.html',
           controller: 'BookListCtrl'
         })
         .when('/book/:bookId', {
-          templateUrl: 'partials/book-detail.html',
+          templateUrl: 'views/book-detail.html',
           controller: 'BookDetailCtrl'
         })
         .when('/series', {
-          templateUrl: 'partials/series.html',
+          templateUrl: 'views/series.html',
           controller: 'SerieListCtrl'
         })
         .when('/serie/:serieId', {
-          templateUrl: 'partials/serie-detail.html',
+          templateUrl: 'views/serie-detail.html',
           controller: 'SerieDetailCtrl'
         })
         .when('/tags', {
-          templateUrl: 'partials/tags.html',
+          templateUrl: 'views/tags.html',
           controller: 'TagListCtrl'
         })
         .when('/tag/:tagId', {
-          templateUrl: 'partials/tag-detail.html',
+          templateUrl: 'views/tag-detail.html',
           controller: 'TagDetailCtrl'
         })
         .otherwise({
