@@ -5,9 +5,6 @@ angular
   .directive('search', function() {
     return {
       restrict: 'A',
-      // // this is useful to keep model biding
-      // // used by the ng-repeat filters
-      // scope: false,
       scope: {
         for: '='
       },
