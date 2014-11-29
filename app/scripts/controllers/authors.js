@@ -12,14 +12,18 @@
 
 angular.module('libraryboxApp')
 .controller('AuthorListCtrl', ['$scope', 'Authors', function($scope, Authors) {
-  $scope.authors = Authors.query();
-  $scope.orderProp = 'sort';
+
+  Authors.all().then(function(authors) {
+    $scope.authors = authors;
+  });
+
 }]);
 
 angular.module('libraryboxApp')
 .controller('AuthorDetailCtrl', ['$scope', '$routeParams', 'Authors', function($scope, $routeParams, Authors) {
-    var authors = Authors.query(function() {
-	    $scope.aid = $routeParams.authorId;
-	    $scope.author = authors[$routeParams.authorId];
+
+    Authors.find($routeParams.authorId).then(function(data) {
+      $scope.author = data;
     });
+
 }]);
