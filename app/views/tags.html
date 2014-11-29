@@ -3,6 +3,6 @@
   <div data-search for="'tags'"></div>
 
 	<ol>
-		<li data-ng-repeat="tag in tags | filter:{name: search}"><a data-ng-href="#/tag/{{tag.id}}">{{tag.name}}</a></li>
+		<li data-ng-repeat="tag in tags | filter:{name: search} | orderBy: 'name'"><a data-ng-href="#/tag/{{tag.id}}">{{tag.name}}</a></li>
 	</ol>
 </div>

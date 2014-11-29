@@ -3,6 +3,6 @@
   <div data-search for="'series'"></div>
 
 	<ol>
-		<li data-ng-repeat="serie in series | filter:{name: search}"><a data-ng-href="#/serie/{{serie.id}}">{{serie.sort}}</a></li>
+		<li data-ng-repeat="serie in series | filter:{name: search} | orderBy: 'sort'"><a data-ng-href="#/serie/{{serie.id}}">{{serie.sort}}</a></li>
 	</ol>
 </div>

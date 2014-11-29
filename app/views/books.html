@@ -3,6 +3,6 @@
   <div data-search for="'books'"></div>
 
 	<ol>
-		<li data-ng-repeat="book in books | filter:{title: search}"><a data-ng-href="#/book/{{book.id}}">{{book.sort}}</a></li>
+		<li data-ng-repeat="book in books | filter:{title: search} | orderBy: 'sort'"><a data-ng-href="#/book/{{book.id}}">{{book.sort}}</a></li>
 	</ol>
 </div>
