@@ -30,11 +30,11 @@ angular.module('libraryboxApp')
     all().then(function(data) {
       books = data;
       for (var i = books.length - 1; i >= 0; i--) {
-        if (books[i].id === id) {
+        if (books[i].id == id) {
           book = books[i];
         }
       }
-      if (typeof(book) === 'undefined') {
+      if (typeof(book) == 'undefined') {
         deferred.resolve({
           status: 404,
           message: 'Record not found'
