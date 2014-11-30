@@ -1,7 +1,7 @@
 div(data-ng-controller='TagListCtrl')
 
-    data-search(for="'tags'")
+  data-search(for="'tags'")
 
-    ol
-        li(data-ng-repeat="tag in tags | filter:{name: search} | orderBy: 'name'")
-          a(data-ng-href='#/tag/{{tag.id}}') {{tag.name}}
+  ol
+    li(data-ng-repeat="tag in tags | filter:{name: search} | orderBy: 'name'")
+      a(data-ng-href='#/tag/{{tag.id}}') {{tag.name}}

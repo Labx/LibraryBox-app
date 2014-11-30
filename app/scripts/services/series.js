@@ -9,9 +9,46 @@
  */
 
 angular.module('libraryboxApp')
-.factory('Series', ['$resource', function($resource){
-      // return $resource('http://localhost:9282/data/dump-series.json');
-    return $resource('/data/dump-series.json', {}, {
-      query: {method:'GET', params:{serieId:'series'}, isArray:true}
+.factory('Series', ['$http', '$q', function($http, $q){
+
+  var all = function() {
+    var deferred = $q.defer();
+    $http.get('/data/dump-series.json').success(function(data) {
+        var series = [];
+        for (var i = 0; i < data.length; i ++) {
+            series.push(data[i]);
+        }
+        deferred.resolve(series);
     });
-  }]);
+    return deferred.promise;
+  };
+
+  var find = function(id) {
+    var deferred = $q.defer();
+    var series = [];
+    all().then(function(data) {
+      series = data;
+      for (var i = series.length - 1; i >= 0; i--) {
+        if (series[i].id == id) {
+          var serie = series[i];
+        }
+      }
+      if (typeof(serie) == 'undefined') {
+        deferred.resolve({
+          status: 404,
+          message: 'Record not found'
+        });
+      } else {
+        deferred.resolve(serie);
+      }
+    });
+    return deferred.promise;
+  };
+
+
+  return {
+    all: all,
+    find: find
+  };
+
+}]);
