@@ -10,14 +10,19 @@
 
 angular.module('libraryboxApp')
 .controller('BookListCtrl', ['$scope', 'Books', function($scope, Books) {
-  $scope.books = Books.query();
-  $scope.orderProp = 'sort';
+
+  Books.all().then(function(data) {
+    $scope.books = data;
+  });
+
 }]);
+
 
 angular.module('libraryboxApp')
 .controller('BookDetailCtrl', ['$scope', '$routeParams', 'Books', function($scope, $routeParams, Books) {
-    var books = Books.query(function() {
-	    $scope.aid = $routeParams.bookId;
-	    $scope.book = books[$routeParams.bookId];
-    });
+
+  Books.find($routeParams.bookId).then(function(data) {
+    $scope.book = data;
+  });
+
 }]);

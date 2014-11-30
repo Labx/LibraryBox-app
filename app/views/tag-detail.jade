@@ -1,0 +1,7 @@
+div(data-ng-controller='TagDetailCtrl')
+  h2.page-header
+    | {{tag.name}}
+    small.text-muted.pull-right {{tag.id}}
+  ol
+    li(data-ng-repeat='book in books')
+      a(data-ng-href='#/book/{{book.id}}') {{book.name}}
