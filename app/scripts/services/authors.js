@@ -24,29 +24,32 @@ angular
       return deferred.promise;
     };
 
+    var find = function(id) {
+      var deferred = $q.defer();
+      var authors = [];
+      all().then(function(data) {
+        authors = data;
+        for (var i = authors.length - 1; i >= 0; i--) {
+          if (authors[i].id == id) {
+            var _return = authors[i];
+          }
+        }
+        if (typeof(_return) == 'undefined') {
+          deferred.resolve({
+            status: 404,
+            message: 'Record not found'
+          });
+        } else {
+          deferred.resolve(_return);
+        }
+      });
+      return deferred.promise;
+    };
+
+
     return {
       all: all,
-      find: function(id) {
-        var deferred = $q.defer();
-        var authors = [];
-        all().then(function(data) {
-          authors = data;
-          for (var i = authors.length - 1; i >= 0; i--) {
-            if (authors[i].id == id) {
-              var _return = authors[i];
-            }
-          }
-          if (typeof(_return) == 'undefined') {
-            deferred.resolve({
-              status: 404,
-              message: 'Record not found'
-            });
-          } else {
-            deferred.resolve(_return);
-          }
-        });
-        return deferred.promise;
-      }
+      find: find
     };
 
   }]);
