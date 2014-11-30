@@ -40,11 +40,6 @@ var pathes = {
         src: 'app/**/*.jade',
         dest: '.tmp'
     },
-    // partials: {
-    //     dir: 'app/views',
-    //     src: 'app/views/**/.jade',
-    //     dest: '.tmp/partials'
-    // },
     data: {
     	dir: 'app/data',
         src: 'app/data/**/*',
@@ -96,18 +91,6 @@ gulp.task('templates', function() {
         .pipe(gulp.dest(pathes.templates.dest))
         .pipe($.size());
 });
-
-// gulp.task('partials', function() {
-
-//     return gulp.src(pathes.partials.src)
-//         .pipe(jade({
-//             pretty: true
-//         }))
-//         .pipe(gulp.dest(pathes.partials.dest))
-//         .pipe($.size());
-// });
-
-
 
 gulp.task('db-list-tables', function () {
     var db = new sqlite3.Database('data.sqlite3');
