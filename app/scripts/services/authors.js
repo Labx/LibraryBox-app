@@ -33,11 +33,17 @@ angular
           authors = data;
           for (var i = authors.length - 1; i >= 0; i--) {
             if (authors[i].id == id) {
-              deferred.resolve(authors[i]);
+              var _return = authors[i];
             }
           }
-          // return an error if
-          // record not found
+          if (typeof(_return) == 'undefined') {
+            deferred.resolve({
+              status: 404,
+              message: 'Record not found'
+            });
+          } else {
+            deferred.resolve(_return);
+          }
         });
         return deferred.promise;
       }
