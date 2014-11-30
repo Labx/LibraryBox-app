@@ -16,7 +16,7 @@ angular.module('libraryboxApp')
     $http.get('/data/dump-books.json').success(function(data) {
         var books = [];
         for (var i = 0; i < data.length; i ++) {
-            books.push(data[i]);
+          books.push(data[i]);
         }
         deferred.resolve(books);
     });
@@ -26,14 +26,15 @@ angular.module('libraryboxApp')
   var find = function(id) {
     var deferred = $q.defer();
     var books = [];
+    var book = {};
     all().then(function(data) {
       books = data;
       for (var i = books.length - 1; i >= 0; i--) {
-        if (books[i].id == id) {
-          var book = books[i];
+        if (books[i].id === id) {
+          book = books[i];
         }
       }
-      if (typeof(book) == 'undefined') {
+      if (typeof(book) === 'undefined') {
         deferred.resolve({
           status: 404,
           message: 'Record not found'

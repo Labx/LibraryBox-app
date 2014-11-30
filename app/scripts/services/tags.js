@@ -25,14 +25,15 @@ angular.module('libraryboxApp')
   var find = function(id) {
     var deferred = $q.defer();
     var tags = [];
+    var tag = {};
     all().then(function(data) {
       tags = data;
       for (var i = tags.length - 1; i >= 0; i--) {
-        if (tags[i].id == id) {
-          var tag = tags[i];
+        if (tags[i].id === id) {
+          tag = tags[i];
         }
       }
-      if (typeof(tag) == 'undefined') {
+      if (typeof(tag) === 'undefined') {
         deferred.resolve({
           status: 404,
           message: 'Record not found'
