@@ -13,11 +13,12 @@
 angular.module('libraryboxApp')
 .controller('AuthorListCtrl', ['$scope', 'Authors', function($scope, Authors) {
 
-  Authors.all().then(function(authors) {
-    $scope.authors = authors;
+  Authors.all().then(function(data) {
+    $scope.authors = data;
   });
 
 }]);
+
 
 angular.module('libraryboxApp')
 .controller('AuthorDetailCtrl', ['$scope', '$routeParams', 'Authors', function($scope, $routeParams, Authors) {

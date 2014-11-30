@@ -1,7 +1,7 @@
 div(data-ng-controller='AuthorDetailCtrl')
   h2.page-header
     | {{author.name}}
-    small.text-muted.pull-right {{aid}}
+    small.text-muted.pull-right {{author.id}}
   ol
     li(data-ng-repeat='book in books')
       a(data-ng-href='#/book/{{book.id}}') {{book.name}}

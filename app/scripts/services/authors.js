@@ -31,16 +31,16 @@ angular
         authors = data;
         for (var i = authors.length - 1; i >= 0; i--) {
           if (authors[i].id == id) {
-            var _return = authors[i];
+            var author = authors[i];
           }
         }
-        if (typeof(_return) == 'undefined') {
+        if (typeof(author) == 'undefined') {
           deferred.resolve({
             status: 404,
             message: 'Record not found'
           });
         } else {
-          deferred.resolve(_return);
+          deferred.resolve(author);
         }
       });
       return deferred.promise;
