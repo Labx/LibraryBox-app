@@ -2,6 +2,7 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
+        <title>BiblioBox</title>
         <title>librarybox ui</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,18 +21,44 @@
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+      
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="../images/lbx-logo-small-white.png" alt="logo" width="24" />BiblioBox</a>
+        </div>
 
-        <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right" data-ng-controller="MenuCtrl">
-		          <li ng-class="{ active: isActive('/')}"><a ng-href="/">Home</a></li>
-		          <li ng-class="{ active: isActive('/authors')}"><a ng-href="#/authors">Authors</a></li>
-		          <li ng-class="{ active: isActive('/books')}"><a ng-href="#/books">Books</a></li>
-		          <li ng-class="{ active: isActive('/series')}"><a ng-href="#/series">Series</a></li>
-		          <li ng-class="{ active: isActive('/tags')}"><a ng-href="#/tags">Tags</a></li>
-		          <li ng-class="{ active: isActive('/about')}"><a ng-href="#/about">About</a></li>
-                </ul>
-                <h3 class="text-muted">librarybox ui</h3>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+          <ul class="nav navbar-nav" data-ng-controller="MenuCtrl">
+            <li ng-class="{ active: isActive('/')}"><a ng-href="/">Accueil</a></li>
+            <li class="dropdown open">
+              <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Livres num&eacute;riques <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+            <li ng-class="{ active: isActive('/authors')}"><a ng-href="#/authors">Auteurs </a></li>
+                    <li ng-class="{ active: isActive('/books')}"><a ng-href="#/books">Tous les livres</a></li>
+                    <li ng-class="{ active: isActive('/series')}"><a ng-href="#/series">S&eacute;ries</a></li>
+                    <li ng-class="{ active: isActive('/tags')}"><a ng-href="#/tags">Cat&eacute;gories</a></li>
+                    
+              </ul>
+            </li>
+              <li><a href="#">Musique</a></li>
+              <li><a href="#">Images</a></li>
+              <li><a href="#">Vid&eacute;o</a></li>
+              <li><a href="#">Bo&icirc;te &agrave; outils</a></li>
+              <li ng-class="{ active: isActive('/about')}"><a ng-href="#/about">&Agrave; propos</a></li>
+              </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+            <div class="container-fluid">
+                <h3 class="text-muted"></h3>
             </div>
 
       <div ng-view=""></div>
