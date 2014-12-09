@@ -1,5 +1,5 @@
 <div data-ng-controller="TagListCtrl">
-	<ol>
-		<li data-ng-repeat="tag in tags"><a data-ng-href="#/tag/{{tag.id}}">{{tag.name}}</a></li>
-	</ol>
+	<ul class="list-group">
+		<li class="list-group-item" data-ng-repeat="tag in tags"><a data-ng-href="#/tag/{{tag.id}}">{{tag.name}}</a></li>
+	</ul>
 </div>

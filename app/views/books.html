@@ -1,5 +1,7 @@
 <div data-ng-controller="BookListCtrl">
-	<ol>
-		<li data-ng-repeat="book in books"><a data-ng-href="#/book/{{book.id}}">{{book.sort}}</a></li>
-	</ol>
+	<ul class="list-group">
+    <li class="list-group-item" data-ng-repeat="book in books">
+		<a data-ng-href="#/book/{{book.id}}">{{book.sort}}</a>
+    </li>
+    </ul>
 </div>

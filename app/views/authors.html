@@ -1,5 +1,5 @@
 <div data-ng-controller="AuthorListCtrl">
-	<ol>
-		<li data-ng-repeat="author in authors"><a data-ng-href="#/author/{{author.id}}">{{author.sort}}</a></li>
-	</ol>
+<ul class="list-group">
+		<li class="list-group-item" data-ng-repeat="author in authors"><a data-ng-href="#/author/{{author.id}}">{{author.sort}}</a></li>
+	</ul>
 </div>
