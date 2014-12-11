@@ -24,14 +24,14 @@ make install
 gulp serve
 ```
 
-## Data extraction
+## Extraction des données
 
 ```bash
 gulp db-list-tables
 gulp db-dump
 ```
 
-Or on a per-table basis
+Ou, par table
 
 ```bash
 gulp db-authors
@@ -40,15 +40,15 @@ gulp db-tags
 gulp db-series
 ```
 
-## Development Requirements
+## Dépendances de développement
 
 * `nodejs`, `npm`
   * `angularJS` ;
-* tooling:
+* outils:
     * `yo` (scaffolding) ;
     * `bower` (dependencies management) ;
     * `gulp` (task management) ;
 
 ```bash
-sudo make install-devtools
+make install-devtools
 ```
