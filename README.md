@@ -2,7 +2,7 @@
 
 Nous avons pour objectif d'automatiser la gestion des _LibraryBox_ et leurs contenus, en améliorant simplifiant l'intecface.
 
-Une _LibraryBox_,  ou BiblioBox, dérivée de la [PirateBox](https://en.wikipedia.org/wiki/PirateBox), permet de diffuser des contenus libres de droits. 
+Une _LibraryBox_,  ou BiblioBox, dérivée de la [PirateBox](https://en.wikipedia.org/wiki/PirateBox), permet de diffuser des contenus libres de droits.
 
 Composée d'un routeur wifi et d'une clé USB, elle permet aux bibliothèques de proposer au sein de leur établissement des contenus numériques libres de droits (domaine public, licences _Creative Commons_, etc.) : ebooks, musique, films, logiciels, jeux.
 
@@ -19,9 +19,9 @@ Pour plus d'information sur les _LibraryBox_ en France : http://bibliobox.net/
 ```bash
 git clone git@github.com:Labx/librarybox.git && cd librarybox
 # install requirement to start application
-sudo make install
+make install
 # open application in browser
-gulp serve  
+gulp serve
 ```
 
 ## Data extraction
@@ -32,7 +32,7 @@ gulp db-dump
 ```
 
 Or on a per-table basis
- 
+
 ```bash
 gulp db-authors
 gulp db-books
@@ -51,4 +51,4 @@ gulp db-series
 
 ```bash
 sudo make install-devtools
-``` 
+```
