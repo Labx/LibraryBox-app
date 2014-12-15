@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <title>BiblioBox</title>
-        <title>librarybox ui</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -32,13 +31,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="../images/lbx-logo-small-white.png" alt="logo" width="24" />BiblioBox</a>
+          <a class="navbar-brand" href="#"><img class="logo" src="../images/lbx-logo-small-white.png" alt="logo"/>BiblioBox</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
-          <ul class="nav navbar-nav" data-ng-controller="MenuCtrl">
+          <ul class="nav navbar-nav pull-right" data-ng-controller="MenuCtrl">
             <li ng-class="{ active: isActive('/')}"><a ng-href="/">Accueil</a></li>
-            <li class="dropdown open">
+            <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Livres num&eacute;riques <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
             <li ng-class="{ active: isActive('/authors')}"><a ng-href="#/authors">Auteurs </a></li>
@@ -57,11 +56,11 @@
         </div><!-- /.navbar-collapse -->
       </div>
     </nav>
-            <div class="container-fluid">
+      
+           
                 <h3 class="text-muted"></h3>
-            </div>
+                <div ng-view=""></div>
 
-      <div ng-view=""></div>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -121,6 +120,7 @@
         <script src="scripts/controllers/tags.js"></script>
         <script src="scripts/services/tags.js"></script>
         <script src="scripts/controllers/menu.js"></script>
+        <script src="scripts/controllers/images.js"></script>
         <!-- endbuild -->
 </body>
 </html>
