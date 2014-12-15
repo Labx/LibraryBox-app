@@ -23,5 +23,5 @@ install:
 
 install-devtools:
 	apt-get install sqlite3 sqlitebrowser nodejs
-	npm install -g yo bower gulp generator-gulp-angular
+	npm install -g yo bower gulp generator-gulp-angular generator-angular
 
