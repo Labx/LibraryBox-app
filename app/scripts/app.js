@@ -62,6 +62,10 @@ angular
           templateUrl: 'views/tag-detail.html',
           controller: 'TagDetailCtrl'
         })
+        .when('/images', {
+          templateUrl: 'views/images.html',
+          controller: 'ImagesCtrl'
+        })
         .otherwise({
           redirectTo: '/'
         });
