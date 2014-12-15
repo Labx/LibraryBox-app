@@ -1,0 +1,3 @@
+[submodule "scripts-metadata"]
+	path = scripts-metadata
+	url = git@github.com:Labx/LibraryBox-metadata.git
