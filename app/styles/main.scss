@@ -1,5 +1,10 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 
+$navbar-default-bg: #51A1C4;
+$navbar-default-color: #FFF;
+$navbar-default-link-color: #FFF;
+$navbar-default-link-active-color: #FFF;
+
 // bower:scss
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
@@ -13,6 +18,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 
 /* Space out content a bit */
 body {
+    padding-top: 70px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -67,6 +73,21 @@ body {
     }
 }
 
+.navbar {
+    background-image: linear-gradient(to bottom, #51A1C4 0%, #2D8DB6 100%);
+}
+
+.logo {
+    width: 24px;
+    padding: 4px;
+}
+
+.navbar-nav {
+    > li > a:hover {
+        background-color: #51A1C4;
+    }
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
@@ -93,5 +114,5 @@ body {
 }
 
 .searchBar {
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
 }

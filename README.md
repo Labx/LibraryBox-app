@@ -17,7 +17,7 @@ Pour plus d'information sur les _LibraryBox_ en France : http://bibliobox.net/
 ## Installation
 
 ```bash
-git clone git@github.com:Labx/librarybox.git && cd librarybox
+git clone https://github.com/Labx/LibraryBox-app && cd LibraryBox-app
 # install requirement to start application
 sudo make install
 # open application in browser

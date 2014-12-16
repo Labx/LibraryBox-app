@@ -2,6 +2,7 @@
   "name": "librarybox",
   "version": "0.0.1",
   "dependencies": {
+    "csvtojson": "^0.3.17",
     "sqlite-to-json": "^0.1.1",
     "sqlite3": "^3.0.2"
   },
