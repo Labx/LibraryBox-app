@@ -10,14 +10,18 @@
 
 angular.module('libraryboxApp')
 .controller('SerieListCtrl', ['$scope', 'Series', function($scope, Series) {
-  $scope.series = Series.query();
-  $scope.orderProp = 'sort';
+
+  Series.all().then(function(data) {
+    $scope.series = data;
+  });
+
 }]);
 
 angular.module('libraryboxApp')
 .controller('SerieDetailCtrl', ['$scope', '$routeParams', 'Series', function($scope, $routeParams, Series) {
-    var series = Series.query(function() {
-	    $scope.aid = $routeParams.serieId;
-	    $scope.serie = series[$routeParams.serieId];
-    });
+
+  Series.find($routeParams.serieId).then(function(data) {
+    $scope.serie = data;
+  });
+
 }]);
