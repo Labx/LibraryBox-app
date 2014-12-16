@@ -9,9 +9,47 @@
  */
 
 angular.module('libraryboxApp')
-.factory('Authors', ['$resource', function($resource){
-      // return $resource('http://localhost:9282/data/dump-authors.json');
-    return $resource('/data/dump-authors.json', {}, {
-      query: {method:'GET', params:{authorId:'authors'}, isArray:true}
+.factory('Authors', ['$http', '$q', function($http, $q) {
+
+  var all = function() {
+    var deferred = $q.defer();
+    $http.get('/data/dump-authors.json').success(function(data) {
+        var authors = [];
+        for (var i = 0; i < data.length; i ++) {
+          authors.push(data[i]);
+        }
+        deferred.resolve(authors);
     });
-  }]);
+    return deferred.promise;
+  };
+
+  var find = function(id) {
+    var deferred = $q.defer();
+    var authors = [];
+    var author = {};
+    all().then(function(data) {
+      authors = data;
+      for (var i = authors.length - 1; i >= 0; i--) {
+        if (authors[i].id == id) {
+          author = authors[i];
+        }
+      }
+      if (typeof(author) == 'undefined') {
+        deferred.resolve({
+          status: 404,
+          message: 'Record not found'
+        });
+      } else {
+        deferred.resolve(author);
+      }
+    });
+    return deferred.promise;
+  };
+
+
+  return {
+    all: all,
+    find: find
+  };
+
+}]);

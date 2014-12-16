@@ -16,6 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
+    'angular.filter',
+    'app.directives.search'
 	// 'libraryboxControllers',
 	// 'libraryboxFilters',
 	// 'libraryboxServices'.

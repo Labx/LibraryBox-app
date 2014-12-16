@@ -35,7 +35,7 @@ var pathes = {
         dest: null
     },
     data: {
-    	  dir: 'app/data',
+    	dir: 'app/data',
         src: 'app/data/**/*',
         dest: 'dist/data'
     }

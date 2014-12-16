@@ -1,6 +1,15 @@
 <div data-ng-controller="AuthorDetailCtrl">
-<h2 class='page-header'>{{author.name}} <small class='text-muted pull-right'>#{{aid}}</small></h2>
-<ol>
-	<li data-ng-repeat="book in books"><a data-ng-href="#/book/{{book.id}}">{{book.name}}</a></li>
-</ol>
+
+  <h2 class="page-header">
+    {{author.name}}
+    <small class="text-muted pull-right">{{author.id}}</small>
+  </h2>
+
+  <ol>
+    <li data-ng-repeat="book in books">
+      <a data-ng-href="#/book/{{book.id}}">{{book.name}}</a>
+    </li>
+  </ol>
+
+
 </div>

@@ -10,14 +10,18 @@
 
 angular.module('libraryboxApp')
 .controller('TagListCtrl', ['$scope', 'Tags', function($scope, Tags) {
-  $scope.tags = Tags.query();
-  $scope.orderProp = 'sort';
+
+  Tags.all().then(function(data) {
+    $scope.tags = data;
+  });
+
 }]);
 
 angular.module('libraryboxApp')
 .controller('TagDetailCtrl', ['$scope', '$routeParams', 'Tags', function($scope, $routeParams, Tags) {
-    var tags = Tags.query(function() {
-	    $scope.aid = $routeParams.tagId;
-	    $scope.tag = tags[$routeParams.tagId];
-    });
+
+  Tags.find($routeParams.tagId).then(function(data) {
+    $scope.tag = data;
+  });
+
 }]);
