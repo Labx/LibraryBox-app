@@ -1,6 +1,8 @@
 <div data-ng-controller="TagListCtrl">
 
-  <data-search for="'tags'"></data-search>
+  <div clas='row'>
+    <div data-search for="'tags'"></div>
+  </div>
 
   <ol>
     <li data-ng-repeat="tag in tags | filter:{name: search} | orderBy: 'name'">

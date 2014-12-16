@@ -1,11 +1,12 @@
 <div data-ng-controller="BookListCtrl">
 
-  <data-search for="'books'"></data-search>
+  <div clas='row'>
+    <div data-search for="'books'"></div>
+  </div>
 
-  <ol>
-    <li data-ng-repeat="book in books | filter:{title: search} | orderBy: 'sort'">
-      <a data-ng-href="#/book/{{book.id}}">{{book.sort}}</a>
-    </li>
-  </ol>
+	<ol>
+		<li data-ng-repeat="book in books | filter:{title: search} | orderBy: 'sort'"><a data-ng-href="#/book/{{book.id}}">{{book.sort}}</a></li>
+	</ol>
+
 
 </div>

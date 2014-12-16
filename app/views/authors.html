@@ -1,11 +1,13 @@
 <div data-ng-controller="AuthorListCtrl">
 
-  <data-search for="'authors'"></data-search>
+  <div class='row'>
+    <div class='col-md-10 col-md-offset-1' data-search for="'authors'"></div>
+  </div>
 
-  <ol>
-    <li data-ng-repeat="author in authors | filter:{name: search} | orderBy: 'sort'">
-      <a data-ng-href="#/author/{{author.id}}">{{author.sort}}</a>
-    </li>
-  </ol>
+  <div class='row'>
+  	<ol>
+  		<li data-ng-repeat="author in authors | filter:{name: search} | orderBy: 'sort'"><a data-ng-href="#/author/{{author.id}}">{{author.sort}}</a></li>
+  	</ol>
+  </div>
 
 </div>

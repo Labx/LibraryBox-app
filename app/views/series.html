@@ -1,12 +1,12 @@
 <div data-ng-controller="SerieListCtrl">
 
-  <data-search for="'series'"></data-search>
+  <div clas='row'>
+    <div data-search for="'series'"></div>
+  </div>
 
-  <ol>
-    <li data-ng-repeat="serie in series | filter:{name: search} | orderBy: 'sort'">
-      <a data-ng-href="#/serie/{{serie.id}}">{{serie.sort}}</a>
-    </li>
-  </ol>
+	<ol>
+		<li data-ng-repeat="serie in series | filter:{name: search} | orderBy: 'sort'"><a data-ng-href="#/serie/{{serie.id}}">{{serie.sort}}</a></li>
+	</ol>
 
 
 </div>
