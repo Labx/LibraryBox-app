@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>BiblioBox</title>
-        <title>librarybox ui</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css(.) styles/vendor.css -->
         <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/angular-ui-select/dist/select.css" />
         <!-- endbower -->
         <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -21,7 +21,7 @@
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-      
+
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
       <div class="container-fluid">
@@ -32,24 +32,24 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="../images/lbx-logo-small-white.png" alt="logo" width="24" />BiblioBox</a>
+          <a class="navbar-brand" href="#"><img class="logo" src="../images/lbx-logo-small-white.png" alt="logo"/>BiblioBox</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
-          <ul class="nav navbar-nav" data-ng-controller="MenuCtrl">
+          <ul class="nav navbar-nav pull-right" data-ng-controller="MenuCtrl">
             <li ng-class="{ active: isActive('/')}"><a ng-href="/">Accueil</a></li>
-            <li class="dropdown open">
+            <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Livres num&eacute;riques <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
             <li ng-class="{ active: isActive('/authors')}"><a ng-href="#/authors">Auteurs </a></li>
                     <li ng-class="{ active: isActive('/books')}"><a ng-href="#/books">Tous les livres</a></li>
                     <li ng-class="{ active: isActive('/series')}"><a ng-href="#/series">S&eacute;ries</a></li>
                     <li ng-class="{ active: isActive('/tags')}"><a ng-href="#/tags">Cat&eacute;gories</a></li>
-                    
+
               </ul>
             </li>
               <li><a href="#">Musique</a></li>
-              <li><a href="#">Images</a></li>
+              <li ng-class="{ active: isActive('/authors')}"><a ng-href="#/images">Images</a></li>
               <li><a href="#">Vid&eacute;o</a></li>
               <li><a href="#">Bo&icirc;te &agrave; outils</a></li>
               <li ng-class="{ active: isActive('/about')}"><a ng-href="#/about">&Agrave; propos</a></li>
@@ -57,21 +57,21 @@
         </div><!-- /.navbar-collapse -->
       </div>
     </nav>
-            <div class="container-fluid">
+
+
                 <h3 class="text-muted"></h3>
-            </div>
+                <div ng-view=""></div>
 
-      <div ng-view=""></div>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <!-- <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script> -->
 
 
     <!-- build:js(.) scripts/oldieshim.js -->
@@ -82,45 +82,48 @@
     <!-- endbuild -->
 
     <!-- build:js(.) scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="bower_components/angular/angular.js"></script>
-        <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-        <script src="bower_components/angular-touch/angular-touch.js"></script>
-        <script src="bower_components/angular-resource/angular-resource.js"></script>
-        <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-        <script src="bower_components/angular-route/angular-route.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-ui-select/dist/select.js"></script>
+    <script src="bower_components/angular-filter/dist/angular-filter.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
 
-        <!-- build:js scripts/plugins.js -->
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
-        <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
-        <!-- endbuild -->
+    <!-- build:js scripts/plugins.js -->
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
 
- <!-- build:js({.tmp,app}) scripts/main.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
-        <script src="scripts/controllers/authors.js"></script>
-        <script src="scripts/services/authors.js"></script>
-        <script src="scripts/controllers/books.js"></script>
-        <script src="scripts/services/books.js"></script>
-        <script src="scripts/controllers/series.js"></script>
-        <script src="scripts/services/series.js"></script>
-        <script src="scripts/controllers/tags.js"></script>
-        <script src="scripts/services/tags.js"></script>
-        <script src="scripts/controllers/menu.js"></script>
-        <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/main.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/authors.js"></script>
+    <script src="scripts/services/authors.js"></script>
+    <script src="scripts/controllers/books.js"></script>
+    <script src="scripts/services/books.js"></script>
+    <script src="scripts/controllers/series.js"></script>
+    <script src="scripts/services/series.js"></script>
+    <script src="scripts/controllers/tags.js"></script>
+    <script src="scripts/services/tags.js"></script>
+    <script src="scripts/controllers/menu.js"></script>
+    <script src="scripts/directives/search.js"></script>
+    <!-- endbuild -->
 </body>
 </html>

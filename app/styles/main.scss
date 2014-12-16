@@ -74,7 +74,12 @@ body {
 }
 
 .navbar {
-    background-image: linear-gradient(to bottom, #51A1C4 0%, #2D8DB6 100%); 
+    background-image: linear-gradient(to bottom, #51A1C4 0%, #2D8DB6 100%);
+}
+
+.logo {
+    width: 24px;
+    padding: 4px;
 }
 
 .navbar-nav {
@@ -106,4 +111,9 @@ body {
     .jumbotron {
         border-bottom: 0;
     }
+}
+
+.searchBar {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

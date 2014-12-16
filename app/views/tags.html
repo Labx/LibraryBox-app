@@ -1,5 +1,14 @@
 <div data-ng-controller="TagListCtrl">
-	<ul class="list-group">
-		<li class="list-group-item" data-ng-repeat="tag in tags"><a data-ng-href="#/tag/{{tag.id}}">{{tag.name}}</a></li>
-	</ul>
+
+  <div clas='row'>
+    <div data-search for="'tags'"></div>
+  </div>
+
+  <ol>
+    <li data-ng-repeat="tag in tags | filter:{name: search} | orderBy: 'name'">
+      <a data-ng-href="#/tag/{{tag.id}}">{{tag.name}}</a>
+    </li>
+  </ol>
+
+
 </div>

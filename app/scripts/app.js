@@ -16,6 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
+    'angular.filter',
+    'app.directives.search'
 	// 'libraryboxControllers',
 	// 'libraryboxFilters',
 	// 'libraryboxServices'.
@@ -61,6 +63,10 @@ angular
         .when('/tag/:tagId', {
           templateUrl: 'views/tag-detail.html',
           controller: 'TagDetailCtrl'
+        })
+        .when('/images', {
+          templateUrl: 'views/images.html',
+          controller: 'ImagesCtrl'
         })
         .otherwise({
           redirectTo: '/'
