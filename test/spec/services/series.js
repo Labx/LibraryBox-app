@@ -7,12 +7,12 @@ describe('Service: series', function () {
 
   // instantiate service
   var series;
-  beforeEach(inject(function (_series_) {
-    series = _series_;
+  beforeEach(inject(function (Series) {
+    series = Series;
   }));
 
-  // it('should do something', function () {
-  //   expect(!!series).toBe(true);
-  // });
+  it('should do something', function () {
+    expect(!!series).toBe(true);
+  });
 
 });

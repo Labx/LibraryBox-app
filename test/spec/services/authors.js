@@ -7,12 +7,12 @@ describe('Service: authors', function () {
 
   // instantiate service
   var authors;
-  beforeEach(inject(function (_authors_) {
-    authors = _authors_;
+  beforeEach(inject(function (Authors) {
+    authors = Authors;
   }));
 
-  // it('should do something', function () {
-  //   expect(!!authors).toBe(true);
-  // });
+  it('should do something', function () {
+    expect(!!authors).toBe(true);
+  });
 
 });

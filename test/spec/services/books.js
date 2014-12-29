@@ -7,12 +7,12 @@ describe('Service: books', function () {
 
   // instantiate service
   var books;
-  beforeEach(inject(function (_books_) {
-    books = _books_;
+  beforeEach(inject(function (Books) {
+    books = Books;
   }));
 
-  // it('should do something', function () {
-  //   expect(!!books).toBe(true);
-  // });
+  it('should do something', function () {
+    expect(!!books).toBe(true);
+  });
 
 });

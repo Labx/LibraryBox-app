@@ -7,12 +7,12 @@ describe('Service: tags', function () {
 
   // instantiate service
   var tags;
-  beforeEach(inject(function (_tags_) {
-    tags = _tags_;
+  beforeEach(inject(function (Tags) {
+    tags = Tags;
   }));
 
-  // it('should do something', function () {
-  //   expect(!!tags).toBe(true);
-  // });
+  it('should do something', function () {
+    expect(!!tags).toBe(true);
+  });
 
 });
