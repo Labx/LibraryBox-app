@@ -11,8 +11,8 @@ describe('Service: tags', function () {
     tags = _tags_;
   }));
 
-  it('should do something', function () {
-    expect(!!tags).toBe(true);
-  });
+  // it('should do something', function () {
+  //   expect(!!tags).toBe(true);
+  // });
 
 });

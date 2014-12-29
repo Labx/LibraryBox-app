@@ -45,6 +45,9 @@ var  gulp = require('gulp')
     ,SqliteToJson = require('sqlite-to-json')
     ,sqlite3 = require('sqlite3')
 ;
+
+var karma = require('karma').server;
+
 var db = new sqlite3.Database(pathes.data.dir+'/data.sqlite3'),
     exporter = new SqliteToJson({client: db})
 ;
@@ -198,6 +201,7 @@ gulp.task('serve', ['connect', 'styles'], function () {
     require('opn')('http://localhost:'+project.port);
 });
 
+
 // inject bower components
 gulp.task('wiredep', function () {
     var wiredep = require('wiredep').stream;
@@ -215,6 +219,22 @@ gulp.task('wiredep', function () {
         }))
         .pipe(gulp.dest(pathes.appDir));
 });
+
+
+// tasks for testing
+gulp.task('test', function (done) {
+    karma.start({
+        configFile: __dirname + '/test/karma.conf.js',
+        singleRun: true
+    }, done);
+});
+
+gulp.task('tdd', function (done) {
+    karma.start({
+        configFile: __dirname + '/test/karma.conf.js'
+    }, done);
+});
+
 
 gulp.task('watch', ['connect', 'serve'], function () {
     var server = $.livereload();

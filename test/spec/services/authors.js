@@ -11,8 +11,8 @@ describe('Service: authors', function () {
     authors = _authors_;
   }));
 
-  it('should do something', function () {
-    expect(!!authors).toBe(true);
-  });
+  // it('should do something', function () {
+  //   expect(!!authors).toBe(true);
+  // });
 
 });

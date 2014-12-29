@@ -11,8 +11,8 @@ describe('Service: books', function () {
     books = _books_;
   }));
 
-  it('should do something', function () {
-    expect(!!books).toBe(true);
-  });
+  // it('should do something', function () {
+  //   expect(!!books).toBe(true);
+  // });
 
 });

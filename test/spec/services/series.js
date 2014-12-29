@@ -11,8 +11,8 @@ describe('Service: series', function () {
     series = _series_;
   }));
 
-  it('should do something', function () {
-    expect(!!series).toBe(true);
-  });
+  // it('should do something', function () {
+  //   expect(!!series).toBe(true);
+  // });
 
 });
