@@ -4,27 +4,26 @@ angular
   .module('app.directives.search', [])
   .directive('search', function() {
     return {
-      restrict: 'A',
+      restrict: 'E',
       scope: {
-        for: '='
+        for: '@'
       },
       templateUrl: '/views/directives/search.html',
-      controller: function($scope){
 
-        $scope.placeholder = 'recherche rapide par nom';
-
-        switch ($scope.for) {
+      link: function(scope, element, attrs, controllers) {
+        scope.placeholder = 'recherche rapide par nom';
+        switch (scope.for) {
           case 'authors':
-            $scope.placeholder += ' d\'auteur...';
+            scope.placeholder += ' d\'auteur...';
             break;
           case 'books':
-            $scope.placeholder += ' de livre...';
+            scope.placeholder += ' de livre...';
             break;
           case 'series':
-            $scope.placeholder += ' de série...';
+            scope.placeholder += ' de série...';
             break;
           case 'tags':
-            $scope.placeholder += ' d\'étiquette...';
+            scope.placeholder += ' d\'étiquette...';
             break;
         }
       },

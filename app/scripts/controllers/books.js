@@ -11,6 +11,8 @@
 angular.module('libraryboxApp')
 .controller('BookListCtrl', ['$scope', 'Books', function($scope, Books) {
 
+  $scope.for_content = 'books';
+
   Books.all().then(function(data) {
     $scope.books = data;
   });

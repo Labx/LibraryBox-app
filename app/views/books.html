@@ -1,8 +1,6 @@
 <div data-ng-controller="BookListCtrl">
 
-  <div clas='row'>
-    <div data-search for="'books'"></div>
-  </div>
+  <data-search for="{{for_content}}"></data-search>
 
 	<ol>
 		<li data-ng-repeat="book in books | filter:{title: search} | orderBy: 'sort'"><a data-ng-href="#/book/{{book.id}}">{{book.sort}}</a></li>

@@ -11,6 +11,8 @@
 angular.module('libraryboxApp')
 .controller('TagListCtrl', ['$scope', 'Tags', function($scope, Tags) {
 
+  $scope.for_content = 'tags';
+
   Tags.all().then(function(data) {
     $scope.tags = data;
   });
