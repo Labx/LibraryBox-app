@@ -25,9 +25,23 @@ module.exports = function(config) {
       'app/bower_components/angular-touch/angular-touch.js',
       'app/bower_components/angular-filter/dist/angular-filter.js',
       'app/scripts/**/*.js',
-      'test/mock/**/*.js',
-      'test/spec/**/*.js'
+      // 'test/mock/**/*.js',
+      'test/spec/**/*.js',
+      // location of the directives templates
+      'app/views/directives/*.html'
     ],
+
+    // generate js files from html templates for directives
+    preprocessors : {
+      'app/views/directives/*.html': ['ng-html2js']
+    },
+
+    ngHtml2JsPreprocessor: {
+        // setting this option will create only a single module that contains templates
+        // from all the files, so you can load them all with module('templates')
+        stripPrefix: 'app/',
+        moduleName: 'directives'
+    },
 
     // list of files / patterns to exclude
     exclude: [],
@@ -50,7 +64,8 @@ module.exports = function(config) {
     // Which plugins to enable
     plugins: [
       'karma-phantomjs-launcher',
-      'karma-jasmine'
+      'karma-jasmine',
+      'karma-ng-html2js-preprocessor'
     ],
 
     // Continuous Integration mode

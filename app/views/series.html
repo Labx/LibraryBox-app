@@ -1,6 +1,6 @@
 <div data-ng-controller="SerieListCtrl">
 
-  <data-search for="{{for_content}}"></data-search>
+  <data-search for="{{forContent}}"></data-search>
 
 	<ol>
 		<li data-ng-repeat="serie in series | filter:{name: search} | orderBy: 'sort'"><a data-ng-href="#/serie/{{serie.id}}">{{serie.sort}}</a></li>

@@ -6,10 +6,9 @@ angular
     return {
       restrict: 'E',
       scope: {
-        for: '@'
+        for: '@',
       },
-      templateUrl: '/views/directives/search.html',
-
+      templateUrl: 'views/directives/search.html',
       link: function(scope, element, attrs, controllers) {
         scope.placeholder = 'recherche rapide par nom';
         switch (scope.for) {

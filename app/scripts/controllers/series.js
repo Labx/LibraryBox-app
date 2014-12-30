@@ -11,7 +11,8 @@
 angular.module('libraryboxApp')
 .controller('SerieListCtrl', ['$scope', 'Series', function($scope, Series) {
 
-  $scope.for_content = 'series'
+  $scope.forContent = 'series';
+  $scope.search     = '';
 
   Series.all().then(function(data) {
     $scope.series = data;

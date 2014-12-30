@@ -13,7 +13,8 @@
 angular.module('libraryboxApp')
 .controller('AuthorListCtrl', ['$scope', 'Authors', function($scope, Authors) {
 
-  $scope.for_content = 'authors';
+  $scope.forContent = 'authors';
+  $scope.search     = '';
 
   Authors.all().then(function(data) {
     $scope.authors = data;

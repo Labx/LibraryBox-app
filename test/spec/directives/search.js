@@ -1,22 +1,20 @@
 describe('Directive: search', function() {
 
   // load the directive's module
-  beforeEach(module('libraryboxApp'));
+  beforeEach(module('libraryboxApp'), 'app/views/directives/search.html');
+
+  // load the html template
+  // beforeEach(module('/views/directives/search.html'));
+  // beforeEach(module('directives'));
 
   // instantiate directive
   var element, scope;
-  // beforeEach(module('scripts/directives/search.js'));
   beforeEach(inject(function($rootScope, $compile) {
-    element = angular.element('<div class="row">' +
-      '<data-search for="\'{{for_content}}\'">' +
-    '</div>');
-    // element('<div class="well span6">' +
-    // '<h3>Busdriver Albums:</h3>' +
-    // '<albums ng-repeat="album in albums" title="{{album.title}}">' +
-    // '</albums></div>');
     scope = $rootScope;
+    element = angular.element('<data-search for="\'{{forContent}}\'">');
     $compile(element)(scope);
-      scope.$digest();
+    // scope.$digest();
+    scope.$apply();
   }));
 
   // it("should have the correct amount of albums in the list", function() {
@@ -25,9 +23,9 @@ describe('Directive: search', function() {
   // });
 
   it("should bind correctly", function() {
-      scope.$apply(function() {
-        scope.for_content = authors;
-      });
+      // scope.$apply(function() {
+      //   scope.forContent = authors;
+      // });
       // expect...
   });
 
