@@ -37,10 +37,7 @@ module.exports = function(config) {
     },
 
     ngHtml2JsPreprocessor: {
-        // setting this option will create only a single module that contains templates
-        // from all the files, so you can load them all with module('templates')
-        stripPrefix: 'app/',
-        moduleName: 'directives'
+        stripPrefix: 'app/'
     },
 
     // list of files / patterns to exclude

@@ -1,11 +1,10 @@
 describe('Directive: search', function() {
 
   // load the directive's module
-  beforeEach(module('libraryboxApp'), 'app/views/directives/search.html');
+  beforeEach(module('libraryboxApp'));
 
   // load the html template
-  // beforeEach(module('/views/directives/search.html'));
-  // beforeEach(module('directives'));
+  beforeEach(module('views/directives/search.html'));
 
   // instantiate directive
   var element, scope;
@@ -14,19 +13,45 @@ describe('Directive: search', function() {
     element = angular.element('<data-search for="\'{{forContent}}\'">');
     $compile(element)(scope);
     // scope.$digest();
-    scope.$apply();
   }));
 
-  // it("should have the correct amount of albums in the list", function() {
-  //   var list = element.find('li');
-  //   expect(list.length).toBe(7);
-  // });
+  describe("should be binded correctly", function() {
+    it("with authors"), function() {
+      scope.$apply(function() {
+        scope.forContent = 'authors';
+      });
+      var formInput = element.find('input');
+      expect(formInput.length).toBe(1);
+    };
+    it("with books"), function() {
+      scope.$apply(function() {
+        scope.forContent = 'books';
+      });
+      var formInput = element.find('input');
+      expect(formInput.length).toBe(1);
+    };
+    it("with tags"), function() {
+      scope.$apply(function() {
+        scope.forContent = 'tags';
+      });
+      var formInput = element.find('input');
+      expect(formInput.length).toBe(1);
+    };
+    it("with series"), function() {
+      scope.$apply(function() {
+        scope.forContent = 'series';
+      });
+      var formInput = element.find('input');
+      expect(formInput.length).toBe(1);
+    };
+  });
 
-  it("should bind correctly", function() {
-      // scope.$apply(function() {
-      //   scope.forContent = authors;
-      // });
-      // expect...
+  describe("should have the correct placeholder", function() {
+
+  });
+
+  describe("should change the scope.search value", function() {
+
   });
 
 
