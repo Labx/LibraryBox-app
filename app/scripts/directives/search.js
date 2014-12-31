@@ -23,7 +23,7 @@ angular
               scope.placeholder += ' de série...';
               break;
             case 'tags':
-              scope.placeholder += ' d\'étiquette...';
+              scope.placeholder += ' de catégorie...';
               break;
           }
         });
