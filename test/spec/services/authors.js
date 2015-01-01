@@ -15,4 +15,15 @@ describe('Service: authors', function () {
     expect(!!authors).toBe(true);
   });
 
+  it('is able to find an author with his id', function() {
+    pending();
+  });
+
+  it('is able to return a list of authors', function() {
+    // authors.all().then(function(data) {
+    //   var authors = data;
+    // });
+    // expect(authors.length).toBeGreaterThan(1);
+  });
+
 });
