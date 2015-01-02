@@ -8,7 +8,6 @@
  * Controller of the libraryboxApp
  */
 
-// var libraryboxControllers = angular.module('libraryboxControllers', []);
 
 angular.module('libraryboxApp')
 .controller('AuthorListCtrl', ['$scope', 'Authors', function($scope, Authors) {
