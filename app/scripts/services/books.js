@@ -12,38 +12,29 @@ angular.module('libraryboxApp')
 .factory('Books', ['$http', '$q', function($http, $q){
 
   var all = function() {
-    var deferred = $q.defer();
-    $http.get('/data/dump-books.json').success(function(data) {
-        var books = [];
-        for (var i = 0; i < data.length; i ++) {
-          books.push(data[i]);
-        }
-        deferred.resolve(books);
+    return $http.get('/data/dump-books.json')
+    .then(function (resp) {
+      return resp.data;
     });
-    return deferred.promise;
   };
 
-  var find = function(id) {
-    var deferred = $q.defer();
-    var books = [];
-    var book = {};
-    all().then(function(data) {
-      books = data;
+  var find = function(givenId) {
+    return all().then(function(books) {
+      var book = {};
       for (var i = books.length - 1; i >= 0; i--) {
-        if (books[i].id == id) {
+        if (books[i].id == givenId) {
           book = books[i];
         }
       }
-      if (typeof(book) == 'undefined') {
-        deferred.resolve({
+      if (books === {}) {
+        return {
           status: 404,
           message: 'Record not found'
-        });
+        };
       } else {
-        deferred.resolve(book);
+        return book;
       }
     });
-    return deferred.promise;
   };
 
 
