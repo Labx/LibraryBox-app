@@ -16,12 +16,20 @@ Pour plus d'information sur les _LibraryBox_ en France : http://bibliobox.net/
 
 ## Installation
 
+#### directe
 ```bash
 git clone https://github.com/Labx/LibraryBox-app && cd LibraryBox-app
 # install requirement to start application
 make install
 # open application in browser
 gulp serve
+```
+
+#### ... ou avec [Docker](docs.docker.com/installation/) et [Fig](http://www.fig.sh/install.html).
+```bash
+# construire l'image et lancer le container
+sudo fig build
+sudo fig up --no-recreate
 ```
 
 ## Extraction des données
