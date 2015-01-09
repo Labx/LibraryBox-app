@@ -22,4 +22,4 @@ ADD . /myapp
 RUN npm install
 RUN bower install --allow-root
 
-CMD ["npm", "start"]
+ENTRYPOINT npm
