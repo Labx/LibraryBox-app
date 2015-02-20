@@ -1,12 +1,15 @@
 <div data-ng-controller="TagListCtrl">
 
-  <data-search for="{{forContent}}"></data-search>
+  <div class='row'>
+    <data-search class='col-md-10 col-md-offset-1' for="{{forContent}}"></data-search>
 
-  <ul>
-    <li data-ng-repeat="tag in tags | filter:{name: search} | orderBy: 'name'">
-      <a data-ng-href="#/tag/{{tag.id}}">{{tag.name}}</a>
-    </li>
-  </ul>
-
+    <ul class='col-md-10 col-md-offset-1'>
+      <a data-ng-href="#/tag/{{tag.id}}" data-ng-repeat="tag in tags | filter:{name: search} | orderBy: 'name'">
+        <li class='listElement'>
+          {{tag.name}}
+        </li>
+      </a>
+    </ul>
+  </div>
 
 </div>

@@ -1,10 +1,15 @@
 <div data-ng-controller="SerieListCtrl">
 
-  <data-search for="{{forContent}}"></data-search>
+  <div class='row'>
+    <data-search class='col-md-10 col-md-offset-1' for="{{forContent}}"></data-search>
 
-	<ol>
-		<li data-ng-repeat="serie in series | filter:{name: search} | orderBy: 'sort'"><a data-ng-href="#/serie/{{serie.id}}">{{serie.sort}}</a></li>
-	</ol>
-
+    <ul class='col-md-10 col-md-offset-1'>
+      <a data-ng-href="#/serie/{{serie.id}}" data-ng-repeat="serie in series | filter:{name: search} | orderBy: 'sort'">
+        <li class='listElement'>
+          {{serie.sort}}
+        </li>
+      </a>
+    </ul>
+  </div>
 
 </div>
