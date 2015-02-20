@@ -2,11 +2,11 @@
 
   <data-search for="{{forContent}}"></data-search>
 
-  <ol>
+  <ul>
     <li data-ng-repeat="tag in tags | filter:{name: search} | orderBy: 'name'">
       <a data-ng-href="#/tag/{{tag.id}}">{{tag.name}}</a>
     </li>
-  </ol>
+  </ul>
 
 
 </div>

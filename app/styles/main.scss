@@ -116,3 +116,14 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+$aliceBlue : #F0F8FF;
+
+.listElement {
+    border-bottom : 1px solid lightgrey;
+    padding       : 10px 5px;
+
+    &:hover {
+        background-color : $aliceBlue;
+    }
+}
