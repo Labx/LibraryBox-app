@@ -1,15 +1,16 @@
 <div data-ng-controller="TagDetailCtrl">
 
-  <h2 class="page-header">
-    {{tag.name}}
-    <small class="text-muted pull-right">{{tag.id}}</small>
-  </h2>
+  <div class='container'>
+    <h2 class="page-header">
+      {{tag.name}}
+    </h2>
 
-  <ol>
-    <li data-ng-repeat="book in books">
-      <a data-ng-href="#/book/{{book.id}}">{{book.name}}</a>
-    </li>
-  </ol>
+    <ol>
+      <li data-ng-repeat="book in books">
+        <a data-ng-href="#/book/{{book.id}}">{{book.name}}</a>
+      </li>
+    </ol>
+  </div>
 
 
 </div>

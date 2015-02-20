@@ -1,13 +1,15 @@
 <div data-ng-controller="SerieDetailCtrl">
-  <h2 class="page-header">
-    {{serie.name}}
-    <small class="text-muted pull-right">{{serie.id}}</small>
-  </h2>
 
-  <ol>
-    <li data-ng-repeat="book in books">
-    <a data-ng-href="#/book/{{book.id}}">{{book.name}}</a>
-    </li>
-  </ol>
+  <div class='container'>
+    <h2 class="page-header">
+      {{serie.name}}
+    </h2>
+
+    <ol>
+      <li data-ng-repeat="book in books">
+      <a data-ng-href="#/book/{{book.id}}">{{book.name}}</a>
+      </li>
+    </ol>
+  </div>
 
 </div>
