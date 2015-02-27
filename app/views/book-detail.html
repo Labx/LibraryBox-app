@@ -2,14 +2,12 @@
 
   <div class='container'>
     <h2 class="page-header">
-      {{book.title}}
+      {{book.sort}}
     </h2>
 
-    <ol>
-      <li data-ng-repeat="book in books">
-        <a data-ng-href="#/book/{{book.id}}">{{book.name}}</a>
-      </li>
-    </ol>
+    <h4>Publié en {{toDate(book.pubdate) | date: 'yyyy'}}</h4>
+
+    <a href='{{book.path}}' class='btn btn-primary col-md-2 col-md-offset-5'>Télécharger</a>
   </div>
 
 

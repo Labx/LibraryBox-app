@@ -5,11 +5,16 @@
       {{tag.name}}
     </h2>
 
-    <ol>
-      <li data-ng-repeat="book in books">
-        <a data-ng-href="#/book/{{book.id}}">{{book.name}}</a>
-      </li>
-    </ol>
+    <p>{{tag.description}}</p>
+
+    <ul>
+      <a data-ng-repeat="book in books" data-ng-href="#/book/{{book.id}}">
+        <li class='row listElement'>
+          <div class='col-md-8'>{{book.title}}</div>
+          <div class='col-md-4 dateField'>{{toDate(book.pubdate) | date: 'yyyy'}}</div>
+        </li>
+      </a>
+    </ul>
   </div>
 
 

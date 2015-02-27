@@ -30,9 +30,13 @@ angular.module('libraryboxApp')
       $scope.author = data;
     });
 
-    // just stupidly retrive 6 books to design the view
+    // just stupidly retrieve 6 books to design the view
     Books.all().then(function(data) {
       $scope.books = data.slice(0,6);
     });
+
+    $scope.toDate = function(date) {
+      return new Date(date);
+    }
 
 }]);

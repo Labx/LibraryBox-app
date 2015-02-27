@@ -28,4 +28,8 @@ angular.module('libraryboxApp')
     $scope.book = data;
   });
 
+  $scope.toDate = function(date) {
+    return new Date(date);
+  }
+
 }]);
