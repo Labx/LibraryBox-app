@@ -1,1 +1,198 @@
-[{"id":3,"name":"Aventures"},{"id":6,"name":"Roman"},{"id":7,"name":"Westerns"},{"id":8,"name":"Historique"},{"id":9,"name":"XIXe siècle"},{"id":13,"name":"Jeunesse"},{"id":16,"name":"Fables"},{"id":17,"name":"Contes et légendes"},{"id":18,"name":"Poésie"},{"id":19,"name":"Policiers"},{"id":20,"name":"Fantastique"},{"id":21,"name":"Nouvelles"},{"id":22,"name":"Grande-Bretagne"},{"id":24,"name":"Russie"},{"id":25,"name":"France"},{"id":26,"name":"Japon"},{"id":27,"name":"Etats-Unis"},{"id":28,"name":"Contemporain"},{"id":29,"name":"Espagne"},{"id":30,"name":"Documentaire"},{"id":31,"name":"Religion"},{"id":35,"name":"Sciences"},{"id":38,"name":"Histoire"},{"id":41,"name":"Philosophie"},{"id":43,"name":"Mémoires"},{"id":44,"name":"Sciences Sociales"},{"id":45,"name":"Politique"},{"id":46,"name":"Essai littéraire"},{"id":50,"name":"Sciences militaires"},{"id":52,"name":"Conte philosophique"},{"id":53,"name":"Inde"},{"id":54,"name":"Orient"},{"id":55,"name":"Danemark"},{"id":56,"name":"Allemagne"},{"id":57,"name":"Italie"},{"id":58,"name":"Chine"},{"id":60,"name":"Littérature sentimentale"},{"id":61,"name":"Moyen Age"},{"id":62,"name":"Science Fiction"},{"id":63,"name":"Antiquité"},{"id":65,"name":"Space opera et planet opera"},{"id":66,"name":"Grèce"},{"id":67,"name":"XIVe siècle"},{"id":68,"name":"XXe siècle"},{"id":69,"name":"XVIIe siècle"},{"id":70,"name":"XVIe siècle"},{"id":71,"name":"XVIIIe siècle"},{"id":72,"name":"VIe siècle"},{"id":73,"name":"Catalogue"}]
+[
+  {
+    "id": 3,
+    "name": "Aventures"
+  },
+  {
+    "id": 6,
+    "name": "Roman"
+  },
+  {
+    "id": 7,
+    "name": "Westerns"
+  },
+  {
+    "id": 8,
+    "name": "Historique"
+  },
+  {
+    "id": 9,
+    "name": "XIXe siècle"
+  },
+  {
+    "id": 13,
+    "name": "Jeunesse"
+  },
+  {
+    "id": 16,
+    "name": "Fables"
+  },
+  {
+    "id": 17,
+    "name": "Contes et légendes"
+  },
+  {
+    "id": 18,
+    "name": "Poésie"
+  },
+  {
+    "id": 19,
+    "name": "Policiers"
+  },
+  {
+    "id": 20,
+    "name": "Fantastique"
+  },
+  {
+    "id": 21,
+    "name": "Nouvelles"
+  },
+  {
+    "id": 22,
+    "name": "Grande-Bretagne"
+  },
+  {
+    "id": 24,
+    "name": "Russie"
+  },
+  {
+    "id": 25,
+    "name": "France"
+  },
+  {
+    "id": 26,
+    "name": "Japon"
+  },
+  {
+    "id": 27,
+    "name": "Etats-Unis"
+  },
+  {
+    "id": 28,
+    "name": "Contemporain"
+  },
+  {
+    "id": 29,
+    "name": "Espagne"
+  },
+  {
+    "id": 30,
+    "name": "Documentaire"
+  },
+  {
+    "id": 31,
+    "name": "Religion"
+  },
+  {
+    "id": 35,
+    "name": "Sciences"
+  },
+  {
+    "id": 38,
+    "name": "Histoire"
+  },
+  {
+    "id": 41,
+    "name": "Philosophie"
+  },
+  {
+    "id": 43,
+    "name": "Mémoires"
+  },
+  {
+    "id": 44,
+    "name": "Sciences Sociales"
+  },
+  {
+    "id": 45,
+    "name": "Politique"
+  },
+  {
+    "id": 46,
+    "name": "Essai littéraire"
+  },
+  {
+    "id": 50,
+    "name": "Sciences militaires"
+  },
+  {
+    "id": 52,
+    "name": "Conte philosophique"
+  },
+  {
+    "id": 53,
+    "name": "Inde"
+  },
+  {
+    "id": 54,
+    "name": "Orient"
+  },
+  {
+    "id": 55,
+    "name": "Danemark"
+  },
+  {
+    "id": 56,
+    "name": "Allemagne"
+  },
+  {
+    "id": 57,
+    "name": "Italie"
+  },
+  {
+    "id": 58,
+    "name": "Chine"
+  },
+  {
+    "id": 60,
+    "name": "Littérature sentimentale"
+  },
+  {
+    "id": 61,
+    "name": "Moyen Age"
+  },
+  {
+    "id": 62,
+    "name": "Science Fiction"
+  },
+  {
+    "id": 63,
+    "name": "Antiquité"
+  },
+  {
+    "id": 65,
+    "name": "Space opera et planet opera"
+  },
+  {
+    "id": 66,
+    "name": "Grèce"
+  },
+  {
+    "id": 67,
+    "name": "XIVe siècle"
+  },
+  {
+    "id": 68,
+    "name": "XXe siècle"
+  },
+  {
+    "id": 69,
+    "name": "XVIIe siècle"
+  },
+  {
+    "id": 70,
+    "name": "XVIe siècle"
+  },
+  {
+    "id": 71,
+    "name": "XVIIIe siècle"
+  },
+  {
+    "id": 72,
+    "name": "VIe siècle"
+  },
+  {
+    "id": 73,
+    "name": "Catalogue"
+  }
+]
