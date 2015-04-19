@@ -14,8 +14,9 @@ endif
 
 # force use of Bash
 SHELL := /bin/bash
-DATADIR="$$(pwd)/app/data"
-EXTRACT_BOOK=${DATADIR}/books
+DATADIR="$$(pwd)"/app/data
+TMPDIR="$$(pwd)"/.tmp
+EXTRACT_BOOK=${TMPDIR}/books
 SCRIPTS=scripts-metadata
 
 .PHONY:	export2json export2rawjson export2csv \
@@ -34,31 +35,32 @@ install-devtools:
 	apt-get install sqlite3 sqlitebrowser nodejs
 	npm install -g yo bower gulp generator-gulp-angular generator-angular
 
-export2json: ${EXTRACT_BOOK}.json
-# @alias: export2json
-${EXTRACT_BOOK}.json: ${EXTRACT_BOOK}.raw.json
+export2json: ${TMPDIR}/books.json
+${TMPDIR}/books.json: .tmp ${TMPDIR}/books.raw.json
 	printf "export2json\n"
-	cat "${EXTRACT_BOOK}.raw.json" \
-	| jq "$$(cat ${SCRIPTS}/books/squash-books-data.jq)" \
-	> "${EXTRACT_BOOK}.json"
+	cat ${TMPDIR}/books.raw.json \
+		| jq "$$(cat ${SCRIPTS}/books/squash-books-data.jq)" \
+	> ${TMPDIR}/books.json
+	cp {${TMPDIR},${DATADIR}}/books.json
 
-export2rawjson: ${EXTRACT_BOOK}.raw.jso
-# @alias: export2rawjson
-${EXTRACT_BOOK}.raw.json: ${EXTRACT_BOOK}.csv
+export2rawjson: ${TMPDIR}/books.raw.json
+${TMPDIR}/books.raw.json: .tmp ${TMPDIR}/books.csv
 	printf "export2rawjson\n"
-	cat "${EXTRACT_BOOK}.csv" \
-	| ./node_modules/csvtojson/bin/csvtojson \
-	> "${EXTRACT_BOOK}.raw.json"
+	cat ${TMPDIR}/books.csv \
+		| ./node_modules/csvtojson/bin/csvtojson \
+	> ${TMPDIR}/books.raw.json
 
-export2csv: ${EXTRACT_BOOK}.csv
-# @alias: export2csv
-${EXTRACT_BOOK}.csv:
+export2csv: ${TMPDIR}/books.csv
+${TMPDIR}/books.csv: .tmp
 	printf "export2csv\n"
 	sqlite3 -csv -header \
     	${DATADIR}/data.sqlite3 \
     	"$$(cat ${SCRIPTS}/books/list-books.sql)" \
-	> "${EXTRACT_BOOK}.csv"
+	> ${TMPDIR}/books.csv
+
+.tmp:
+	[[ ! -d ${TMPDIR} ]] && mkdir -p ${TMPDIR} || true
 
 clean:
 	printf "clean\n"
-	rm -f ${EXTRACT_BOOK}.{csv,{,raw.}json}
+	rm -f -r ${TMPDIR} ${TMPDIR}/books.{csv,{raw.,}json}
