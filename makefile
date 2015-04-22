@@ -23,9 +23,6 @@ SCRIPTS=scripts-metadata
 		clean
 
 
-extract-books-authors:
-	sqlite3 -csv -header app/data/data.sqlite3 "SELECT b.id as bid, title, b.sort as sort_book, a.id as aid, a.sort as sort_author, path, name FROM books as b inner join books_authors_link as b_a ON b.id = b_a.book INNER JOIN authors as a ON a.id = b_a.author" | ./node_modules/csvtojson/bin/csvtojson
-
 install:
 	printf "install\n"
 	npm install && bower install
