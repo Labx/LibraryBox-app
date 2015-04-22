@@ -32,7 +32,7 @@ install:
 
 install-devtools:
 	printf "install-devtools\n"
-	apt-get install sqlite3 sqlitebrowser nodejs
+	apt-get install sqlite3 sqlitebrowser nodejs jq
 	npm install -g yo bower gulp generator-gulp-angular generator-angular
 
 export2json: ${TMPDIR}/books.json
