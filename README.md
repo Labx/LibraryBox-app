@@ -24,21 +24,21 @@ make install
 gulp serve
 ```
 
-## Extraction des données
+## Extraction et mise à jour des données
 
-```bash
-gulp db-list-tables
-gulp db-dump
+**refacto**: on pass de `gulp` à `make` pour être plus prêt des commandes 
+manuelles et réduire le nombre de couches.
+
+```sh
+make -s clean export2json
 ```
 
-Ou, par table
+Ce qui équivaut de façon plus explicite à:
 
-```bash
-gulp db-authors
-gulp db-books
-gulp db-tags
-gulp db-series
+```sh
+make -s clean export2csv export2rawjson export2json 
 ```
+
 
 ## Dépendances de développement
 
