@@ -13,7 +13,7 @@ angular.module('libraryboxApp')
 
   var all = function() {
     var deferred = $q.defer();
-    $http.get('/data/dump-books.json').success(function(data) {
+    $http.get('/data/books.json').success(function(data) {
         var books = [];
         for (var i = 0; i < data.length; i ++) {
           books.push(data[i]);

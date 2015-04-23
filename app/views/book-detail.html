@@ -1,14 +1,26 @@
 <div data-ng-controller="BookDetailCtrl">
 
   <div class='container'>
-    <h2 class="page-header">
-      {{book.sort}}
-    </h2>
+      
+      <div class="row">
+          
+        <h2 class="page-header">{{book.title}}</h2>
+          
+        <div class="col-md-2">
+            <img src="/data/{{book.path}}/c2o_thumbnail.jpg"/>
+            </div>
+        <div class="col-md-10">    
+            <h4>
+                <li ng-repeat="author in book.authors | orderBy:'sort'">{{author.name}}</li>
+            </h4>
+            <h5>{{book.summary}}</h5>
+            <h5>Série : {{book.serie}}</h5>
+            <h5>Catégories : <li ng-repeat="tag in book.tags">{{tag}}</li></h5>
+            
+            <a href='/data/{{book.path}}' class='btn btn-primary col-md-2 col-md-offset-5'>Télécharger</a>
+            
+        </div>
+    </div>
 
-    <h4>Publié en {{toDate(book.pubdate) | date: 'yyyy'}}</h4>
-
-    <a href='{{book.path}}' class='btn btn-primary col-md-2 col-md-offset-5'>Télécharger</a>
-  </div>
-
-
+    </div>
 </div>
