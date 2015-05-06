@@ -2,20 +2,17 @@
 
   <div class='container'>
     <h2 class="page-header">
-      {{tag.name}}
+    {{tag.name}}
     </h2>
-
-    <p>{{tag.description}}</p>
+      <h4>{{books.length}} livres correspondent à cette <a href="#/tags">catégorie :</a></h4>
 
     <ul>
       <a data-ng-repeat="book in books" data-ng-href="#/book/{{book.id}}">
         <li class='row listElement'>
           <div class='col-md-8'>{{book.title}}</div>
-          <div class='col-md-4 dateField'>{{toDate(book.pubdate) | date: 'yyyy'}}</div>
         </li>
       </a>
     </ul>
   </div>
-
 
 </div>

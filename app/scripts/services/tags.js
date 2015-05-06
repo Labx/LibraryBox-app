@@ -12,7 +12,7 @@ angular.module('libraryboxApp')
 
   var all = function() {
     var deferred = $q.defer();
-    $http.get('/data/dump-tags.json').success(function(data) {
+    $http.get('/data/tags.json').success(function(data) {
         var tags = [];
         for (var i = 0; i < data.length; i ++) {
             tags.push(data[i]);
