@@ -20,6 +20,7 @@ EXTRACT_BOOK=${TMPDIR}/books
 SCRIPTS=scripts-metadata
 
 .PHONY:	export-books2json export-books2rawjson export-books2csv \
+		export-tags2json export-tags2rawjson export-tags2csv \
 		clean
 
 
@@ -32,7 +33,30 @@ install-devtools:
 	apt-get install sqlite3 sqlitebrowser nodejs jq
 	npm install -g yo bower gulp generator-gulp-angular generator-angular
 
-export2json: ${TMPDIR}/books.json
+export-tags2json: ${TMPDIR}/tags.json
+${TMPDIR}/tags.json: .tmp ${TMPDIR}/tags.raw.json
+	printf "export-tags2json\n"
+	cat ${TMPDIR}/tags.raw.json \
+		| jq "$$(cat ${SCRIPTS}/tags/squash-tags-data.jq)" \
+	> ${TMPDIR}/tags.json
+	cp {${TMPDIR},${DATADIR}}/tags.json
+
+export-tags2rawjson: ${TMPDIR}/tags.raw.json
+${TMPDIR}/tags.raw.json: .tmp ${TMPDIR}/tags.csv
+	printf "export-tags2rawjson\n"
+	cat ${TMPDIR}/tags.csv \
+		| ./node_modules/csvtojson/bin/csvtojson \
+	> ${TMPDIR}/tags.raw.json
+
+export-tags2csv: ${TMPDIR}/tags.csv
+${TMPDIR}/tags.csv: .tmp
+	printf "export-tags2csv\n"
+	sqlite3 -csv -header \
+    	${DATADIR}/data.sqlite3 \
+    	"$$(cat ${SCRIPTS}/tags/list-tags.sql)" \
+	> ${TMPDIR}/tags.csv
+
+
 export-books2json: ${TMPDIR}/books.json
 ${TMPDIR}/books.json: .tmp ${TMPDIR}/books.raw.json
 	printf "export-books2json\n"

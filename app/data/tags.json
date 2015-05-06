@@ -1,0 +1,2386 @@
+[
+  {
+    "books": [
+      {
+        "sort": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome I",
+        "title": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome I",
+        "id": 2
+      },
+      {
+        "sort": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome II",
+        "title": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome II",
+        "id": 3
+      },
+      {
+        "sort": "Aventures prodigieuses de Tartarin de Tarascon, Les",
+        "title": "Les Aventures prodigieuses de Tartarin de Tarascon",
+        "id": 23
+      },
+      {
+        "sort": "Robinson Crusoé - Tome I",
+        "title": "Robinson Crusoé - Tome I",
+        "id": 24
+      },
+      {
+        "sort": "Robinson Crusoé - Tome II",
+        "title": "Robinson Crusoé - Tome II",
+        "id": 25
+      },
+      {
+        "sort": "20000 lieues sous les mers",
+        "title": "20000 lieues sous les mers",
+        "id": 58
+      },
+      {
+        "sort": "Tour du monde en quatre-vingts jours, Le",
+        "title": "Le Tour du monde en quatre-vingts jours",
+        "id": 59
+      },
+      {
+        "sort": "Voyage au centre de la Terre",
+        "title": "Voyage au centre de la Terre",
+        "id": 60
+      },
+      {
+        "sort": "Île au trésor, L'",
+        "title": "L'Île au trésor",
+        "id": 91
+      },
+      {
+        "sort": "Livre de la jungle, Le",
+        "title": "Le Livre de la jungle",
+        "id": 96
+      },
+      {
+        "sort": "Aventures de Tom Sawyer, Les",
+        "title": "Les Aventures de Tom Sawyer",
+        "id": 106
+      },
+      {
+        "sort": "Croc-Blanc",
+        "title": "Croc-Blanc",
+        "id": 107
+      },
+      {
+        "sort": "Appel de la forêt, L'",
+        "title": "L'Appel de la forêt",
+        "id": 108
+      }
+    ],
+    "name": "Aventures",
+    "id": 3
+  },
+  {
+    "books": [
+      {
+        "sort": "Prairie, La",
+        "title": "La Prairie",
+        "id": 4
+      },
+      {
+        "sort": "Crime et châtiment",
+        "title": "Crime et châtiment",
+        "id": 6
+      },
+      {
+        "sort": "Frères Karamazov, Les",
+        "title": "Les Frères Karamazov",
+        "id": 7
+      },
+      {
+        "sort": "Idiot - Tome I, L'",
+        "title": "L'Idiot - Tome I",
+        "id": 8
+      },
+      {
+        "sort": "Idiot - Tome II, L'",
+        "title": "L'Idiot - Tome II",
+        "id": 9
+      },
+      {
+        "sort": "Joueur, Le",
+        "title": "Le Joueur",
+        "id": 10
+      },
+      {
+        "sort": "Dernier des Mohicans, Le",
+        "title": "Le Dernier des Mohicans",
+        "id": 11
+      },
+      {
+        "sort": "Lac Ontario, Le",
+        "title": "Le Lac Ontario",
+        "id": 12
+      },
+      {
+        "sort": "Tueur de Daims, Le",
+        "title": "Le Tueur de Daims",
+        "id": 13
+      },
+      {
+        "sort": "Pionniers, Les",
+        "title": "Les Pionniers",
+        "id": 14
+      },
+      {
+        "sort": "Orgueil et préjugés",
+        "title": "Orgueil et préjugés",
+        "id": 15
+      },
+      {
+        "sort": "Emma",
+        "title": "Emma",
+        "id": 16
+      },
+      {
+        "sort": "Persuasion",
+        "title": "Persuasion",
+        "id": 17
+      },
+      {
+        "sort": "Agnès Grey",
+        "title": "Agnès Grey",
+        "id": 18
+      },
+      {
+        "sort": "Hauts de Hurle-vent, Les",
+        "title": "Les Hauts de Hurle-vent",
+        "id": 19
+      },
+      {
+        "sort": "Jane Eyre ou Les mémoires d’une institutrice",
+        "title": "Jane Eyre ou Les mémoires d’une institutrice",
+        "id": 20
+      },
+      {
+        "sort": "#MonOrchide. Le Cycle des NoéNautes, II",
+        "title": "#MonOrchide. Le Cycle des NoéNautes, II",
+        "id": 21
+      },
+      {
+        "sort": "#Smartarded",
+        "title": "#Smartarded",
+        "id": 22
+      },
+      {
+        "sort": "Aventures prodigieuses de Tartarin de Tarascon, Les",
+        "title": "Les Aventures prodigieuses de Tartarin de Tarascon",
+        "id": 23
+      },
+      {
+        "sort": "Robinson Crusoé - Tome I",
+        "title": "Robinson Crusoé - Tome I",
+        "id": 24
+      },
+      {
+        "sort": "Robinson Crusoé - Tome II",
+        "title": "Robinson Crusoé - Tome II",
+        "id": 25
+      },
+      {
+        "sort": "David Copperfield - Tome I",
+        "title": "David Copperfield - Tome I",
+        "id": 26
+      },
+      {
+        "sort": "David Copperfield - Tome II",
+        "title": "David Copperfield - Tome II",
+        "id": 27
+      },
+      {
+        "sort": "Oliver Twist",
+        "title": "Oliver Twist",
+        "id": 28
+      },
+      {
+        "sort": "Trois Mousquetaires, Les",
+        "title": "Les Trois Mousquetaires",
+        "id": 29
+      },
+      {
+        "sort": "Alice au pays des merveilles",
+        "title": "Alice au pays des merveilles",
+        "id": 31
+      },
+      {
+        "sort": "Aventures de Sherlock Holmes, Les",
+        "title": "Les Aventures de Sherlock Holmes",
+        "id": 42
+      },
+      {
+        "sort": "Dracula",
+        "title": "Dracula",
+        "id": 43
+      },
+      {
+        "sort": "Chien des Baskervilles, Le",
+        "title": "Le Chien des Baskervilles",
+        "id": 44
+      },
+      {
+        "sort": "Étude en rouge, Une",
+        "title": "Une Étude en rouge",
+        "id": 45
+      },
+      {
+        "sort": "L’Éducation Sentimentale",
+        "title": "L’Éducation Sentimentale",
+        "id": 54
+      },
+      {
+        "sort": "Madame Bovary",
+        "title": "Madame Bovary",
+        "id": 55
+      },
+      {
+        "sort": "20000 lieues sous les mers",
+        "title": "20000 lieues sous les mers",
+        "id": 58
+      },
+      {
+        "sort": "Tour du monde en quatre-vingts jours, Le",
+        "title": "Le Tour du monde en quatre-vingts jours",
+        "id": 59
+      },
+      {
+        "sort": "Voyage au centre de la Terre",
+        "title": "Voyage au centre de la Terre",
+        "id": 60
+      },
+      {
+        "sort": "Rouge et le Noir, Le",
+        "title": "Le Rouge et le Noir",
+        "id": 66
+      },
+      {
+        "sort": "Dernier Jour d'un condamné, Le",
+        "title": "Le Dernier Jour d'un condamné",
+        "id": 69
+      },
+      {
+        "sort": "Affaire Lerouge, L'",
+        "title": "L'Affaire Lerouge",
+        "id": 72
+      },
+      {
+        "sort": "Dossier 113, Le",
+        "title": "Le Dossier 113",
+        "id": 73
+      },
+      {
+        "sort": "Fantôme de l'Opéra, Le",
+        "title": "Le Fantôme de l'Opéra",
+        "id": 74
+      },
+      {
+        "sort": "Parfum de la Dame en noir, Le",
+        "title": "Le Parfum de la Dame en noir",
+        "id": 75
+      },
+      {
+        "sort": 813,
+        "title": 813,
+        "id": 76
+      },
+      {
+        "sort": "Arsène Lupin contre Herlock Sholmès",
+        "title": "Arsène Lupin contre Herlock Sholmès",
+        "id": 77
+      },
+      {
+        "sort": "Aiguille creuse, L'",
+        "title": "L'Aiguille creuse",
+        "id": 79
+      },
+      {
+        "sort": "Confidences d'Arsène Lupin, Les",
+        "title": "Les Confidences d'Arsène Lupin",
+        "id": 80
+      },
+      {
+        "sort": "Dame aux Camélias, La",
+        "title": "La Dame aux Camélias",
+        "id": 82
+      },
+      {
+        "sort": "Île du docteur Moreau, L'",
+        "title": "L'Île du docteur Moreau",
+        "id": 84
+      },
+      {
+        "sort": "Tour d'écrou, Le",
+        "title": "Le Tour d'écrou",
+        "id": 85
+      },
+      {
+        "sort": "Mansfield Park",
+        "title": "Mansfield Park",
+        "id": 86
+      },
+      {
+        "sort": "Frankenstein ou le Prométhée moderne",
+        "title": "Frankenstein ou le Prométhée moderne",
+        "id": 87
+      },
+      {
+        "sort": "Portrait de Dorian Gray, Le",
+        "title": "Le Portrait de Dorian Gray",
+        "id": 88
+      },
+      {
+        "sort": "Île au trésor, L'",
+        "title": "L'Île au trésor",
+        "id": 91
+      },
+      {
+        "sort": "Guerre des mondes, La",
+        "title": "La Guerre des mondes",
+        "id": 93
+      },
+      {
+        "sort": "Machine à explorer le temps, La",
+        "title": "La Machine à explorer le temps",
+        "id": 94
+      },
+      {
+        "sort": "Homme invisible, L'",
+        "title": "L'Homme invisible",
+        "id": 95
+      },
+      {
+        "sort": "Mystère de la chambre jaune, Le",
+        "title": "Le Mystère de la chambre jaune",
+        "id": 103
+      },
+      {
+        "sort": "Aventures de Tom Sawyer, Les",
+        "title": "Les Aventures de Tom Sawyer",
+        "id": 106
+      },
+      {
+        "sort": "Croc-Blanc",
+        "title": "Croc-Blanc",
+        "id": 107
+      },
+      {
+        "sort": "Appel de la forêt, L'",
+        "title": "L'Appel de la forêt",
+        "id": 108
+      }
+    ],
+    "name": "Roman",
+    "id": 6
+  },
+  {
+    "books": [
+      {
+        "sort": "Prairie, La",
+        "title": "La Prairie",
+        "id": 4
+      },
+      {
+        "sort": "Dernier des Mohicans, Le",
+        "title": "Le Dernier des Mohicans",
+        "id": 11
+      },
+      {
+        "sort": "Lac Ontario, Le",
+        "title": "Le Lac Ontario",
+        "id": 12
+      },
+      {
+        "sort": "Tueur de Daims, Le",
+        "title": "Le Tueur de Daims",
+        "id": 13
+      },
+      {
+        "sort": "Pionniers, Les",
+        "title": "Les Pionniers",
+        "id": 14
+      }
+    ],
+    "name": "Westerns",
+    "id": 7
+  },
+  {
+    "books": [
+      {
+        "sort": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome I",
+        "title": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome I",
+        "id": 2
+      },
+      {
+        "sort": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome II",
+        "title": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome II",
+        "id": 3
+      },
+      {
+        "sort": "Prairie, La",
+        "title": "La Prairie",
+        "id": 4
+      },
+      {
+        "sort": "Dernier des Mohicans, Le",
+        "title": "Le Dernier des Mohicans",
+        "id": 11
+      },
+      {
+        "sort": "Lac Ontario, Le",
+        "title": "Le Lac Ontario",
+        "id": 12
+      },
+      {
+        "sort": "Tueur de Daims, Le",
+        "title": "Le Tueur de Daims",
+        "id": 13
+      },
+      {
+        "sort": "Pionniers, Les",
+        "title": "Les Pionniers",
+        "id": 14
+      },
+      {
+        "sort": "Trois Mousquetaires, Les",
+        "title": "Les Trois Mousquetaires",
+        "id": 29
+      }
+    ],
+    "name": "Historique",
+    "id": 8
+  },
+  {
+    "books": [
+      {
+        "sort": "Prairie, La",
+        "title": "La Prairie",
+        "id": 4
+      },
+      {
+        "sort": "Crime et châtiment",
+        "title": "Crime et châtiment",
+        "id": 6
+      },
+      {
+        "sort": "Frères Karamazov, Les",
+        "title": "Les Frères Karamazov",
+        "id": 7
+      },
+      {
+        "sort": "Idiot - Tome I, L'",
+        "title": "L'Idiot - Tome I",
+        "id": 8
+      },
+      {
+        "sort": "Idiot - Tome II, L'",
+        "title": "L'Idiot - Tome II",
+        "id": 9
+      },
+      {
+        "sort": "Joueur, Le",
+        "title": "Le Joueur",
+        "id": 10
+      },
+      {
+        "sort": "Dernier des Mohicans, Le",
+        "title": "Le Dernier des Mohicans",
+        "id": 11
+      },
+      {
+        "sort": "Lac Ontario, Le",
+        "title": "Le Lac Ontario",
+        "id": 12
+      },
+      {
+        "sort": "Tueur de Daims, Le",
+        "title": "Le Tueur de Daims",
+        "id": 13
+      },
+      {
+        "sort": "Pionniers, Les",
+        "title": "Les Pionniers",
+        "id": 14
+      },
+      {
+        "sort": "Orgueil et préjugés",
+        "title": "Orgueil et préjugés",
+        "id": 15
+      },
+      {
+        "sort": "Emma",
+        "title": "Emma",
+        "id": 16
+      },
+      {
+        "sort": "Persuasion",
+        "title": "Persuasion",
+        "id": 17
+      },
+      {
+        "sort": "Agnès Grey",
+        "title": "Agnès Grey",
+        "id": 18
+      },
+      {
+        "sort": "Hauts de Hurle-vent, Les",
+        "title": "Les Hauts de Hurle-vent",
+        "id": 19
+      },
+      {
+        "sort": "Jane Eyre ou Les mémoires d’une institutrice",
+        "title": "Jane Eyre ou Les mémoires d’une institutrice",
+        "id": 20
+      },
+      {
+        "sort": "Aventures prodigieuses de Tartarin de Tarascon, Les",
+        "title": "Les Aventures prodigieuses de Tartarin de Tarascon",
+        "id": 23
+      },
+      {
+        "sort": "David Copperfield - Tome I",
+        "title": "David Copperfield - Tome I",
+        "id": 26
+      },
+      {
+        "sort": "David Copperfield - Tome II",
+        "title": "David Copperfield - Tome II",
+        "id": 27
+      },
+      {
+        "sort": "Oliver Twist",
+        "title": "Oliver Twist",
+        "id": 28
+      },
+      {
+        "sort": "Trois Mousquetaires, Les",
+        "title": "Les Trois Mousquetaires",
+        "id": 29
+      },
+      {
+        "sort": "Alice au pays des merveilles",
+        "title": "Alice au pays des merveilles",
+        "id": 31
+      },
+      {
+        "sort": "Lettres de mon moulin",
+        "title": "Lettres de mon moulin",
+        "id": 32
+      },
+      {
+        "sort": "Contes merveilleux - Tome II",
+        "title": "Contes merveilleux - Tome II",
+        "id": 33
+      },
+      {
+        "sort": "Contes fantastiques -Livre IV",
+        "title": "Contes fantastiques - Livre IV",
+        "id": 34
+      },
+      {
+        "sort": "Contes merveilleux - Tome I",
+        "title": "Contes merveilleux - Tome I",
+        "id": 35
+      },
+      {
+        "sort": "Aventures de Sherlock Holmes, Les",
+        "title": "Les Aventures de Sherlock Holmes",
+        "id": 42
+      },
+      {
+        "sort": "Dracula",
+        "title": "Dracula",
+        "id": 43
+      },
+      {
+        "sort": "Chien des Baskervilles, Le",
+        "title": "Le Chien des Baskervilles",
+        "id": 44
+      },
+      {
+        "sort": "Étude en rouge, Une",
+        "title": "Une Étude en rouge",
+        "id": 45
+      },
+      {
+        "sort": "Fleurs du mal, Les",
+        "title": "Les Fleurs du mal",
+        "id": 48
+      },
+      {
+        "sort": "l'Origine des espèces, De",
+        "title": "De l'Origine des espèces",
+        "id": 49
+      },
+      {
+        "sort": "J'accuse",
+        "title": "J'accuse",
+        "id": 50
+      },
+      {
+        "sort": "Mémoires d'Outre-tombe",
+        "title": "Mémoires d'Outre-tombe",
+        "id": 52
+      },
+      {
+        "sort": "Ainsi Parlait Zarathoustra",
+        "title": "Ainsi Parlait Zarathoustra",
+        "id": 53
+      },
+      {
+        "sort": "L’Éducation Sentimentale",
+        "title": "L’Éducation Sentimentale",
+        "id": 54
+      },
+      {
+        "sort": "Madame Bovary",
+        "title": "Madame Bovary",
+        "id": 55
+      },
+      {
+        "sort": "désobéissance civile, La",
+        "title": "La désobéissance civile",
+        "id": 56
+      },
+      {
+        "sort": "Walden ou La Vie dans les bois",
+        "title": "Walden ou La Vie dans les bois",
+        "id": 57
+      },
+      {
+        "sort": "20000 lieues sous les mers",
+        "title": "20000 lieues sous les mers",
+        "id": 58
+      },
+      {
+        "sort": "Tour du monde en quatre-vingts jours, Le",
+        "title": "Le Tour du monde en quatre-vingts jours",
+        "id": 59
+      },
+      {
+        "sort": "Voyage au centre de la Terre",
+        "title": "Voyage au centre de la Terre",
+        "id": 60
+      },
+      {
+        "sort": "Rouge et le Noir, Le",
+        "title": "Le Rouge et le Noir",
+        "id": 66
+      },
+      {
+        "sort": "Dernier Jour d'un condamné, Le",
+        "title": "Le Dernier Jour d'un condamné",
+        "id": 69
+      },
+      {
+        "sort": "Double Assassinat dans la rue Morgue",
+        "title": "Double Assassinat dans la rue Morgue",
+        "id": 71
+      },
+      {
+        "sort": "Affaire Lerouge, L'",
+        "title": "L'Affaire Lerouge",
+        "id": 72
+      },
+      {
+        "sort": "Dossier 113, Le",
+        "title": "Le Dossier 113",
+        "id": 73
+      },
+      {
+        "sort": "Crime de Lord Arthur Savile, Le",
+        "title": "Le Crime de Lord Arthur Savile",
+        "id": 81
+      },
+      {
+        "sort": "Dame aux Camélias, La",
+        "title": "La Dame aux Camélias",
+        "id": 82
+      },
+      {
+        "sort": "Île du docteur Moreau, L'",
+        "title": "L'Île du docteur Moreau",
+        "id": 84
+      },
+      {
+        "sort": "Tour d'écrou, Le",
+        "title": "Le Tour d'écrou",
+        "id": 85
+      },
+      {
+        "sort": "Mansfield Park",
+        "title": "Mansfield Park",
+        "id": 86
+      },
+      {
+        "sort": "Frankenstein ou le Prométhée moderne",
+        "title": "Frankenstein ou le Prométhée moderne",
+        "id": 87
+      },
+      {
+        "sort": "Portrait de Dorian Gray, Le",
+        "title": "Le Portrait de Dorian Gray",
+        "id": 88
+      },
+      {
+        "sort": "Île au trésor, L'",
+        "title": "L'Île au trésor",
+        "id": 91
+      },
+      {
+        "sort": "Contemplations, Les",
+        "title": "Les Contemplations",
+        "id": 92
+      },
+      {
+        "sort": "Guerre des mondes, La",
+        "title": "La Guerre des mondes",
+        "id": 93
+      },
+      {
+        "sort": "Machine à explorer le temps, La",
+        "title": "La Machine à explorer le temps",
+        "id": 94
+      },
+      {
+        "sort": "Homme invisible, L'",
+        "title": "L'Homme invisible",
+        "id": 95
+      },
+      {
+        "sort": "Contes merveilleux - Tome I",
+        "title": "Contes merveilleux - Tome I",
+        "id": 97
+      },
+      {
+        "sort": "Contes fantastiques - Livre I",
+        "title": "Contes fantastiques - Livre I",
+        "id": 100
+      },
+      {
+        "sort": "Contes fantastiques - Livre II",
+        "title": "Contes fantastiques - Livre II",
+        "id": 101
+      },
+      {
+        "sort": "Contes fantastiques - Livre III",
+        "title": "Contes fantastiques - Livre III",
+        "id": 102
+      },
+      {
+        "sort": "Aventures de Tom Sawyer, Les",
+        "title": "Les Aventures de Tom Sawyer",
+        "id": 106
+      }
+    ],
+    "name": "XIXe siècle",
+    "id": 9
+  },
+  {
+    "books": [
+      {
+        "sort": "Aventures prodigieuses de Tartarin de Tarascon, Les",
+        "title": "Les Aventures prodigieuses de Tartarin de Tarascon",
+        "id": 23
+      },
+      {
+        "sort": "Robinson Crusoé - Tome I",
+        "title": "Robinson Crusoé - Tome I",
+        "id": 24
+      },
+      {
+        "sort": "Robinson Crusoé - Tome II",
+        "title": "Robinson Crusoé - Tome II",
+        "id": 25
+      },
+      {
+        "sort": "David Copperfield - Tome I",
+        "title": "David Copperfield - Tome I",
+        "id": 26
+      },
+      {
+        "sort": "David Copperfield - Tome II",
+        "title": "David Copperfield - Tome II",
+        "id": 27
+      },
+      {
+        "sort": "Oliver Twist",
+        "title": "Oliver Twist",
+        "id": 28
+      },
+      {
+        "sort": "Trois Mousquetaires, Les",
+        "title": "Les Trois Mousquetaires",
+        "id": 29
+      },
+      {
+        "sort": "Contes - Tome I",
+        "title": "Contes - Tome I",
+        "id": 30
+      },
+      {
+        "sort": "Alice au pays des merveilles",
+        "title": "Alice au pays des merveilles",
+        "id": 31
+      },
+      {
+        "sort": "Lettres de mon moulin",
+        "title": "Lettres de mon moulin",
+        "id": 32
+      },
+      {
+        "sort": "Contes merveilleux - Tome II",
+        "title": "Contes merveilleux - Tome II",
+        "id": 33
+      },
+      {
+        "sort": "Contes fantastiques -Livre IV",
+        "title": "Contes fantastiques - Livre IV",
+        "id": 34
+      },
+      {
+        "sort": "Contes merveilleux - Tome I",
+        "title": "Contes merveilleux - Tome I",
+        "id": 35
+      },
+      {
+        "sort": "Histoires comme ça",
+        "title": "Histoires comme ça",
+        "id": 36
+      },
+      {
+        "sort": "Fables - Livre I",
+        "title": "Fables - Livre I",
+        "id": 37
+      },
+      {
+        "sort": "Fables - Livre II",
+        "title": "Fables - Livre II",
+        "id": 38
+      },
+      {
+        "sort": "Contes",
+        "title": "Contes",
+        "id": 39
+      },
+      {
+        "sort": "Dracula",
+        "title": "Dracula",
+        "id": 43
+      },
+      {
+        "sort": "Livre de la jungle, Le",
+        "title": "Le Livre de la jungle",
+        "id": 96
+      },
+      {
+        "sort": "Contes merveilleux - Tome I",
+        "title": "Contes merveilleux - Tome I",
+        "id": 97
+      },
+      {
+        "sort": "Contes fantastiques - Livre I",
+        "title": "Contes fantastiques - Livre I",
+        "id": 100
+      },
+      {
+        "sort": "Contes fantastiques - Livre II",
+        "title": "Contes fantastiques - Livre II",
+        "id": 101
+      },
+      {
+        "sort": "Contes fantastiques - Livre III",
+        "title": "Contes fantastiques - Livre III",
+        "id": 102
+      },
+      {
+        "sort": "Aventures de Tom Sawyer, Les",
+        "title": "Les Aventures de Tom Sawyer",
+        "id": 106
+      },
+      {
+        "sort": "Croc-Blanc",
+        "title": "Croc-Blanc",
+        "id": 107
+      },
+      {
+        "sort": "Appel de la forêt, L'",
+        "title": "L'Appel de la forêt",
+        "id": 108
+      }
+    ],
+    "name": "Jeunesse",
+    "id": 13
+  },
+  {
+    "books": [
+      {
+        "sort": "Fables - Livre I",
+        "title": "Fables - Livre I",
+        "id": 37
+      },
+      {
+        "sort": "Fables - Livre II",
+        "title": "Fables - Livre II",
+        "id": 38
+      }
+    ],
+    "name": "Fables",
+    "id": 16
+  },
+  {
+    "books": [
+      {
+        "sort": "Contes - Tome I",
+        "title": "Contes - Tome I",
+        "id": 30
+      },
+      {
+        "sort": "Contes merveilleux - Tome II",
+        "title": "Contes merveilleux - Tome II",
+        "id": 33
+      },
+      {
+        "sort": "Contes fantastiques -Livre IV",
+        "title": "Contes fantastiques - Livre IV",
+        "id": 34
+      },
+      {
+        "sort": "Contes merveilleux - Tome I",
+        "title": "Contes merveilleux - Tome I",
+        "id": 35
+      },
+      {
+        "sort": "Histoires comme ça",
+        "title": "Histoires comme ça",
+        "id": 36
+      },
+      {
+        "sort": "Contes",
+        "title": "Contes",
+        "id": 39
+      },
+      {
+        "sort": "Mille et une nuits - Tome I, Les",
+        "title": "Les Mille et une nuits - Tome I",
+        "id": 47
+      },
+      {
+        "sort": "Contes merveilleux - Tome I",
+        "title": "Contes merveilleux - Tome I",
+        "id": 97
+      },
+      {
+        "sort": "Mille et une nuits - Tome II, Les",
+        "title": "Les Mille et une nuits - Tome II",
+        "id": 98
+      },
+      {
+        "sort": "Mille et une nuits - Tome III, Les",
+        "title": "Les Mille et une nuits - Tome III",
+        "id": 99
+      },
+      {
+        "sort": "Contes fantastiques - Livre I",
+        "title": "Contes fantastiques - Livre I",
+        "id": 100
+      },
+      {
+        "sort": "Contes fantastiques - Livre II",
+        "title": "Contes fantastiques - Livre II",
+        "id": 101
+      },
+      {
+        "sort": "Contes fantastiques - Livre III",
+        "title": "Contes fantastiques - Livre III",
+        "id": 102
+      }
+    ],
+    "name": "Contes et légendes",
+    "id": 17
+  },
+  {
+    "books": [
+      {
+        "sort": "Alcools",
+        "title": "Alcools",
+        "id": 40
+      },
+      {
+        "sort": "Haïkaï",
+        "title": "Haïkaï",
+        "id": 41
+      },
+      {
+        "sort": "Fleurs du mal, Les",
+        "title": "Les Fleurs du mal",
+        "id": 48
+      },
+      {
+        "sort": "divine comédie - Tome 1 - L'Enfer, La",
+        "title": "La divine comédie - Tome 1 - L'Enfer",
+        "id": 83
+      },
+      {
+        "sort": "Métamorphoses, Les",
+        "title": "Les Métamorphoses",
+        "id": 89
+      },
+      {
+        "sort": "Remèdes à l'amour, Les",
+        "title": "Les Remèdes à l'amour",
+        "id": 90
+      },
+      {
+        "sort": "Contemplations, Les",
+        "title": "Les Contemplations",
+        "id": 92
+      }
+    ],
+    "name": "Poésie",
+    "id": 18
+  },
+  {
+    "books": [
+      {
+        "sort": "Aventures de Sherlock Holmes, Les",
+        "title": "Les Aventures de Sherlock Holmes",
+        "id": 42
+      },
+      {
+        "sort": "Chien des Baskervilles, Le",
+        "title": "Le Chien des Baskervilles",
+        "id": 44
+      },
+      {
+        "sort": "Étude en rouge, Une",
+        "title": "Une Étude en rouge",
+        "id": 45
+      },
+      {
+        "sort": "Double Assassinat dans la rue Morgue",
+        "title": "Double Assassinat dans la rue Morgue",
+        "id": 71
+      },
+      {
+        "sort": "Affaire Lerouge, L'",
+        "title": "L'Affaire Lerouge",
+        "id": 72
+      },
+      {
+        "sort": "Dossier 113, Le",
+        "title": "Le Dossier 113",
+        "id": 73
+      },
+      {
+        "sort": "Fantôme de l'Opéra, Le",
+        "title": "Le Fantôme de l'Opéra",
+        "id": 74
+      },
+      {
+        "sort": "Parfum de la Dame en noir, Le",
+        "title": "Le Parfum de la Dame en noir",
+        "id": 75
+      },
+      {
+        "sort": 813,
+        "title": 813,
+        "id": 76
+      },
+      {
+        "sort": "Arsène Lupin contre Herlock Sholmès",
+        "title": "Arsène Lupin contre Herlock Sholmès",
+        "id": 77
+      },
+      {
+        "sort": "Arsène Lupin, Gentleman-Cambrioleur",
+        "title": "Arsène Lupin, Gentleman-Cambrioleur",
+        "id": 78
+      },
+      {
+        "sort": "Aiguille creuse, L'",
+        "title": "L'Aiguille creuse",
+        "id": 79
+      },
+      {
+        "sort": "Confidences d'Arsène Lupin, Les",
+        "title": "Les Confidences d'Arsène Lupin",
+        "id": 80
+      },
+      {
+        "sort": "Crime de Lord Arthur Savile, Le",
+        "title": "Le Crime de Lord Arthur Savile",
+        "id": 81
+      },
+      {
+        "sort": "Mystère de la chambre jaune, Le",
+        "title": "Le Mystère de la chambre jaune",
+        "id": 103
+      }
+    ],
+    "name": "Policiers",
+    "id": 19
+  },
+  {
+    "books": [
+      {
+        "sort": "Alice au pays des merveilles",
+        "title": "Alice au pays des merveilles",
+        "id": 31
+      },
+      {
+        "sort": "Contes fantastiques -Livre IV",
+        "title": "Contes fantastiques - Livre IV",
+        "id": 34
+      },
+      {
+        "sort": "Dracula",
+        "title": "Dracula",
+        "id": 43
+      },
+      {
+        "sort": "Tour d'écrou, Le",
+        "title": "Le Tour d'écrou",
+        "id": 85
+      },
+      {
+        "sort": "Frankenstein ou le Prométhée moderne",
+        "title": "Frankenstein ou le Prométhée moderne",
+        "id": 87
+      },
+      {
+        "sort": "Portrait de Dorian Gray, Le",
+        "title": "Le Portrait de Dorian Gray",
+        "id": 88
+      },
+      {
+        "sort": "Contes fantastiques - Livre I",
+        "title": "Contes fantastiques - Livre I",
+        "id": 100
+      },
+      {
+        "sort": "Contes fantastiques - Livre II",
+        "title": "Contes fantastiques - Livre II",
+        "id": 101
+      },
+      {
+        "sort": "Contes fantastiques - Livre III",
+        "title": "Contes fantastiques - Livre III",
+        "id": 102
+      }
+    ],
+    "name": "Fantastique",
+    "id": 20
+  },
+  {
+    "books": [
+      {
+        "sort": "Lettres de mon moulin",
+        "title": "Lettres de mon moulin",
+        "id": 32
+      },
+      {
+        "sort": "Double Assassinat dans la rue Morgue",
+        "title": "Double Assassinat dans la rue Morgue",
+        "id": 71
+      },
+      {
+        "sort": "Arsène Lupin, Gentleman-Cambrioleur",
+        "title": "Arsène Lupin, Gentleman-Cambrioleur",
+        "id": 78
+      },
+      {
+        "sort": "Crime de Lord Arthur Savile, Le",
+        "title": "Le Crime de Lord Arthur Savile",
+        "id": 81
+      },
+      {
+        "sort": "Livre de la jungle, Le",
+        "title": "Le Livre de la jungle",
+        "id": 96
+      }
+    ],
+    "name": "Nouvelles",
+    "id": 21
+  },
+  {
+    "books": [
+      {
+        "sort": "Orgueil et préjugés",
+        "title": "Orgueil et préjugés",
+        "id": 15
+      },
+      {
+        "sort": "Emma",
+        "title": "Emma",
+        "id": 16
+      },
+      {
+        "sort": "Persuasion",
+        "title": "Persuasion",
+        "id": 17
+      },
+      {
+        "sort": "Agnès Grey",
+        "title": "Agnès Grey",
+        "id": 18
+      },
+      {
+        "sort": "Hauts de Hurle-vent, Les",
+        "title": "Les Hauts de Hurle-vent",
+        "id": 19
+      },
+      {
+        "sort": "Jane Eyre ou Les mémoires d’une institutrice",
+        "title": "Jane Eyre ou Les mémoires d’une institutrice",
+        "id": 20
+      },
+      {
+        "sort": "Robinson Crusoé - Tome I",
+        "title": "Robinson Crusoé - Tome I",
+        "id": 24
+      },
+      {
+        "sort": "Robinson Crusoé - Tome II",
+        "title": "Robinson Crusoé - Tome II",
+        "id": 25
+      },
+      {
+        "sort": "David Copperfield - Tome I",
+        "title": "David Copperfield - Tome I",
+        "id": 26
+      },
+      {
+        "sort": "David Copperfield - Tome II",
+        "title": "David Copperfield - Tome II",
+        "id": 27
+      },
+      {
+        "sort": "Oliver Twist",
+        "title": "Oliver Twist",
+        "id": 28
+      },
+      {
+        "sort": "Alice au pays des merveilles",
+        "title": "Alice au pays des merveilles",
+        "id": 31
+      },
+      {
+        "sort": "Histoires comme ça",
+        "title": "Histoires comme ça",
+        "id": 36
+      },
+      {
+        "sort": "Aventures de Sherlock Holmes, Les",
+        "title": "Les Aventures de Sherlock Holmes",
+        "id": 42
+      },
+      {
+        "sort": "Dracula",
+        "title": "Dracula",
+        "id": 43
+      },
+      {
+        "sort": "Chien des Baskervilles, Le",
+        "title": "Le Chien des Baskervilles",
+        "id": 44
+      },
+      {
+        "sort": "Étude en rouge, Une",
+        "title": "Une Étude en rouge",
+        "id": 45
+      },
+      {
+        "sort": "l'Origine des espèces, De",
+        "title": "De l'Origine des espèces",
+        "id": 49
+      },
+      {
+        "sort": "Double Assassinat dans la rue Morgue",
+        "title": "Double Assassinat dans la rue Morgue",
+        "id": 71
+      },
+      {
+        "sort": "Crime de Lord Arthur Savile, Le",
+        "title": "Le Crime de Lord Arthur Savile",
+        "id": 81
+      },
+      {
+        "sort": "Île du docteur Moreau, L'",
+        "title": "L'Île du docteur Moreau",
+        "id": 84
+      },
+      {
+        "sort": "Tour d'écrou, Le",
+        "title": "Le Tour d'écrou",
+        "id": 85
+      },
+      {
+        "sort": "Mansfield Park",
+        "title": "Mansfield Park",
+        "id": 86
+      },
+      {
+        "sort": "Frankenstein ou le Prométhée moderne",
+        "title": "Frankenstein ou le Prométhée moderne",
+        "id": 87
+      },
+      {
+        "sort": "Portrait de Dorian Gray, Le",
+        "title": "Le Portrait de Dorian Gray",
+        "id": 88
+      },
+      {
+        "sort": "Île au trésor, L'",
+        "title": "L'Île au trésor",
+        "id": 91
+      },
+      {
+        "sort": "Guerre des mondes, La",
+        "title": "La Guerre des mondes",
+        "id": 93
+      },
+      {
+        "sort": "Machine à explorer le temps, La",
+        "title": "La Machine à explorer le temps",
+        "id": 94
+      },
+      {
+        "sort": "Homme invisible, L'",
+        "title": "L'Homme invisible",
+        "id": 95
+      },
+      {
+        "sort": "Livre de la jungle, Le",
+        "title": "Le Livre de la jungle",
+        "id": 96
+      }
+    ],
+    "name": "Grande-Bretagne",
+    "id": 22
+  },
+  {
+    "books": [
+      {
+        "sort": "Crime et châtiment",
+        "title": "Crime et châtiment",
+        "id": 6
+      },
+      {
+        "sort": "Frères Karamazov, Les",
+        "title": "Les Frères Karamazov",
+        "id": 7
+      },
+      {
+        "sort": "Idiot - Tome I, L'",
+        "title": "L'Idiot - Tome I",
+        "id": 8
+      },
+      {
+        "sort": "Idiot - Tome II, L'",
+        "title": "L'Idiot - Tome II",
+        "id": 9
+      },
+      {
+        "sort": "Joueur, Le",
+        "title": "Le Joueur",
+        "id": 10
+      }
+    ],
+    "name": "Russie",
+    "id": 24
+  },
+  {
+    "books": [
+      {
+        "sort": "Jacques le fataliste et son maître",
+        "title": "Jacques le fataliste et son maître",
+        "id": 5
+      },
+      {
+        "sort": "#MonOrchide. Le Cycle des NoéNautes, II",
+        "title": "#MonOrchide. Le Cycle des NoéNautes, II",
+        "id": 21
+      },
+      {
+        "sort": "#Smartarded",
+        "title": "#Smartarded",
+        "id": 22
+      },
+      {
+        "sort": "Aventures prodigieuses de Tartarin de Tarascon, Les",
+        "title": "Les Aventures prodigieuses de Tartarin de Tarascon",
+        "id": 23
+      },
+      {
+        "sort": "Trois Mousquetaires, Les",
+        "title": "Les Trois Mousquetaires",
+        "id": 29
+      },
+      {
+        "sort": "Contes - Tome I",
+        "title": "Contes - Tome I",
+        "id": 30
+      },
+      {
+        "sort": "Lettres de mon moulin",
+        "title": "Lettres de mon moulin",
+        "id": 32
+      },
+      {
+        "sort": "Fables - Livre I",
+        "title": "Fables - Livre I",
+        "id": 37
+      },
+      {
+        "sort": "Fables - Livre II",
+        "title": "Fables - Livre II",
+        "id": 38
+      },
+      {
+        "sort": "Contes",
+        "title": "Contes",
+        "id": 39
+      },
+      {
+        "sort": "Alcools",
+        "title": "Alcools",
+        "id": 40
+      },
+      {
+        "sort": "Fleurs du mal, Les",
+        "title": "Les Fleurs du mal",
+        "id": 48
+      },
+      {
+        "sort": "J'accuse",
+        "title": "J'accuse",
+        "id": 50
+      },
+      {
+        "sort": "Mémoires d'Outre-tombe",
+        "title": "Mémoires d'Outre-tombe",
+        "id": 52
+      },
+      {
+        "sort": "L’Éducation Sentimentale",
+        "title": "L’Éducation Sentimentale",
+        "id": 54
+      },
+      {
+        "sort": "Madame Bovary",
+        "title": "Madame Bovary",
+        "id": 55
+      },
+      {
+        "sort": "20000 lieues sous les mers",
+        "title": "20000 lieues sous les mers",
+        "id": 58
+      },
+      {
+        "sort": "Tour du monde en quatre-vingts jours, Le",
+        "title": "Le Tour du monde en quatre-vingts jours",
+        "id": 59
+      },
+      {
+        "sort": "Voyage au centre de la Terre",
+        "title": "Voyage au centre de la Terre",
+        "id": 60
+      },
+      {
+        "sort": "Essais - Livre I, Les",
+        "title": "Les Essais - Livre I",
+        "id": 61
+      },
+      {
+        "sort": "Essais - Livre II, Les",
+        "title": "Les Essais - Livre II",
+        "id": 62
+      },
+      {
+        "sort": "Essais - Livre III, Les",
+        "title": "Les Essais - Livre III",
+        "id": 63
+      },
+      {
+        "sort": "Discours de la méthode",
+        "title": "Discours de la méthode",
+        "id": 65
+      },
+      {
+        "sort": "Rouge et le Noir, Le",
+        "title": "Le Rouge et le Noir",
+        "id": 66
+      },
+      {
+        "sort": "Dernier Jour d'un condamné, Le",
+        "title": "Le Dernier Jour d'un condamné",
+        "id": 69
+      },
+      {
+        "sort": "Candide, ou l'Optimisme",
+        "title": "Candide, ou l'Optimisme",
+        "id": 70
+      },
+      {
+        "sort": "Affaire Lerouge, L'",
+        "title": "L'Affaire Lerouge",
+        "id": 72
+      },
+      {
+        "sort": "Dossier 113, Le",
+        "title": "Le Dossier 113",
+        "id": 73
+      },
+      {
+        "sort": "Fantôme de l'Opéra, Le",
+        "title": "Le Fantôme de l'Opéra",
+        "id": 74
+      },
+      {
+        "sort": "Parfum de la Dame en noir, Le",
+        "title": "Le Parfum de la Dame en noir",
+        "id": 75
+      },
+      {
+        "sort": 813,
+        "title": 813,
+        "id": 76
+      },
+      {
+        "sort": "Arsène Lupin contre Herlock Sholmès",
+        "title": "Arsène Lupin contre Herlock Sholmès",
+        "id": 77
+      },
+      {
+        "sort": "Arsène Lupin, Gentleman-Cambrioleur",
+        "title": "Arsène Lupin, Gentleman-Cambrioleur",
+        "id": 78
+      },
+      {
+        "sort": "Aiguille creuse, L'",
+        "title": "L'Aiguille creuse",
+        "id": 79
+      },
+      {
+        "sort": "Confidences d'Arsène Lupin, Les",
+        "title": "Les Confidences d'Arsène Lupin",
+        "id": 80
+      },
+      {
+        "sort": "Dame aux Camélias, La",
+        "title": "La Dame aux Camélias",
+        "id": 82
+      },
+      {
+        "sort": "Contemplations, Les",
+        "title": "Les Contemplations",
+        "id": 92
+      },
+      {
+        "sort": "Mystère de la chambre jaune, Le",
+        "title": "Le Mystère de la chambre jaune",
+        "id": 103
+      }
+    ],
+    "name": "France",
+    "id": 25
+  },
+  {
+    "books": [
+      {
+        "sort": "Haïkaï",
+        "title": "Haïkaï",
+        "id": 41
+      }
+    ],
+    "name": "Japon",
+    "id": 26
+  },
+  {
+    "books": [
+      {
+        "sort": "Prairie, La",
+        "title": "La Prairie",
+        "id": 4
+      },
+      {
+        "sort": "Dernier des Mohicans, Le",
+        "title": "Le Dernier des Mohicans",
+        "id": 11
+      },
+      {
+        "sort": "Lac Ontario, Le",
+        "title": "Le Lac Ontario",
+        "id": 12
+      },
+      {
+        "sort": "Tueur de Daims, Le",
+        "title": "Le Tueur de Daims",
+        "id": 13
+      },
+      {
+        "sort": "Pionniers, Les",
+        "title": "Les Pionniers",
+        "id": 14
+      },
+      {
+        "sort": "désobéissance civile, La",
+        "title": "La désobéissance civile",
+        "id": 56
+      },
+      {
+        "sort": "Walden ou La Vie dans les bois",
+        "title": "Walden ou La Vie dans les bois",
+        "id": 57
+      },
+      {
+        "sort": "Aventures de Tom Sawyer, Les",
+        "title": "Les Aventures de Tom Sawyer",
+        "id": 106
+      },
+      {
+        "sort": "Croc-Blanc",
+        "title": "Croc-Blanc",
+        "id": 107
+      },
+      {
+        "sort": "Appel de la forêt, L'",
+        "title": "L'Appel de la forêt",
+        "id": 108
+      }
+    ],
+    "name": "Etats-Unis",
+    "id": 27
+  },
+  {
+    "books": [
+      {
+        "sort": "#MonOrchide. Le Cycle des NoéNautes, II",
+        "title": "#MonOrchide. Le Cycle des NoéNautes, II",
+        "id": 21
+      },
+      {
+        "sort": "#Smartarded",
+        "title": "#Smartarded",
+        "id": 22
+      }
+    ],
+    "name": "Contemporain",
+    "id": 28
+  },
+  {
+    "books": [
+      {
+        "sort": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome I",
+        "title": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome I",
+        "id": 2
+      },
+      {
+        "sort": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome II",
+        "title": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome II",
+        "id": 3
+      }
+    ],
+    "name": "Espagne",
+    "id": 29
+  },
+  {
+    "books": [
+      {
+        "sort": "Bhagavad-Gîtâ, ou le Chant du Bienheureux, La",
+        "title": "La Bhagavad-Gîtâ, ou le Chant du Bienheureux",
+        "id": 46
+      },
+      {
+        "sort": "l'Origine des espèces, De",
+        "title": "De l'Origine des espèces",
+        "id": 49
+      },
+      {
+        "sort": "J'accuse",
+        "title": "J'accuse",
+        "id": 50
+      },
+      {
+        "sort": "Fondements de la métaphysique des moeurs",
+        "title": "Fondements de la métaphysique des moeurs",
+        "id": 51
+      },
+      {
+        "sort": "Mémoires d'Outre-tombe",
+        "title": "Mémoires d'Outre-tombe",
+        "id": 52
+      },
+      {
+        "sort": "Ainsi Parlait Zarathoustra",
+        "title": "Ainsi Parlait Zarathoustra",
+        "id": 53
+      },
+      {
+        "sort": "désobéissance civile, La",
+        "title": "La désobéissance civile",
+        "id": 56
+      },
+      {
+        "sort": "Walden ou La Vie dans les bois",
+        "title": "Walden ou La Vie dans les bois",
+        "id": 57
+      },
+      {
+        "sort": "Essais - Livre I, Les",
+        "title": "Les Essais - Livre I",
+        "id": 61
+      },
+      {
+        "sort": "Essais - Livre II, Les",
+        "title": "Les Essais - Livre II",
+        "id": 62
+      },
+      {
+        "sort": "Essais - Livre III, Les",
+        "title": "Les Essais - Livre III",
+        "id": 63
+      },
+      {
+        "sort": "Prince, Le",
+        "title": "Le Prince",
+        "id": 64
+      },
+      {
+        "sort": "Discours de la méthode",
+        "title": "Discours de la méthode",
+        "id": 65
+      },
+      {
+        "sort": "art de la Guerre (Les Treize Articles), L'",
+        "title": "L'art de la Guerre (Les Treize Articles)",
+        "id": 67
+      },
+      {
+        "sort": "Kama Sutra, Le",
+        "title": "Le Kama Sutra",
+        "id": 68
+      },
+      {
+        "sort": "Bible, La",
+        "title": "La Bible",
+        "id": 104
+      },
+      {
+        "sort": "Coran, Le",
+        "title": "Le Coran",
+        "id": 105
+      }
+    ],
+    "name": "Documentaire",
+    "id": 30
+  },
+  {
+    "books": [
+      {
+        "sort": "Bhagavad-Gîtâ, ou le Chant du Bienheureux, La",
+        "title": "La Bhagavad-Gîtâ, ou le Chant du Bienheureux",
+        "id": 46
+      },
+      {
+        "sort": "Bible, La",
+        "title": "La Bible",
+        "id": 104
+      },
+      {
+        "sort": "Coran, Le",
+        "title": "Le Coran",
+        "id": 105
+      }
+    ],
+    "name": "Religion",
+    "id": 31
+  },
+  {
+    "books": [
+      {
+        "sort": "l'Origine des espèces, De",
+        "title": "De l'Origine des espèces",
+        "id": 49
+      }
+    ],
+    "name": "Sciences",
+    "id": 35
+  },
+  {
+    "books": [
+      {
+        "sort": "J'accuse",
+        "title": "J'accuse",
+        "id": 50
+      },
+      {
+        "sort": "Essais - Livre I, Les",
+        "title": "Les Essais - Livre I",
+        "id": 61
+      },
+      {
+        "sort": "Essais - Livre II, Les",
+        "title": "Les Essais - Livre II",
+        "id": 62
+      },
+      {
+        "sort": "Essais - Livre III, Les",
+        "title": "Les Essais - Livre III",
+        "id": 63
+      }
+    ],
+    "name": "Histoire",
+    "id": 38
+  },
+  {
+    "books": [
+      {
+        "sort": "Fondements de la métaphysique des moeurs",
+        "title": "Fondements de la métaphysique des moeurs",
+        "id": 51
+      },
+      {
+        "sort": "Ainsi Parlait Zarathoustra",
+        "title": "Ainsi Parlait Zarathoustra",
+        "id": 53
+      },
+      {
+        "sort": "Essais - Livre I, Les",
+        "title": "Les Essais - Livre I",
+        "id": 61
+      },
+      {
+        "sort": "Essais - Livre II, Les",
+        "title": "Les Essais - Livre II",
+        "id": 62
+      },
+      {
+        "sort": "Essais - Livre III, Les",
+        "title": "Les Essais - Livre III",
+        "id": 63
+      },
+      {
+        "sort": "Prince, Le",
+        "title": "Le Prince",
+        "id": 64
+      },
+      {
+        "sort": "Discours de la méthode",
+        "title": "Discours de la méthode",
+        "id": 65
+      },
+      {
+        "sort": "art de la Guerre (Les Treize Articles), L'",
+        "title": "L'art de la Guerre (Les Treize Articles)",
+        "id": 67
+      }
+    ],
+    "name": "Philosophie",
+    "id": 41
+  },
+  {
+    "books": [
+      {
+        "sort": "Mémoires d'Outre-tombe",
+        "title": "Mémoires d'Outre-tombe",
+        "id": 52
+      }
+    ],
+    "name": "Mémoires",
+    "id": 43
+  },
+  {
+    "books": [
+      {
+        "sort": "désobéissance civile, La",
+        "title": "La désobéissance civile",
+        "id": 56
+      }
+    ],
+    "name": "Sciences Sociales",
+    "id": 44
+  },
+  {
+    "books": [
+      {
+        "sort": "désobéissance civile, La",
+        "title": "La désobéissance civile",
+        "id": 56
+      }
+    ],
+    "name": "Politique",
+    "id": 45
+  },
+  {
+    "books": [
+      {
+        "sort": "Walden ou La Vie dans les bois",
+        "title": "Walden ou La Vie dans les bois",
+        "id": 57
+      }
+    ],
+    "name": "Essai littéraire",
+    "id": 46
+  },
+  {
+    "books": [
+      {
+        "sort": "art de la Guerre (Les Treize Articles), L'",
+        "title": "L'art de la Guerre (Les Treize Articles)",
+        "id": 67
+      }
+    ],
+    "name": "Sciences militaires",
+    "id": 50
+  },
+  {
+    "books": [
+      {
+        "sort": "Jacques le fataliste et son maître",
+        "title": "Jacques le fataliste et son maître",
+        "id": 5
+      },
+      {
+        "sort": "Candide, ou l'Optimisme",
+        "title": "Candide, ou l'Optimisme",
+        "id": 70
+      }
+    ],
+    "name": "Conte philosophique",
+    "id": 52
+  },
+  {
+    "books": [
+      {
+        "sort": "Bhagavad-Gîtâ, ou le Chant du Bienheureux, La",
+        "title": "La Bhagavad-Gîtâ, ou le Chant du Bienheureux",
+        "id": 46
+      },
+      {
+        "sort": "Kama Sutra, Le",
+        "title": "Le Kama Sutra",
+        "id": 68
+      }
+    ],
+    "name": "Inde",
+    "id": 53
+  },
+  {
+    "books": [
+      {
+        "sort": "Mille et une nuits - Tome I, Les",
+        "title": "Les Mille et une nuits - Tome I",
+        "id": 47
+      },
+      {
+        "sort": "Mille et une nuits - Tome II, Les",
+        "title": "Les Mille et une nuits - Tome II",
+        "id": 98
+      },
+      {
+        "sort": "Mille et une nuits - Tome III, Les",
+        "title": "Les Mille et une nuits - Tome III",
+        "id": 99
+      },
+      {
+        "sort": "Coran, Le",
+        "title": "Le Coran",
+        "id": 105
+      }
+    ],
+    "name": "Orient",
+    "id": 54
+  },
+  {
+    "books": [
+      {
+        "sort": "Contes merveilleux - Tome II",
+        "title": "Contes merveilleux - Tome II",
+        "id": 33
+      },
+      {
+        "sort": "Contes merveilleux - Tome I",
+        "title": "Contes merveilleux - Tome I",
+        "id": 97
+      }
+    ],
+    "name": "Danemark",
+    "id": 55
+  },
+  {
+    "books": [
+      {
+        "sort": "Contes fantastiques -Livre IV",
+        "title": "Contes fantastiques - Livre IV",
+        "id": 34
+      },
+      {
+        "sort": "Contes merveilleux - Tome I",
+        "title": "Contes merveilleux - Tome I",
+        "id": 35
+      },
+      {
+        "sort": "Fondements de la métaphysique des moeurs",
+        "title": "Fondements de la métaphysique des moeurs",
+        "id": 51
+      },
+      {
+        "sort": "Ainsi Parlait Zarathoustra",
+        "title": "Ainsi Parlait Zarathoustra",
+        "id": 53
+      },
+      {
+        "sort": "Contes fantastiques - Livre I",
+        "title": "Contes fantastiques - Livre I",
+        "id": 100
+      },
+      {
+        "sort": "Contes fantastiques - Livre II",
+        "title": "Contes fantastiques - Livre II",
+        "id": 101
+      },
+      {
+        "sort": "Contes fantastiques - Livre III",
+        "title": "Contes fantastiques - Livre III",
+        "id": 102
+      }
+    ],
+    "name": "Allemagne",
+    "id": 56
+  },
+  {
+    "books": [
+      {
+        "sort": "Prince, Le",
+        "title": "Le Prince",
+        "id": 64
+      },
+      {
+        "sort": "divine comédie - Tome 1 - L'Enfer, La",
+        "title": "La divine comédie - Tome 1 - L'Enfer",
+        "id": 83
+      }
+    ],
+    "name": "Italie",
+    "id": 57
+  },
+  {
+    "books": [
+      {
+        "sort": "art de la Guerre (Les Treize Articles), L'",
+        "title": "L'art de la Guerre (Les Treize Articles)",
+        "id": 67
+      }
+    ],
+    "name": "Chine",
+    "id": 58
+  },
+  {
+    "books": [
+      {
+        "sort": "Dame aux Camélias, La",
+        "title": "La Dame aux Camélias",
+        "id": 82
+      },
+      {
+        "sort": "Mansfield Park",
+        "title": "Mansfield Park",
+        "id": 86
+      }
+    ],
+    "name": "Littérature sentimentale",
+    "id": 60
+  },
+  {
+    "books": [
+      {
+        "sort": "divine comédie - Tome 1 - L'Enfer, La",
+        "title": "La divine comédie - Tome 1 - L'Enfer",
+        "id": 83
+      }
+    ],
+    "name": "Moyen Age",
+    "id": 61
+  },
+  {
+    "books": [
+      {
+        "sort": "Île du docteur Moreau, L'",
+        "title": "L'Île du docteur Moreau",
+        "id": 84
+      },
+      {
+        "sort": "Guerre des mondes, La",
+        "title": "La Guerre des mondes",
+        "id": 93
+      },
+      {
+        "sort": "Machine à explorer le temps, La",
+        "title": "La Machine à explorer le temps",
+        "id": 94
+      },
+      {
+        "sort": "Homme invisible, L'",
+        "title": "L'Homme invisible",
+        "id": 95
+      }
+    ],
+    "name": "Science Fiction",
+    "id": 62
+  },
+  {
+    "books": [
+      {
+        "sort": "Métamorphoses, Les",
+        "title": "Les Métamorphoses",
+        "id": 89
+      },
+      {
+        "sort": "Remèdes à l'amour, Les",
+        "title": "Les Remèdes à l'amour",
+        "id": 90
+      }
+    ],
+    "name": "Antiquité",
+    "id": 63
+  },
+  {
+    "books": [
+      {
+        "sort": "Guerre des mondes, La",
+        "title": "La Guerre des mondes",
+        "id": 93
+      }
+    ],
+    "name": "Space opera et planet opera",
+    "id": 65
+  },
+  {
+    "books": [
+      {
+        "sort": "Métamorphoses, Les",
+        "title": "Les Métamorphoses",
+        "id": 89
+      },
+      {
+        "sort": "Remèdes à l'amour, Les",
+        "title": "Les Remèdes à l'amour",
+        "id": 90
+      }
+    ],
+    "name": "Grèce",
+    "id": 66
+  },
+  {
+    "books": [
+      {
+        "sort": "divine comédie - Tome 1 - L'Enfer, La",
+        "title": "La divine comédie - Tome 1 - L'Enfer",
+        "id": 83
+      }
+    ],
+    "name": "XIVe siècle",
+    "id": 67
+  },
+  {
+    "books": [
+      {
+        "sort": "Histoires comme ça",
+        "title": "Histoires comme ça",
+        "id": 36
+      },
+      {
+        "sort": "Alcools",
+        "title": "Alcools",
+        "id": 40
+      },
+      {
+        "sort": "Fantôme de l'Opéra, Le",
+        "title": "Le Fantôme de l'Opéra",
+        "id": 74
+      },
+      {
+        "sort": "Parfum de la Dame en noir, Le",
+        "title": "Le Parfum de la Dame en noir",
+        "id": 75
+      },
+      {
+        "sort": 813,
+        "title": 813,
+        "id": 76
+      },
+      {
+        "sort": "Arsène Lupin contre Herlock Sholmès",
+        "title": "Arsène Lupin contre Herlock Sholmès",
+        "id": 77
+      },
+      {
+        "sort": "Arsène Lupin, Gentleman-Cambrioleur",
+        "title": "Arsène Lupin, Gentleman-Cambrioleur",
+        "id": 78
+      },
+      {
+        "sort": "Aiguille creuse, L'",
+        "title": "L'Aiguille creuse",
+        "id": 79
+      },
+      {
+        "sort": "Confidences d'Arsène Lupin, Les",
+        "title": "Les Confidences d'Arsène Lupin",
+        "id": 80
+      },
+      {
+        "sort": "Livre de la jungle, Le",
+        "title": "Le Livre de la jungle",
+        "id": 96
+      },
+      {
+        "sort": "Mystère de la chambre jaune, Le",
+        "title": "Le Mystère de la chambre jaune",
+        "id": 103
+      },
+      {
+        "sort": "Croc-Blanc",
+        "title": "Croc-Blanc",
+        "id": 107
+      },
+      {
+        "sort": "Appel de la forêt, L'",
+        "title": "L'Appel de la forêt",
+        "id": 108
+      }
+    ],
+    "name": "XXe siècle",
+    "id": 68
+  },
+  {
+    "books": [
+      {
+        "sort": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome I",
+        "title": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome I",
+        "id": 2
+      },
+      {
+        "sort": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome II",
+        "title": "L’Ingénieux hidalgo Don Quichotte de la Manche - Tome II",
+        "id": 3
+      },
+      {
+        "sort": "Contes - Tome I",
+        "title": "Contes - Tome I",
+        "id": 30
+      },
+      {
+        "sort": "Fables - Livre I",
+        "title": "Fables - Livre I",
+        "id": 37
+      },
+      {
+        "sort": "Fables - Livre II",
+        "title": "Fables - Livre II",
+        "id": 38
+      },
+      {
+        "sort": "Contes",
+        "title": "Contes",
+        "id": 39
+      },
+      {
+        "sort": "Haïkaï",
+        "title": "Haïkaï",
+        "id": 41
+      },
+      {
+        "sort": "Discours de la méthode",
+        "title": "Discours de la méthode",
+        "id": 65
+      },
+      {
+        "sort": "Candide, ou l'Optimisme",
+        "title": "Candide, ou l'Optimisme",
+        "id": 70
+      }
+    ],
+    "name": "XVIIe siècle",
+    "id": 69
+  },
+  {
+    "books": [
+      {
+        "sort": "Essais - Livre I, Les",
+        "title": "Les Essais - Livre I",
+        "id": 61
+      },
+      {
+        "sort": "Essais - Livre II, Les",
+        "title": "Les Essais - Livre II",
+        "id": 62
+      },
+      {
+        "sort": "Essais - Livre III, Les",
+        "title": "Les Essais - Livre III",
+        "id": 63
+      },
+      {
+        "sort": "Prince, Le",
+        "title": "Le Prince",
+        "id": 64
+      }
+    ],
+    "name": "XVIe siècle",
+    "id": 70
+  },
+  {
+    "books": [
+      {
+        "sort": "Jacques le fataliste et son maître",
+        "title": "Jacques le fataliste et son maître",
+        "id": 5
+      },
+      {
+        "sort": "Robinson Crusoé - Tome I",
+        "title": "Robinson Crusoé - Tome I",
+        "id": 24
+      },
+      {
+        "sort": "Robinson Crusoé - Tome II",
+        "title": "Robinson Crusoé - Tome II",
+        "id": 25
+      },
+      {
+        "sort": "Fondements de la métaphysique des moeurs",
+        "title": "Fondements de la métaphysique des moeurs",
+        "id": 51
+      }
+    ],
+    "name": "XVIIIe siècle",
+    "id": 71
+  },
+  {
+    "books": [
+      {
+        "sort": "art de la Guerre (Les Treize Articles), L'",
+        "title": "L'art de la Guerre (Les Treize Articles)",
+        "id": 67
+      },
+      {
+        "sort": "Kama Sutra, Le",
+        "title": "Le Kama Sutra",
+        "id": 68
+      }
+    ],
+    "name": "VIe siècle",
+    "id": 72
+  },
+  {
+    "books": [
+      {
+        "sort": "Catalogue des livres numériques",
+        "title": "Catalogue des livres numériques",
+        "id": 109
+      }
+    ],
+    "name": "Catalogue",
+    "id": 73
+  }
+]
