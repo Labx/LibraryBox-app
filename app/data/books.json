@@ -2,10 +2,22 @@
   {
     "path": "Miguel de Cervantes/L'Ingenieux hidalgo Don Quichotte de (2)",
     "tags": [
-      3,
-      8,
-      29,
-      69
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Historique",
+        "id": 8
+      },
+      {
+        "name": "Espagne",
+        "id": 29
+      },
+      {
+        "name": "XVIIe siècle",
+        "id": 69
+      }
     ],
     "series": [
       ""
@@ -25,10 +37,22 @@
   {
     "path": "Miguel de Cervantes/L'Ingenieux hidalgo Don Quichotte de (3)",
     "tags": [
-      3,
-      8,
-      29,
-      69
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Historique",
+        "id": 8
+      },
+      {
+        "name": "Espagne",
+        "id": 29
+      },
+      {
+        "name": "XVIIe siècle",
+        "id": 69
+      }
     ],
     "series": [
       ""
@@ -48,11 +72,26 @@
   {
     "path": "James Fenimore Cooper/La Prairie (4)",
     "tags": [
-      6,
-      7,
-      8,
-      9,
-      27
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Westerns",
+        "id": 7
+      },
+      {
+        "name": "Historique",
+        "id": 8
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Etats-Unis",
+        "id": 27
+      }
     ],
     "series": [
       1
@@ -72,9 +111,18 @@
   {
     "path": "Denis Diderot/Jacques le fataliste et son maitre (5)",
     "tags": [
-      25,
-      52,
-      71
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "Conte philosophique",
+        "id": 52
+      },
+      {
+        "name": "XVIIIe siècle",
+        "id": 71
+      }
     ],
     "series": [
       ""
@@ -94,9 +142,18 @@
   {
     "path": "Fedor Mikhailivitch Dostoievski/Crime et chatiment (6)",
     "tags": [
-      6,
-      9,
-      24
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Russie",
+        "id": 24
+      }
     ],
     "series": [
       ""
@@ -116,9 +173,18 @@
   {
     "path": "Fedor Mikhailovitch Dostoievski/Les Freres Karamazov (7)",
     "tags": [
-      6,
-      9,
-      24
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Russie",
+        "id": 24
+      }
     ],
     "series": [
       ""
@@ -138,9 +204,18 @@
   {
     "path": "Fedor Mikhailovitch Dostoievski/L'Idiot - Tome I (8)",
     "tags": [
-      6,
-      9,
-      24
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Russie",
+        "id": 24
+      }
     ],
     "series": [
       ""
@@ -160,9 +235,18 @@
   {
     "path": "Fedor Mikhailovitch Dostoievski/L'Idiot - Tome II (9)",
     "tags": [
-      6,
-      9,
-      24
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Russie",
+        "id": 24
+      }
     ],
     "series": [
       ""
@@ -182,9 +266,18 @@
   {
     "path": "Fyodor Mikhailovich Dostoyevsky/Le Joueur (10)",
     "tags": [
-      6,
-      9,
-      24
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Russie",
+        "id": 24
+      }
     ],
     "series": [
       ""
@@ -204,11 +297,26 @@
   {
     "path": "James Fenimore Cooper/Le Dernier des Mohicans (11)",
     "tags": [
-      6,
-      7,
-      8,
-      9,
-      27
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Westerns",
+        "id": 7
+      },
+      {
+        "name": "Historique",
+        "id": 8
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Etats-Unis",
+        "id": 27
+      }
     ],
     "series": [
       1
@@ -228,11 +336,26 @@
   {
     "path": "James Fenimore Cooper/Le Lac Ontario (12)",
     "tags": [
-      6,
-      7,
-      8,
-      9,
-      27
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Westerns",
+        "id": 7
+      },
+      {
+        "name": "Historique",
+        "id": 8
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Etats-Unis",
+        "id": 27
+      }
     ],
     "series": [
       1
@@ -252,11 +375,26 @@
   {
     "path": "James Fenimore Cooper/Le Tueur de Daims (13)",
     "tags": [
-      6,
-      7,
-      8,
-      9,
-      27
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Westerns",
+        "id": 7
+      },
+      {
+        "name": "Historique",
+        "id": 8
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Etats-Unis",
+        "id": 27
+      }
     ],
     "series": [
       1
@@ -276,11 +414,26 @@
   {
     "path": "James Fenimore Cooper/Les Pionniers (14)",
     "tags": [
-      6,
-      7,
-      8,
-      9,
-      27
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Westerns",
+        "id": 7
+      },
+      {
+        "name": "Historique",
+        "id": 8
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Etats-Unis",
+        "id": 27
+      }
     ],
     "series": [
       1
@@ -300,9 +453,18 @@
   {
     "path": "Jane Austen/Orgueil et prejuges (15)",
     "tags": [
-      6,
-      9,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -322,9 +484,18 @@
   {
     "path": "Jane Austen/Emma (16)",
     "tags": [
-      6,
-      9,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -344,9 +515,18 @@
   {
     "path": "Jane Austen/Persuasion (17)",
     "tags": [
-      6,
-      9,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -366,9 +546,18 @@
   {
     "path": "Anne Bronte/Agnes Grey (18)",
     "tags": [
-      6,
-      9,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -388,9 +577,18 @@
   {
     "path": "Emily Bronte/Les Hauts de Hurle-vent (19)",
     "tags": [
-      6,
-      9,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -410,9 +608,18 @@
   {
     "path": "Charlotte Bronte/Jane Eyre ou Les memoires d'une inst (20)",
     "tags": [
-      6,
-      9,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -432,9 +639,18 @@
   {
     "path": "Pouhiou/#MonOrchide. Le Cycle des NoeNautes, (21)",
     "tags": [
-      6,
-      25,
-      28
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "Contemporain",
+        "id": 28
+      }
     ],
     "series": [
       ""
@@ -454,9 +670,18 @@
   {
     "path": "Pouhiou/#Smartarded (22)",
     "tags": [
-      6,
-      25,
-      28
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "Contemporain",
+        "id": 28
+      }
     ],
     "series": [
       ""
@@ -476,11 +701,26 @@
   {
     "path": "Alphonse Daudet/Les Aventures prodigieuses de Tartar (23)",
     "tags": [
-      3,
-      6,
-      9,
-      13,
-      25
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -500,11 +740,26 @@
   {
     "path": "Daniel Defoe/Robinson Crusoe - Tome I (24)",
     "tags": [
-      3,
-      6,
-      13,
-      22,
-      71
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      },
+      {
+        "name": "XVIIIe siècle",
+        "id": 71
+      }
     ],
     "series": [
       ""
@@ -524,11 +779,26 @@
   {
     "path": "Daniel Defoe/Robinson Crusoe - Tome II (25)",
     "tags": [
-      3,
-      6,
-      13,
-      22,
-      71
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      },
+      {
+        "name": "XVIIIe siècle",
+        "id": 71
+      }
     ],
     "series": [
       ""
@@ -548,10 +818,22 @@
   {
     "path": "Charles Dickens/David Copperfield - Tome I (26)",
     "tags": [
-      6,
-      9,
-      13,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -571,10 +853,22 @@
   {
     "path": "Charles Dickens/David Copperfield - Tome II (27)",
     "tags": [
-      6,
-      9,
-      13,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -594,10 +888,22 @@
   {
     "path": "Charles Dickens/Oliver Twist (28)",
     "tags": [
-      6,
-      9,
-      13,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -617,11 +923,26 @@
   {
     "path": "Alexandre Dumas/Les Trois Mousquetaires (29)",
     "tags": [
-      6,
-      8,
-      9,
-      13,
-      25
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Historique",
+        "id": 8
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -641,10 +962,22 @@
   {
     "path": "Marie-Catherine Baronne d'Aulnoy/Contes - Tome I (30)",
     "tags": [
-      13,
-      17,
-      25,
-      69
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XVIIe siècle",
+        "id": 69
+      }
     ],
     "series": [
       ""
@@ -664,11 +997,26 @@
   {
     "path": "Lewis Carroll/Alice au pays des merveilles (31)",
     "tags": [
-      6,
-      9,
-      13,
-      20,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Fantastique",
+        "id": 20
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -688,10 +1036,22 @@
   {
     "path": "Alphonse Daudet/Lettres de mon moulin (32)",
     "tags": [
-      9,
-      13,
-      21,
-      25
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Nouvelles",
+        "id": 21
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -711,10 +1071,22 @@
   {
     "path": "Hans Christian Andersen/Contes merveilleux - Tome II (33)",
     "tags": [
-      9,
-      13,
-      17,
-      55
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "Danemark",
+        "id": 55
+      }
     ],
     "series": [
       ""
@@ -734,11 +1106,26 @@
   {
     "path": "E.T.A. Hoffmann/Contes fantastiques - Livre IV (34)",
     "tags": [
-      9,
-      13,
-      17,
-      20,
-      56
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "Fantastique",
+        "id": 20
+      },
+      {
+        "name": "Allemagne",
+        "id": 56
+      }
     ],
     "series": [
       ""
@@ -758,10 +1145,22 @@
   {
     "path": "Jacob Ludwig Karl Grimm/Contes merveilleux - Tome I (35)",
     "tags": [
-      9,
-      13,
-      17,
-      56
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "Allemagne",
+        "id": 56
+      }
     ],
     "series": [
       ""
@@ -781,10 +1180,22 @@
   {
     "path": "Rudyard Kipling/Histoires comme ca (36)",
     "tags": [
-      13,
-      17,
-      22,
-      68
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       ""
@@ -804,10 +1215,22 @@
   {
     "path": "Jean de La Fontaine/Fables - Livre I (37)",
     "tags": [
-      13,
-      16,
-      25,
-      69
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Fables",
+        "id": 16
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XVIIe siècle",
+        "id": 69
+      }
     ],
     "series": [
       ""
@@ -827,10 +1250,22 @@
   {
     "path": "Jean de La Fontaine/Fables - Livre II (38)",
     "tags": [
-      13,
-      16,
-      25,
-      69
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Fables",
+        "id": 16
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XVIIe siècle",
+        "id": 69
+      }
     ],
     "series": [
       ""
@@ -850,10 +1285,22 @@
   {
     "path": "Charles Perrault/Contes (39)",
     "tags": [
-      13,
-      17,
-      25,
-      69
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XVIIe siècle",
+        "id": 69
+      }
     ],
     "series": [
       ""
@@ -873,9 +1320,18 @@
   {
     "path": "Guillaume Apollinaire/Alcools (40)",
     "tags": [
-      18,
-      25,
-      68
+      {
+        "name": "Poésie",
+        "id": 18
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       ""
@@ -895,9 +1351,18 @@
   {
     "path": "Bascho et disciples/Haikai (41)",
     "tags": [
-      18,
-      26,
-      69
+      {
+        "name": "Poésie",
+        "id": 18
+      },
+      {
+        "name": "Japon",
+        "id": 26
+      },
+      {
+        "name": "XVIIe siècle",
+        "id": 69
+      }
     ],
     "series": [
       ""
@@ -917,10 +1382,22 @@
   {
     "path": "Arthur Conan Doyle/Les Aventures de Sherlock Holmes (42)",
     "tags": [
-      6,
-      9,
-      19,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -940,11 +1417,26 @@
   {
     "path": "Bram Stoker/Dracula (43)",
     "tags": [
-      6,
-      9,
-      13,
-      20,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Fantastique",
+        "id": 20
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -964,10 +1456,22 @@
   {
     "path": "Arthur Conan Doyle/Le Chien des Baskervilles (44)",
     "tags": [
-      6,
-      9,
-      19,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -987,10 +1491,22 @@
   {
     "path": "Arthur Conan Doyle/Une Etude en rouge (45)",
     "tags": [
-      6,
-      9,
-      19,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -1010,9 +1526,18 @@
   {
     "path": "Anonyme/La Bhagavad-Gita, ou le Chant du Bie (46)",
     "tags": [
-      30,
-      31,
-      53
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Religion",
+        "id": 31
+      },
+      {
+        "name": "Inde",
+        "id": 53
+      }
     ],
     "series": [
       ""
@@ -1032,8 +1557,14 @@
   {
     "path": "Anonyme/Les Mille et une nuits - Tome I (47)",
     "tags": [
-      17,
-      54
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "Orient",
+        "id": 54
+      }
     ],
     "series": [
       3
@@ -1053,9 +1584,18 @@
   {
     "path": "Charles Baudelaire/Les Fleurs du mal (48)",
     "tags": [
-      9,
-      18,
-      25
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Poésie",
+        "id": 18
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -1075,10 +1615,22 @@
   {
     "path": "Charles Darwin/De l'Origine des especes (49)",
     "tags": [
-      9,
-      22,
-      30,
-      35
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      },
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Sciences",
+        "id": 35
+      }
     ],
     "series": [
       ""
@@ -1098,10 +1650,22 @@
   {
     "path": "Emile Zola/J'accuse (50)",
     "tags": [
-      9,
-      25,
-      30,
-      38
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Histoire",
+        "id": 38
+      }
     ],
     "series": [
       ""
@@ -1121,10 +1685,22 @@
   {
     "path": "Emmanuel Kant/Fondements de la metaphysique des mo (51)",
     "tags": [
-      30,
-      41,
-      56,
-      71
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Philosophie",
+        "id": 41
+      },
+      {
+        "name": "Allemagne",
+        "id": 56
+      },
+      {
+        "name": "XVIIIe siècle",
+        "id": 71
+      }
     ],
     "series": [
       ""
@@ -1144,10 +1720,22 @@
   {
     "path": "Francois-Rene de Chateaubriand/Memoires d'Outre-tombe (52)",
     "tags": [
-      9,
-      25,
-      30,
-      43
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Mémoires",
+        "id": 43
+      }
     ],
     "series": [
       ""
@@ -1167,10 +1755,22 @@
   {
     "path": "Friedrich Wilhelm Nietzsche/Ainsi Parlait Zarathoustra (53)",
     "tags": [
-      9,
-      30,
-      41,
-      56
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Philosophie",
+        "id": 41
+      },
+      {
+        "name": "Allemagne",
+        "id": 56
+      }
     ],
     "series": [
       ""
@@ -1190,9 +1790,18 @@
   {
     "path": "Gustave Flaubert/L'Education Sentimentale (54)",
     "tags": [
-      6,
-      9,
-      25
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -1212,9 +1821,18 @@
   {
     "path": "Gustave Flaubert/Madame Bovary (55)",
     "tags": [
-      6,
-      9,
-      25
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -1234,11 +1852,26 @@
   {
     "path": "Henry David Thoreau/La desobeissance civile (56)",
     "tags": [
-      9,
-      27,
-      30,
-      44,
-      45
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Etats-Unis",
+        "id": 27
+      },
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Sciences Sociales",
+        "id": 44
+      },
+      {
+        "name": "Politique",
+        "id": 45
+      }
     ],
     "series": [
       ""
@@ -1258,10 +1891,22 @@
   {
     "path": "Henry David Thoreau/Walden ou La Vie dans les bois (57)",
     "tags": [
-      9,
-      27,
-      30,
-      46
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Etats-Unis",
+        "id": 27
+      },
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Essai littéraire",
+        "id": 46
+      }
     ],
     "series": [
       ""
@@ -1281,10 +1926,22 @@
   {
     "path": "Jules Verne/20000 lieues sous les mers (58)",
     "tags": [
-      3,
-      6,
-      9,
-      25
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -1304,10 +1961,22 @@
   {
     "path": "Jules Verne/Le Tour du monde en quatre-vingts jo (59)",
     "tags": [
-      3,
-      6,
-      9,
-      25
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -1327,10 +1996,22 @@
   {
     "path": "Jules Verne/Voyage au centre de la Terre (60)",
     "tags": [
-      3,
-      6,
-      9,
-      25
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -1350,11 +2031,26 @@
   {
     "path": "Michel de Montaigne/Les Essais - Livre I (61)",
     "tags": [
-      25,
-      30,
-      38,
-      41,
-      70
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Histoire",
+        "id": 38
+      },
+      {
+        "name": "Philosophie",
+        "id": 41
+      },
+      {
+        "name": "XVIe siècle",
+        "id": 70
+      }
     ],
     "series": [
       ""
@@ -1374,11 +2070,26 @@
   {
     "path": "Michel de Montaigne/Les Essais - Livre II (62)",
     "tags": [
-      25,
-      30,
-      38,
-      41,
-      70
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Histoire",
+        "id": 38
+      },
+      {
+        "name": "Philosophie",
+        "id": 41
+      },
+      {
+        "name": "XVIe siècle",
+        "id": 70
+      }
     ],
     "series": [
       ""
@@ -1398,11 +2109,26 @@
   {
     "path": "Michel de Montaigne/Les Essais - Livre III (63)",
     "tags": [
-      25,
-      30,
-      38,
-      41,
-      70
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Histoire",
+        "id": 38
+      },
+      {
+        "name": "Philosophie",
+        "id": 41
+      },
+      {
+        "name": "XVIe siècle",
+        "id": 70
+      }
     ],
     "series": [
       ""
@@ -1422,10 +2148,22 @@
   {
     "path": "Nicolas Machiavel/Le Prince (64)",
     "tags": [
-      30,
-      41,
-      57,
-      70
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Philosophie",
+        "id": 41
+      },
+      {
+        "name": "Italie",
+        "id": 57
+      },
+      {
+        "name": "XVIe siècle",
+        "id": 70
+      }
     ],
     "series": [
       ""
@@ -1445,10 +2183,22 @@
   {
     "path": "Rene Descartes/Discours de la methode (65)",
     "tags": [
-      25,
-      30,
-      41,
-      69
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Philosophie",
+        "id": 41
+      },
+      {
+        "name": "XVIIe siècle",
+        "id": 69
+      }
     ],
     "series": [
       ""
@@ -1468,9 +2218,18 @@
   {
     "path": "Stendhal/Le Rouge et le Noir (66)",
     "tags": [
-      6,
-      9,
-      25
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -1490,11 +2249,26 @@
   {
     "path": "Sun Tzu/L'art de la Guerre (Les Treize Artic (67)",
     "tags": [
-      30,
-      41,
-      50,
-      58,
-      72
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Philosophie",
+        "id": 41
+      },
+      {
+        "name": "Sciences militaires",
+        "id": 50
+      },
+      {
+        "name": "Chine",
+        "id": 58
+      },
+      {
+        "name": "VIe siècle",
+        "id": 72
+      }
     ],
     "series": [
       ""
@@ -1514,9 +2288,18 @@
   {
     "path": "Vatsyayana/Le Kama Sutra (68)",
     "tags": [
-      30,
-      53,
-      72
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Inde",
+        "id": 53
+      },
+      {
+        "name": "VIe siècle",
+        "id": 72
+      }
     ],
     "series": [
       ""
@@ -1536,9 +2319,18 @@
   {
     "path": "Victor Hugo/Le Dernier Jour d'un condamne (69)",
     "tags": [
-      6,
-      9,
-      25
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -1558,9 +2350,18 @@
   {
     "path": "Voltaire/Candide, ou l'Optimisme (70)",
     "tags": [
-      25,
-      52,
-      69
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "Conte philosophique",
+        "id": 52
+      },
+      {
+        "name": "XVIIe siècle",
+        "id": 69
+      }
     ],
     "series": [
       ""
@@ -1580,10 +2381,22 @@
   {
     "path": "Edgar Allan Poe/Double Assassinat dans la rue Morgue (71)",
     "tags": [
-      9,
-      19,
-      21,
-      22
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "Nouvelles",
+        "id": 21
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -1603,10 +2416,22 @@
   {
     "path": "Emile Gaboriau/L'Affaire Lerouge (72)",
     "tags": [
-      6,
-      9,
-      19,
-      25
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -1626,10 +2451,22 @@
   {
     "path": "Emile Gaboriau/Le Dossier 113 (73)",
     "tags": [
-      6,
-      9,
-      19,
-      25
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -1649,10 +2486,22 @@
   {
     "path": "Gaston Leroux/Le Fantome de l'Opera (74)",
     "tags": [
-      6,
-      19,
-      25,
-      68
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       ""
@@ -1672,10 +2521,22 @@
   {
     "path": "Gaston Leroux/Le Parfum de la Dame en noir (75)",
     "tags": [
-      6,
-      19,
-      25,
-      68
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       ""
@@ -1695,10 +2556,22 @@
   {
     "path": "Maurice Leblanc/813 (76)",
     "tags": [
-      6,
-      19,
-      25,
-      68
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       2
@@ -1718,10 +2591,22 @@
   {
     "path": "Maurice Leblanc/Arsene Lupin contre Herlock Sholmes (77)",
     "tags": [
-      6,
-      19,
-      25,
-      68
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       2
@@ -1741,10 +2626,22 @@
   {
     "path": "Maurice Leblanc/Arsene Lupin, Gentleman-Cambrioleur (78)",
     "tags": [
-      19,
-      21,
-      25,
-      68
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "Nouvelles",
+        "id": 21
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       2
@@ -1764,10 +2661,22 @@
   {
     "path": "Maurice Leblanc/L'Aiguille creuse (79)",
     "tags": [
-      6,
-      19,
-      25,
-      68
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       2
@@ -1787,10 +2696,22 @@
   {
     "path": "Maurice Leblanc/Les Confidences d'Arsene Lupin (80)",
     "tags": [
-      6,
-      19,
-      25,
-      68
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       2
@@ -1810,10 +2731,22 @@
   {
     "path": "Oscar Wilde/Le Crime de Lord Arthur Savile (81)",
     "tags": [
-      9,
-      19,
-      21,
-      22
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "Nouvelles",
+        "id": 21
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -1833,10 +2766,22 @@
   {
     "path": "Alexandre Dumas (fils)/La Dame aux Camelias (82)",
     "tags": [
-      6,
-      9,
-      25,
-      60
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "Littérature sentimentale",
+        "id": 60
+      }
     ],
     "series": [
       ""
@@ -1856,10 +2801,22 @@
   {
     "path": "Dante Alighieri/La divine comedie - Tome 1 - L'Enfer (83)",
     "tags": [
-      18,
-      57,
-      61,
-      67
+      {
+        "name": "Poésie",
+        "id": 18
+      },
+      {
+        "name": "Italie",
+        "id": 57
+      },
+      {
+        "name": "Moyen Age",
+        "id": 61
+      },
+      {
+        "name": "XIVe siècle",
+        "id": 67
+      }
     ],
     "series": [
       ""
@@ -1879,10 +2836,22 @@
   {
     "path": "H. G. Wells/L'Ile du docteur Moreau (84)",
     "tags": [
-      6,
-      9,
-      22,
-      62
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      },
+      {
+        "name": "Science Fiction",
+        "id": 62
+      }
     ],
     "series": [
       ""
@@ -1902,10 +2871,22 @@
   {
     "path": "Henry James/Le Tour d'ecrou (85)",
     "tags": [
-      6,
-      9,
-      20,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Fantastique",
+        "id": 20
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -1925,10 +2906,22 @@
   {
     "path": "Jane Austen/Mansfield Park (86)",
     "tags": [
-      6,
-      9,
-      22,
-      60
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      },
+      {
+        "name": "Littérature sentimentale",
+        "id": 60
+      }
     ],
     "series": [
       ""
@@ -1948,10 +2941,22 @@
   {
     "path": "Mary Shelley/Frankenstein ou le Promethee moderne (87)",
     "tags": [
-      6,
-      9,
-      20,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Fantastique",
+        "id": 20
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -1971,10 +2976,22 @@
   {
     "path": "Oscar Wilde/Le Portrait de Dorian Gray (88)",
     "tags": [
-      6,
-      9,
-      20,
-      22
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Fantastique",
+        "id": 20
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -1994,9 +3011,18 @@
   {
     "path": "Ovide/Les Metamorphoses (89)",
     "tags": [
-      18,
-      63,
-      66
+      {
+        "name": "Poésie",
+        "id": 18
+      },
+      {
+        "name": "Antiquité",
+        "id": 63
+      },
+      {
+        "name": "Grèce",
+        "id": 66
+      }
     ],
     "series": [
       ""
@@ -2016,9 +3042,18 @@
   {
     "path": "Ovide/Les Remedes a l'amour (90)",
     "tags": [
-      18,
-      63,
-      66
+      {
+        "name": "Poésie",
+        "id": 18
+      },
+      {
+        "name": "Antiquité",
+        "id": 63
+      },
+      {
+        "name": "Grèce",
+        "id": 66
+      }
     ],
     "series": [
       ""
@@ -2038,10 +3073,22 @@
   {
     "path": "Robert Louis Stevenson/L'Ile au tresor (91)",
     "tags": [
-      3,
-      6,
-      9,
-      22
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      }
     ],
     "series": [
       ""
@@ -2061,9 +3108,18 @@
   {
     "path": "Victor Hugo/Les Contemplations (92)",
     "tags": [
-      9,
-      18,
-      25
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Poésie",
+        "id": 18
+      },
+      {
+        "name": "France",
+        "id": 25
+      }
     ],
     "series": [
       ""
@@ -2083,11 +3139,26 @@
   {
     "path": "H. G. Wells/La Guerre des mondes (93)",
     "tags": [
-      6,
-      9,
-      22,
-      62,
-      65
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      },
+      {
+        "name": "Science Fiction",
+        "id": 62
+      },
+      {
+        "name": "Space opera et planet opera",
+        "id": 65
+      }
     ],
     "series": [
       ""
@@ -2107,10 +3178,22 @@
   {
     "path": "H. G. Wells/La Machine a explorer le temps (94)",
     "tags": [
-      6,
-      9,
-      22,
-      62
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      },
+      {
+        "name": "Science Fiction",
+        "id": 62
+      }
     ],
     "series": [
       ""
@@ -2130,10 +3213,22 @@
   {
     "path": "H. G. Wells/L'Homme invisible (95)",
     "tags": [
-      6,
-      9,
-      22,
-      62
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      },
+      {
+        "name": "Science Fiction",
+        "id": 62
+      }
     ],
     "series": [
       ""
@@ -2153,11 +3248,26 @@
   {
     "path": "Rudyard Kipling/Le Livre de la jungle (96)",
     "tags": [
-      3,
-      13,
-      21,
-      22,
-      68
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Nouvelles",
+        "id": 21
+      },
+      {
+        "name": "Grande-Bretagne",
+        "id": 22
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       ""
@@ -2177,10 +3287,22 @@
   {
     "path": "Hans Christian Andersen/Contes merveilleux - Tome I (97)",
     "tags": [
-      9,
-      13,
-      17,
-      55
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "Danemark",
+        "id": 55
+      }
     ],
     "series": [
       ""
@@ -2200,8 +3322,14 @@
   {
     "path": "Anonyme/Les Mille et une nuits - Tome II (98)",
     "tags": [
-      17,
-      54
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "Orient",
+        "id": 54
+      }
     ],
     "series": [
       3
@@ -2221,8 +3349,14 @@
   {
     "path": "Anonyme/Les Mille et une nuits - Tome III (99)",
     "tags": [
-      17,
-      54
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "Orient",
+        "id": 54
+      }
     ],
     "series": [
       3
@@ -2242,11 +3376,26 @@
   {
     "path": "E.T.A. Hoffmann/Contes fantastiques - Livre I (100)",
     "tags": [
-      9,
-      13,
-      17,
-      20,
-      56
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "Fantastique",
+        "id": 20
+      },
+      {
+        "name": "Allemagne",
+        "id": 56
+      }
     ],
     "series": [
       ""
@@ -2266,11 +3415,26 @@
   {
     "path": "E.T.A. Hoffmann/Contes fantastiques - Livre II (101)",
     "tags": [
-      9,
-      13,
-      17,
-      20,
-      56
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "Fantastique",
+        "id": 20
+      },
+      {
+        "name": "Allemagne",
+        "id": 56
+      }
     ],
     "series": [
       ""
@@ -2290,11 +3454,26 @@
   {
     "path": "E.T.A. Hoffmann/Contes fantastiques - Livre III (102)",
     "tags": [
-      9,
-      13,
-      17,
-      20,
-      56
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Contes et légendes",
+        "id": 17
+      },
+      {
+        "name": "Fantastique",
+        "id": 20
+      },
+      {
+        "name": "Allemagne",
+        "id": 56
+      }
     ],
     "series": [
       ""
@@ -2314,10 +3493,22 @@
   {
     "path": "Gaston Leroux/Le Mystere de la chambre jaune (103)",
     "tags": [
-      6,
-      19,
-      25,
-      68
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Policiers",
+        "id": 19
+      },
+      {
+        "name": "France",
+        "id": 25
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       ""
@@ -2337,8 +3528,14 @@
   {
     "path": "trad. Louis Segond/La Bible (104)",
     "tags": [
-      30,
-      31
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Religion",
+        "id": 31
+      }
     ],
     "series": [
       ""
@@ -2358,9 +3555,18 @@
   {
     "path": "Anonyme/Le Coran (105)",
     "tags": [
-      30,
-      31,
-      54
+      {
+        "name": "Documentaire",
+        "id": 30
+      },
+      {
+        "name": "Religion",
+        "id": 31
+      },
+      {
+        "name": "Orient",
+        "id": 54
+      }
     ],
     "series": [
       ""
@@ -2380,11 +3586,26 @@
   {
     "path": "Mark Twain/Les Aventures de Tom Sawyer (106)",
     "tags": [
-      3,
-      6,
-      9,
-      13,
-      27
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "XIXe siècle",
+        "id": 9
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Etats-Unis",
+        "id": 27
+      }
     ],
     "series": [
       ""
@@ -2404,11 +3625,26 @@
   {
     "path": "Jack London/Croc-Blanc (107)",
     "tags": [
-      3,
-      6,
-      13,
-      27,
-      68
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Etats-Unis",
+        "id": 27
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       ""
@@ -2428,11 +3664,26 @@
   {
     "path": "Jack London/L'Appel de la foret (108)",
     "tags": [
-      3,
-      6,
-      13,
-      27,
-      68
+      {
+        "name": "Aventures",
+        "id": 3
+      },
+      {
+        "name": "Roman",
+        "id": 6
+      },
+      {
+        "name": "Jeunesse",
+        "id": 13
+      },
+      {
+        "name": "Etats-Unis",
+        "id": 27
+      },
+      {
+        "name": "XXe siècle",
+        "id": 68
+      }
     ],
     "series": [
       ""
@@ -2452,7 +3703,10 @@
   {
     "path": "calibre/Catalogue des livres numeriques (109)",
     "tags": [
-      73
+      {
+        "name": "Catalogue",
+        "id": 73
+      }
     ],
     "series": [
       ""
