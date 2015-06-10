@@ -19,8 +19,11 @@
         "id": 69
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p>Alonzo Quixada sera chevalier sous le nom de Don Quichotte ! Les gens le\n traitent de fou, mais qu'importe. Il veut vivre comme les héros de \nromans. Sur les routes d'Espagne, le voilà parti en quête d'exploits, \nintrépide et généreux. Avec Sancho Panza, son fidèle écuyer, il va vivre\n de fabuleuses aventures, mais pas du tout celles qu'il imaginait !</p>",
     "authors": [
@@ -54,8 +57,11 @@
         "id": 69
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p>Alonzo Quixada sera chevalier sous le nom de Don Quichotte ! Les gens le\n traitent de fou, mais qu'importe. Il veut vivre comme les héros de \nromans. Sur les routes d'Espagne, le voilà parti en quête d'exploits, \nintrépide et généreux. Avec Sancho Panza, son fidèle écuyer, il va vivre\n de fabuleuses aventures, mais pas du tout celles qu'il imaginait !</p>",
     "authors": [
@@ -93,8 +99,11 @@
         "id": 27
       }
     ],
-    "series": [
-      1
+    "serie": [
+      {
+        "name": "Bas de Cuir",
+        "id": 1
+      }
     ],
     "summary": "<p class=\"\"description\"\">«La Prairie» est le 5e volume du cycle Bas-de-cuir. La famille d'Ismaïl Bush se déplace toujours plus loin dans la Prairie, fuyant la civilisation. Elle retient prisonnière une jeune Espagnole, Inès, qui a été enlevée le jour même de son mariage avec Middleton, officier américain, envoyé pour occuper la Louisiane. Middleton réussira à la retrouver, grâce à Paul, le chasseur d'abeilles, à Hélène, la nièce d'Ismaïl qui aime Paul, au vieux docteur Battius, naturaliste et au personnage emblématique de ce cycle, le vieux trappeur Natty Bumppo, qui est maintenant un vieil homme, errant dans la prairie, toujours accompagné de son chien Hector. Ils devront affronter les Dahcotahs et les Pawnies-Loups, deux tribus d'indiens ennemies.</p>",
     "authors": [
@@ -124,8 +133,11 @@
         "id": 71
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Jacques le fataliste et son maître est un roman de Denis Diderot dont l'écriture s'étend de 1765 jusqu'à la mort de ce dernier en 1784. L'oeuvre paraît initialement en feuilleton dans la Correspondance littéraire de Melchior Grimm entre 1778 et 1780. Ce roman complexe, déconcertant et déroutant par ses digressions – sans doute l'œuvre de Diderot la plus commentée – puise pour partie son inspiration dans Vie et opinions de Tristram Shandy, gentilhomme de Laurence Sterne, paru quelques années auparavant (1759-1763). Multipliant les rebondissements invraisemblables, tout comme les interruptions oiseuses d’un narrateur exaspérant et omniprésent, le roman raille ouvertement les poncifs du genre, quitte à irriter son lecteur dont les attentes semblent sans cesse déçues. L'incipit du roman, demeuré célèbre, donne le ton :    « Comment s’étaient-ils rencontrés ? Par hasard, comme tout le monde. Comment s’appelaient-ils ? Que vous importe ? D’où venaient-ils ? Du lieu le plus prochain. Où allaient-ils ? Est-ce que l’on sait où l’on va ? Que disaient-ils ? Le maître ne disait rien ; et Jacques disait que son capitaine disait que tout ce qui nous arrive de bien et de mal ici-bas était écrit là-haut. » Jacques, qui voyage en compagnie de son maître, possède une personnalité plus complexe que celle d'un valet de comédie : il est bavard mais aussi quelque peu philosophe (« une espèce de philosophe ») et c'est à son fatalisme qu'il doit son surnom. Pour combler l’ennui, il promet à son maître de lui raconter la suite de ses aventures amoureuses. Mais ce récit est sans cesse interrompu soit par son maître, soit par des interventions ou incidents extérieurs, soit par des « histoires » autonomes venant se substituer au récit initial, soit par des discussions entre le narrateur et le lecteur.",
     "authors": [
@@ -155,8 +167,11 @@
         "id": 24
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Raskolnikov, étudiant à Saint-Pétersbourg, a interrompu ses études. Rêveur solitaire, refermé sur lui-même, sombre, triste, altier et fier, mais également généreux et bon, il se considère comme un homme hors du commun. Il est persuadé que, sur Terre, certains êtres sont nuisibles ou parasites. Il a une théorie. On peut sacrifier un pou si, par ce sacrifice, on fait le bien par ailleurs. Ce pou, il l'a trouvé en la personne d'une femme ignoble, prêteuse sur gages. Après avoir imaginé ce meurtre des centaines de fois, le regard brûlant, les joues creuses, il finit par commettre ce crime, mais rien ne se passe comme prévu... et sa vie bascule. Un des plus grands romans de Dostoïevski et de la littérature russe, qu'il faut absolument avoir lu...",
     "authors": [
@@ -186,8 +201,11 @@
         "id": 24
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">Ce chef d'oeuvre de Dostoïevski nous raconte l'histoire d'un père et de ses fils dans une petite ville russe, au XIXe siècle. C'est à la fois un roman «policier», psychologique, philosophique, c'est avant tout le roman de la Passion, cette passion pleine de violence et de sensualité, si caractéristique de l'«âme russe». Ce livre foisonnant vous «prend», vous embarque pour un voyage que vous ne regretterez pas.</p>",
     "authors": [
@@ -217,8 +235,11 @@
         "id": 24
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Le prince Mychkine est un être fondamentalement bon, mais sa bonté confine à la naïveté et à l'idiotie, même s'il est capable d'analyses psychologiques très fines. Après avoir passé sa jeunesse en Suisse dans un sanatorium pour soigner son épilepsie (maladie dont était également atteint Dostoïevski) doublée d'une sorte d'autisme, il retourne en Russie pour pénétrer les cercles fermés de la société russe. Lors de la soirée d'anniversaire de Nastassia Filippovna, le prince Mychkine voit un jeune bourgeois, Parfen Semenovitch Rogojine arriver ivre et offrir une forte somme d'argent à la jeune femme pour qu'elle le suive. Le prince perçoit le désespoir de Nastasia Philippovna, en tombe maladivement amoureux, et lui propose de l'épouser. Après avoir accepté son offre, elle s'enfuit pourtant avec Rogojine. Constatant leur rivalité, Rogojine tente de tuer le prince mais ce dernier est paradoxalement sauvé par une crise d'épilepsie qui le fait s'écrouler juste avant le meurtre... Ayant créé des liens auprès de la famille Epantchine, il fait la connaissance d'une société petersbourgeoise mêlant des bourgeois, des ivrognes, des anciens militaires et des fonctionnaires fielleux. Se trouvant du jour au lendemain à la tête d'une grande fortune, il avive la curiosité de la société pétersbourgeoise et vient s'installer dans un lieu de villégiature couru, le village de Pavlovsk...",
     "authors": [
@@ -248,8 +269,11 @@
         "id": 24
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p>Le prince Mychkine est un être fondamentalement bon, mais sa bonté confine à la naïveté et à l'idiotie, même s'il est capable d'analyses psychologiques très fines. Après avoir passé sa jeunesse en Suisse dans un sanatorium pour soigner son épilepsie (maladie dont était également atteint Dostoïevski) doublée d'une sorte d'autisme, il retourne en Russie pour pénétrer les cercles fermés de la société russe. Lors de la soirée d'anniversaire de Nastassia Filippovna, le prince Mychkine voit un jeune bourgeois, Parfen Semenovitch Rogojine arriver ivre et offrir une forte somme d'argent à la jeune femme pour qu'elle le suive. Le prince perçoit le désespoir de Nastasia Philippovna, en tombe maladivement amoureux, et lui propose de l'épouser. Après avoir accepté son offre, elle s'enfuit pourtant avec Rogojine. Constatant leur rivalité, Rogojine tente de tuer le prince mais ce dernier est paradoxalement sauvé par une crise d'épilepsie qui le fait s'écrouler juste avant le meurtre... Ayant créé des liens auprès de la famille Epantchine, il fait la connaissance d'une société petersbourgeoise mêlant des bourgeois, des ivrognes, des anciens militaires et des fonctionnaires fielleux. Se trouvant du jour au lendemain à la tête d'une grande fortune, il avive la curiosité de la société pétersbourgeoise et vient s'installer dans un lieu de villégiature couru, le village de Pavlovsk...</p>",
     "authors": [
@@ -279,8 +303,11 @@
         "id": 24
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p>A Roulettenbourg, on vient pour le casino plus que pour la douceur de \nl'air. Et ce n'est pas par hasard que s'y installe un général russe, \nveuf et désargenté, avec toute sa compagnie : sa belle-fille, la très \nconvoitée Pauline ; sa fiancée, Mlle Blanche ; le marquis des Grieux, un\n Français qui détient des hypothèques sur ses biens; ses enfants et leur\n précepteur, Alexeï Ivanovitch... Inextricablement liés par l'amour ou \npar l'argent, tous attendent la mort de la baboulinka, la vieille tante \ngrabataire, dont l'héritage réglerait bien des problèmes. Mais voici que\n la prétendue mourante débarque à l'improviste et se prend au jeu de la \nroulette...</p>",
     "authors": [
@@ -318,8 +345,11 @@
         "id": 27
       }
     ],
-    "series": [
-      1
+    "serie": [
+      {
+        "name": "Bas de Cuir",
+        "id": 1
+      }
     ],
     "summary": "«Le roman de Bas de Cuir», dont le titre le plus connu est «Le dernier des Mohicans», est une vaste épopée qui a pour décor le continent nord-américain, pour personnages les tribus indiennes, et pour contexte social les guerres et la migration vers l'ouest, de 1740 à 1804. Elle est dominée par la haute figure de Natty Bumppo. Enfant de pionniers blancs, ce dernier a été élevé par les Delaware, les «bons» Indiens (alliés des Anglais...) qui s'opposent aux cruels Iroquois (associés aux Français...).",
     "authors": [
@@ -357,8 +387,11 @@
         "id": 27
       }
     ],
-    "series": [
-      1
+    "serie": [
+      {
+        "name": "Bas de Cuir",
+        "id": 1
+      }
     ],
     "summary": "Ce texte fait partie du «Roman de Bas de Cuir», vaste épopée en cinq volumes qui nous narre la conquête de l'Ouest, les guerres entre les indiens et la blancs, les pionniers, pendant la seconde moitié du 18e siècle.",
     "authors": [
@@ -396,8 +429,11 @@
         "id": 27
       }
     ],
-    "series": [
-      1
+    "serie": [
+      {
+        "name": "Bas de Cuir",
+        "id": 1
+      }
     ],
     "summary": "Au début de la conquête de l'Amérique par les Anglais et les Français, la concurrence, euphémisme pour une véritable guerre, fait rage entre les deux camps. Pour les aider dans leurs manoeuvres et dans l'exploration du territoire, les deux partis se sont alliés avec des tribus indiennes. Les Français, qui n'ont pas vraiment le beau rôle dans ce récit, avec les Hurons, branche du peuple Iroquois. Les Anglais, ce sont les héros..., avec les Delawares, branche du peuple Mohican. Un jeune homme blanc, mais élevé par les Delawares, après la mort de ses parents, surnommé Deerslayer - Tueur de daims - du fait de sa grande adresse au tir à la carabine, accompagné par son ami delaware Chingachgook, s'est donné pour mission de délivrer la fiancée de ce dernier, Hist, détenue par les guerriers Hurons.",
     "authors": [
@@ -435,8 +471,11 @@
         "id": 27
       }
     ],
-    "series": [
-      1
+    "serie": [
+      {
+        "name": "Bas de Cuir",
+        "id": 1
+      }
     ],
     "summary": "«Le roman de Bas de Cuir» est une vaste épopée en cinq volumes qui a pour décor le continent nord-américain, pour personnages les tribus indiennes, et pour contexte social les guerres et la migration vers l'ouest, de 1740 à 1805. Elle est dominée par la haute figure de Natty Bumppo. Enfant de pionniers blancs, ce dernier a été élevé par les Delaware, les «bons» Indiens (alliés des Anglais...) qui s'opposent aux cruels Iroquois (associés aux Français...). «Les Pionniers» est le premier paru de ce cycle, en 1823, mais son action se situe en 1794, c'est à dire après celle du «Tueur de daims» - 1745, du «Dernier des Mohicans» - 1757 et du «Lac Ontario» - 1759.",
     "authors": [
@@ -466,8 +505,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">En Angleterre, dans la société provinciale guindée, fière de ses privilèges et de son rang social, Mrs. Bennett, mère de cinq filles, veut à tout prix les marier... Elle n'hésite pas à faire la cour à son nouveau voisin, Mr. Bingley, jeune homme riche qu'elle aurait aimé donner comme époux à sa fille aînée Jane. S'ébauche une idylle entre Jane et Mr. Bingley, qui pourrait bien aboutir à un mariage. Elizabeth, soeur cadette de Jane, se réjouit de cet amour naissant. Mais c'est sans compter le dédain et la méfiance de l'ami intime de Bingley, Mr. Darcy qui, n'appréciant pas les manières de Mrs. Bennett et de ses filles, empêche Bingley de se prononcer. Elizabeth de tempérament fort et franc, consciente de la valeur et du mérite de son milieu, affronte Mr. Darcy...</p>",
     "authors": [
@@ -497,8 +539,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">Emma vit avec son père, un vieil homme veuf et malade. Elle est belle intelligente et riche. Avec le mariage de sa gouvernante qui la quitte, Emma décide de s'occuper du mariage de nombre de ses relations. Sûre d'elle, elle est persuadée d'avoir les talents pour cette activité. Mais son inexpérience de l'amour et des gens, ses propres erreurs de jugement sur ses émotions amoureuses, lui valent bien des surprises et déceptions. </p>",
     "authors": [
@@ -528,8 +573,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div><p class=\"\"description\"\">Persuasion raconte les retrouvailles d'Anne Elliot avec Frederick Wentworth,\n dont elle a repoussé la demande en mariage huit ans auparavant, \npersuadée par son amie Lady Russell des risques de cette union avec un \njeune officier de marine en début de carrière, pauvre et à l'avenir \nincertain. Mais alors que la guerre avec la France s'achève, le \ncapitaine Wentworth revient, fortune faite, avec le désir de se marier \npour fonder un foyer. Il a conservé du refus d'Anne Elliot la conviction\n que la jeune fille manquait de caractère et se laissait trop aisément \npersuader.\n\n</p><address style=\"\"text-align: right;\"\">Contenu soumis à la licence CC-BY-SA 3.0.</address><address style=\"\"text-align: right;\"\">Source : Article P<i>ersuasion (roman)</i> de Wikipédia en français</address></div>",
     "authors": [
@@ -559,8 +607,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">Agnès Grey est la fille cadette d'un pasteur. Sa famille se retrouve dans une mauvaise passe financière et pour l'aider, Agnès décide de devenir gouvernante. Son passage dans deux familles va lui révéler que la situation de gouvernante n'est pas des plus faciles.<br>Anne, la plus jeune des soeurs Bronte, s'est appuyée sur sa propre expérience de gouvernante pour écrire ce premier roman dans lequel elle dénonce les carences éducatives des enfants dans certaines familles riches.</p>",
     "authors": [
@@ -590,8 +641,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">Les Hauts de Hurle-vent sont des terres situées au sommet d'une colline et balayées par les vents du nord. La famille Earnshaw y vivait, heureuse, jusqu'à ce qu'en 1771, M. Earnshaw adopte un jeune bohémien de 6 ans, Heathcliff. Ce dernier va attirer le malheur sur cette famille. Dès le début, Hindley, le fils de Earnshaw éprouve une profonde haine pour cet intrus. À la mort de son vieux bienfaiteur , Heathcliff doit subir la rancoeur de Hindley, devenu maître du domaine. Humilié par sa condition subalterne, Heathcliff, qui pourtant aime passionnément Catherine, la soeur de Hindley, jure de se venger. Sa fureur est décuplée lorsque Catherine, au tempérament aussi passionné que le sien, épouse le riche Edgar Linton...</p>",
     "authors": [
@@ -621,8 +675,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">Devenue orpheline dès son plus âge, Jane Eyre est recueillie par M. Reed, son oncle. Après la mort de ce dernier, sa tante la traite durement et l'accuse de tous les vices. Lorsqu'elle entre dans sa dixième année, Mme Reed, décidée à s'en débarrasser définitivement, envoie Jane dans une pension pour jeunes filles pauvres, où l'on va lui enseigner sévèrement, les rigueurs de la vie...</p>",
     "authors": [
@@ -652,8 +709,11 @@
         "id": 28
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div><p>Pour leur retour, les NoéNautes passent à l’offensive. Une rébellion contre les Descendants, ces personnes de l’ombre qui veulent manipuler leurs vies…</p>\n      <p>Or comment rester uni-e-s dans l’adversité quand on ne peut pas se blairer ?</p>\n      <p>La suite du roman-feuilleton blogesque #Smartarded  est truffée:</p>\n      <ul><li>de #hashtags, mais pas pareils</li>\n      <li>de pluriels féministes et geeks</li>\n      <li>de gestes opportuns</li>\n      <li>de relations pansexuelles</li>\n      <li>de streetfight au sac Casa</li>\n      <li>de bonbons d’attaque MAIS…</li>\n      <li>...de carambars diplomatiques</li>\n      <li>d'un épisode 42 assourdissant…</li>\n      </ul><p>Attention, ce roman peut contenir des traces…</p>\n      <ul><li>… de sexe (hétéro-friendly)</li>\n      <li>… de drogues (jouissives)</li>\n      <li>… de rock'n'roll (imaginaire)</li>\n      <li>… et de chatons. Parce que c'est important, les chatons.</li>\n      </ul></div>",
     "authors": [
@@ -683,8 +743,11 @@
         "id": 28
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p>L’histoire, c’est celle d’Enguerrand Kunismos. Ce jeune homme de 25 ans \navait une carrière prometteuse en tant qu’ingêneur. Une sorte de \nconsultant en connardise qui gagne très bien sa vie en imaginant comment\n pourrir efficacement la nôtre. Mais un accident lui fait développer des\n capacités assez étranges… Celles de voir et d’intervenir dans les \nhistoires qui se jouent dans nos têtes. Dans la noétie, la sphère des \nidées.</p>",
     "authors": [
@@ -722,8 +785,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Qui ne connait pas l'illustrissime Tartarin, immortalisé au cinéma par Raimu? Mais... au cas où, voici le résumé du début de cette aventure épique, et, pour tout dire, tarasconnaise... Tartarin possède un jardin exotique où il entretient un baobab dans un pot de réséda, de nombreuses armes et quantité de livres d'aventures. À Tarascon, les chasseurs sans gibier tirent sur leur casquette, après l'avoir lancée en l'air. Chacun dans le voisinage reconnaît que Tartarin est un vrai caractère, prêt à repousser toutes les attaques (qui ne viennent pas...). Il n'a jamais quitté Tarascon, mais l'arrivée d'une ménagerie et d'un lion en cage l'incite à partir pour l'Atlas...",
     "authors": [
@@ -761,8 +827,11 @@
         "id": 71
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Robinson quitte l'Angleterre en 1652 pour naviguer, contre la volonté de ses parents. Le navire est arraisonné par des pirates et Crusoé devient l'esclave d'un Maure. Il parvient à s'échapper sur un bateau et ne doit son salut qu'à un navire portugais qui passe au large de la côte ouest de l'Afrique. Arrivé au Brésil, Crusoé devient le propriétaire d'une plantation. Il se joint à une expédition partie à la recherche d'esclaves africains, mais il est naufragé sur une île. Tous ses compagnons étant morts, il parvient à récupérer des armes et des outils dans l'épave. Il se construit une habitation et confectionne un calendrier en faisant des entailles dans un morceau de bois. Il chasse et cultive le blé. Il apprend à fabriquer de la poterie et élève des chèvres. Il lit la Bible et rien ne lui manque, si ce n'est la compagnie des hommes...",
     "authors": [
@@ -800,8 +869,11 @@
         "id": 71
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Robinson quitte l'Angleterre en 1652 pour naviguer, contre la volonté de ses parents. Le navire est arraisonné par des pirates et Crusoé devient l'esclave d'un Maure. Il parvient à s'échapper sur un bateau et ne doit son salut qu'à un navire portugais qui passe au large de la côte ouest de l'Afrique. Arrivé au Brésil, Crusoé devient le propriétaire d'une plantation. Il se joint à une expédition partie à la recherche d'esclaves africains, mais il est naufragé sur une île. Tous ses compagnons étant morts, il parvient à récupérer des armes et des outils dans l'épave. Il se construit une habitation et confectionne un calendrier en faisant des entailles dans un morceau de bois. Il chasse et cultive le blé. Il apprend à fabriquer de la poterie et élève des chèvres. Il lit la Bible et rien ne lui manque, si ce n'est la compagnie des hommes...",
     "authors": [
@@ -835,8 +907,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "La vie de David Copperfield est sans histoire jusqu'au jour où sa mère se remarie. Maltraité par son beau-père, envoyé en pension, David commence une lente descente aux enfers. Travaillant à Londres pour survivre, il n'a plus qu'une idée en tête : s'enfuir et retrouver le bonheur perdu... Mais il ne peux compter que sur lui et la providence pour s'en sortir...",
     "authors": [
@@ -870,8 +945,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p>La vie de David Copperfield est sans histoire jusqu'au jour où sa mère se remarie. Maltraité par son beau-père, envoyé en pension, David commence une lente descente aux enfers. Travaillant à Londres pour survivre, il n'a plus qu'une idée en tête : s'enfuir et retrouver le bonheur perdu... Mais il ne peux compter que sur lui et la providence pour s'en sortir...</p>",
     "authors": [
@@ -905,8 +983,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Après la disparition de sa mère, morte en le mettant au monde, Olivier Twist est placé et élevé dans un orphelinat. Il devient vite le souffre-douleur du cruel bedeau Bumble qui pour s'en débarrasser, le place comme apprenti chez un fabricant de cercueils. Maltraité, Olivier s'enfuit à Londres où il est enrôlé dans une bande d'enfants-voleurs dirigé par Fagin, un homme redoutable...",
     "authors": [
@@ -944,8 +1025,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div><p class=\"\"description\"\" style=\"\"font-family: 'MS Shell Dlg 2', sans-serif; font-size: 12px;\"\">\n\t\n\t\n\t\n\n\n</p><p>Le roman raconte les aventures d'un Gascon impécunieux de 18 ans,\nd'Artagnan, venu à Paris pour faire carrière dans le corps des\nmousquetaires. Il se lie d'amitié avec Athos, Porthos et Aramis,\nmousquetaires du roi Louis XIII. Ces quatre hommes vont s'opposer au\npremier ministre, le cardinal de Richelieu et à ses agents, dont le\ncomte de Rochefort et la belle et mystérieuse Milady de Winter, pour\nsauver l'honneur de la reine de France Anne d'Autriche.</p></div>",
     "authors": [
@@ -979,8 +1063,11 @@
         "id": 69
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<span class=\"\"listeb\"\">La Belle aux \ncheveux d'or - L'Oiseau bleu - Gracieuse et Percinet - La Biche au bois -\n Babiole - Finette Cendron - Fortunée - La bonne petite souris - La \nPrincesse Rosette - Le Mouton - Le Nain jaune - Le Prince lutin - La \nGrenouille bienfaisante</span>",
     "authors": [
@@ -1018,8 +1105,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div>\n\t\n\t\n\t\n\n\n<p style=\"\"margin-bottom: 0cm\"\">Alice s'ennuie auprès de sa sœur qui\nlit un livre (« sans images, ni dialogues ») tandis qu'elle ne fait\nrien. « À quoi bon un livre sans images, ni dialogues ? », se\ndemande Alice. Mais voilà qu'un lapin blanc aux yeux roses vêtu\nd'une redingote avec une montre à gousset à y ranger passe près\nd'elle en courant. Cela ne l'étonne pas le moins du monde. Pourtant,\nlorsqu'elle le voit sortir une montre de sa poche et s'écrier : «\nJe suis en retard ! En retard ! En retard ! », elle se dit que\ndécidément ce lapin a quelque chose de spécial. En entrant\nderrière lui dans son terrier, elle fait une chute presque\ninterminable qui l'emmène dans un monde aux antipodes du sien. Elle\nva rencontrer une galerie de personnages retors et se trouver\nconfrontée au paradoxe, à l'absurde et au bizarre…</p><address><br></address><address>\n\t\n\t\n\t\n\n\n<p style=\"\"text-align: right; margin-bottom: 0cm;\"\">Contenu soumis à la licence CC-BY-SA\n3.0.</p><p style=\"\"text-align: right; margin-bottom: 0cm;\"\">Source : Article Les Aventures d'Alice\nau pays des merveilles de Wikipédia en français  </p></address></div>",
     "authors": [
@@ -1053,8 +1143,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div>\n\t\n\t\n\t\n\n\n<p></p><ol><li>Installation.</li><li>La diligence de Beaucaire.</li><li>Le secret de maître Cornille.</li><li>La chèvre de monsieur Seguin.</li><li>Les étoiles.</li><li>L’Arlésienne.</li><li>La mule du pape.</li><li>Le phare des Sanguinaires.</li><li>L’agonie de la Sémillante.</li><li>Les douaniers.</li><li>Le curé de Cucugnan.</li><li>Les vieux.</li><li>Ballades en prose : La Mort du Dauphin, Le Sous-préfet aux champs</li><li>Le portefeuille de Bixiou.</li><li>La légende de l’homme à la cervelle d’or.</li><li>Le poète Mistral.</li><li>Les trois messes basses.</li><li>Les oranges.</li><li>Les deux auberges.</li><li>À Milianah.</li><li>Les sauterelles.</li><li>L’élixir du Père Gaucher.</li><li>En Camargue.</li><li>Nostalgies de caserne.  </li></ol>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</div>",
     "authors": [
@@ -1088,8 +1181,11 @@
         "id": 55
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\"><span class=\"\"listeb\"\">L'Ombre - Le \nPapillon - Papotages d'enfants - La Pâquerette - La Petite Fille aux \nallumettes - La Petite Poucette - La Petite Sirène - La Plume et \nl'encrier - La Princesse au petit pois - La Princesse et le porcher - \nQuelque Chose - La Reine des neiges - Une Rose de la tombe d'Homère - Le\n Rossignol et l'Empereur - Le Sapin - Le Schilling d'argent - Le Soleil \nraconte - La Soupe à la brochette - Le Stoïque Soldat de plomb - La \nTirelire - La Vieille maison - Le Vieux Réverbère - Le Vilain Petit \nCanard - Les Voisins</span>\n\n</p>",
     "authors": [
@@ -1127,8 +1223,11 @@
         "id": 56
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p>La Femme vampire - Le Diable à Berlin - Casse-Noisette et le roi des \nsouris - L'Élève du grand Tartini - L'Hôte mystérieux - Le Voeu - Le \nSanctus.</p>",
     "authors": [
@@ -1162,8 +1261,11 @@
         "id": 56
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\"><span class=\"\"listeb\"\">L'Apprenti meunier \net la petite chatte - La Belle Catrinelle et Pif-Paf le Lutin - La \nBetterave - Blanche Neige - La Bonne bouillie - Les Bottes en cuir de \nbuffle - Bout de paille, braise et haricot - Cendrillon - Chat et souris\n associés - Chat et souris emménagent - Le Clou - Le Conte du genévrier -\n Les Créatures de Dieu et les bêtes du Diable - Dame Trude, la sorcière -\n La Demoiselle de Brake - Les Deux frères - Le Diable et sa grand-mère -\n Les Douze frères - Les Enfants Couleur d'Or - L'Envie de voyager - \nL'Épi de blé - L'Esprit dans la bouteille - La Fiancée du petit lapin - \nLa Fille du Roi et la grenouille - Frérot et soeurette - La Gardeuse \nd'oies - Hansel et Gretel - Histoire de celui qui s'en alla apprendre la\n peur</span>\n\n</p>",
     "authors": [
@@ -1197,8 +1299,11 @@
         "id": 68
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\"><span class=\"\"listeb\"\">Comment la Baleine \nacquit son gosier - Comment le Chameau acquit sa bosse - Comment le \nRhinocéros acquit sa peau - Comment le Léopard acquit ses taches - \nL'Enfant Eléphant - La Rengaine du père Kangourou - La Naissance des \nTatous - Comment naquit la première lettre - Comment l'alphabet fut fait\n - Le Crabe qui jouait avec la mer - Le Chat qui allait son chemin tout \nseul - Le Papillon qui tapait du pied</span>\n\n</p>",
     "authors": [
@@ -1232,8 +1337,11 @@
         "id": 69
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div>\n\t\n\t\n\t\n\n\n<p></p><ol><li>La Cigale et la Fourmi</li><li>Le Corbeau et le Renard</li><li>La Grenouille qui veut se faire aussi grosse que le boeuf</li><li>Les deux mulets</li><li>Le Loup et le Chien</li><li>La Génisse, la Chèvre et la Brebis en société avec le Lion</li><li>La Besace</li><li>L'hirondelle et les petits oiseaux</li><li>Le Rat de ville et le Rat des champs</li><li>Le loup et l'agneau</li><li>L'homme et son image</li><li>Le dragon à plusieurs têtes et le dragon à plusieurs queues</li><li>Les voleurs et l'Ane</li><li>Simonide préservé par les Dieux</li><li>La mort et le malheureux</li><li>La mort et le bûcheron</li><li>L'homme entre deux âges et ses deux maîtresses</li><li>Le renard et la cigogne</li><li>L'enfant et le maître d'école</li><li>Le coq et la perle</li><li>Les frelons et les mouches à miel</li><li>Le chêne et le roseau  </li></ol>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</div>",
     "authors": [
@@ -1267,8 +1375,11 @@
         "id": 69
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div>\n\t\n\t\n\t\n\n\n<p></p><ol><li>Contre ceux qui ont le goût difficile</li><li>Conseil tenu par les rats</li><li>Le Loup plaidant contre le renard par-devant le singe</li><li>Les deux Taureaux et une Grenouille</li><li>La Chauve-souris et les deux Belettes</li><li>L'Oiseau blessé d'une Flèche</li><li>La Lice et sa Compagne</li><li>L'Aigle et l'Escarbot</li><li>Le Lion et le Moucheron</li><li>L'Ane chargé d'éponges et l'Ane chargé de sel</li><li>Le Lion et le Rat</li><li>La Colombe et la Fourmi</li><li>L'Astrologue qui se laisse tomber dans un puits</li><li>Le Lièvre et les Grenouilles</li><li>Le Coq et le Renard</li><li>Le Corbeau voulant imiter l'Aigle</li><li>Le Paon se plaignant à Junon</li><li>La Chatte métamorphosée en Femme</li><li>Le Lion et l'Ane chassant</li><li>Testament expliqué par Esope</li></ol>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<p style=\"\"font-family: 'MS Shell Dlg 2', sans-serif; font-size: 12px;\"\"><br>\n</p></div>",
     "authors": [
@@ -1302,8 +1413,11 @@
         "id": 69
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\"><span class=\"\"listeb\"\">La Belle au bois \ndormant - Le Petit Chaperon rouge - La Barbe bleue - Le Maître Chat ou \nle Chat Botté - Les Fées - Cendrillon ou la petite pantoufle de verre - \nRiquet à la Houppe - Le Petit Poucet - Peau d'âne - Les Souhaits \nridicules - L'Adroite Princesse - Griselidis</span>\n\n</p>",
     "authors": [
@@ -1333,8 +1447,11 @@
         "id": 68
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div><span style=\"\"font-size: 12px;\"\">Ce recueil, qu'Apollinaire mit 15 ans à élaborer, annonce la quête de \nmodernité, de jeu avec la tradition, de renouvellement formel de la \npoésie de l'auteur. </span><i style=\"\"font-size: 12px;\"\">Alcools</i><span style=\"\"font-size: 12px;\"\"> est un recueil pluriel, polyphonique, qui explore de nombreux aspects de la poésie, allant de l'élégie</span><span style=\"\"font-size: 12px;\"\"> au vers libre</span><span style=\"\"font-size: 12px;\"\">,\n mélangeant le quotidien aux paysages rhénans dans une poésie qui se \nveut expérimentale, alliant une presque perfection formelle et une \ngrande beauté à un hermétisme, un art du choc, de l'électrochoc, qui \nvalut à Apollinaire d'être qualifié de mystificateur.</span><div><span style=\"\"font-size: 12px;\"\"><br></span></div><address style=\"\"text-align: right;\"\"><span style=\"\"font-size: 12px;\"\"><i>Contenu soumis à la licence CC-BY-SA 3.0</i></span>. Source : Article <i>Alcools </i>de Wikipédia en français</address></div>",
     "authors": [
@@ -1364,8 +1481,11 @@
         "id": 69
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Le haïku, terme créé par le poète et théoricien Shiki Masaoka (1867-1902), est une forme poétique très codifiée d'origine japonaise, à forte composante symbolique, et dont la paternité, dans son esprit actuel, est attribuée au poète Bashō Matsuo (1644-1694).",
     "authors": [
@@ -1399,8 +1519,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Un scandale en Bohême - La Ligue des rouquins - Une affaire d'identité - Le Mystère de la vallée de Boscombe - Les Cinq Pépins d'orange - L'Homme à la lèvre tordue - L'Escarboucle bleue - La Bande mouchetée - Le Pouce de l'ingénieur - Le Gentilhomme célibataire - Le Diadème de béryls - Les Hêtres d'or.",
     "authors": [
@@ -1438,8 +1561,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">Un jeune notaire anglais, Jonathan Harker, est envoyé en Transylvanie \npour rencontrer un client, le comte Dracula, nouveau propriétaire d'un \ndomaine à Londres. L'homme qu'il découvre est une créature démoniaque, \nun mort vivant qui boit le sang de ses victimes... Jonathan \néchappera-t-il au vampire ? Et quel sort attend Mina, sa douce fiancée ?\n\n</p>",
     "authors": [
@@ -1473,8 +1599,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div>Dartmoor, au Sud-Ouest de l'Angleterre.\n Le vieux Sir Charles Baskerville succombe à une crise cardiaque après \nune balade sur la lande. Selon une légende vieille de plusieurs siècles,\n un énorme chien démoniaque en aurait après les membres de cette \nfamille. Sherlock Holmes et le docteur Watson enquêtent. Ils doivent protéger le dernier descendant, Sir Henry, revenu du Canada pour hériter du domaine familial…</div>",
     "authors": [
@@ -1508,8 +1637,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Londres, 1878. Le Dr Watson fait la connaissance de Sherlock Holmes lorsqu'ils décident d'habiter ensemble.\nUn jour, Sherlock Holmes reçoit une lettre de Tobias Gregson, un des limiers de Scotland Yard, qui lui demande de l'aide dans une affaire de meurtre...",
     "authors": [
@@ -1539,8 +1671,11 @@
         "id": 53
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "La Bhagavad-Gītā est la partie centrale du poème épique Mahābhārata. Ce texte est un des écrits fondamentaux de l'Hindouisme souvent considéré comme un « abrégé de toute la doctrine védique ».",
     "authors": [
@@ -1566,8 +1701,11 @@
         "id": 54
       }
     ],
-    "series": [
-      3
+    "serie": [
+      {
+        "name": "Mille et une nuits",
+        "id": 3
+      }
     ],
     "summary": "<div><p class=\"\"description\"\" style=\"\"font-family: 'MS Shell Dlg 2', sans-serif; font-size: 12px;\"\"></p><ol><li>L’Âne, le Boeuf et le Laboureur, fable</li><li>Le Marchand et le Génie</li><li>Histoire du premier Vieillard et de la Biche</li><li>Histoire du second Vieillard et des deux Chiens noirs</li><li>Histoire du Pêcheur</li><li>Histoire du Roi grec et du Médecin Douban</li><li>Histoire du Mari et du Perroquet</li><li>Histoire du Vizir puni</li><li>Histoire du jeune Roi des îles Noires</li><li>Histoire des trois Calenders, fils de Roi, et de cinq Dames de Bagdad</li><li>Histoire du premier Calender, fils de Roi</li><li>Histoire du second Calender, fils de Roi</li><li>Histoire de l’Envieux et de l’Envié</li><li>Histoire du troisième Calender, fils de Roi</li><li>Histoire de Zobéide</li><li>Histoire d’Amine</li><li>Histoire de Sindbad le Marin</li><li>Premier voyage de Sindbad le Marin</li><li>Second voyage de Sindbad le Marin</li><li>Troisième voyage de Sindbad le Marin</li><li>Quatrième voyage de Sindbad le Marin</li><li>Cinquième voyage de Sindbad le Marin</li><li>Sixième voyage de Sindbad le Marin</li><li>Septième et dernier voyage de Sindbad le Marin</li><li>Les trois Pommes</li><li>Histoire de la Dame massacrée et du jeune Homme son mari</li><li>Histoire de Noureddin Ali et de Bedreddin Hassan</li><li>Histoire du Petit Bossu</li><li>Histoire que raconta le Marchand Chrétien</li><li>Histoire racontée par le Pourvoyeur du Sultan de Casgar</li><li>Histoire racontée par le Médecin Juif</li><li>Histoire que raconta le Tailleur</li><li>Histoire du Barbier</li><li>Histoire du premier Frère du Barbier</li><li>Histoire du second Frère du Barbier</li></ol><p style=\"\"font-family: 'MS Shell Dlg 2', sans-serif; font-size: 12px;\"\"></p>\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t<p style=\"\"font-family: 'MS Shell Dlg 2', sans-serif; font-size: 12px;\"\"></p></div>",
     "authors": [
@@ -1597,8 +1735,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Œuvre majeure de Charles Baudelaire, le recueil de poèmes Les Fleurs du mal, intégrant la quasi-totalité de la production poétique de l’auteur depuis 1840, est publié le 23 juin 1857. C’est l’une des œuvres les plus importantes de la poésie moderne, empreinte d’une nouvelle esthétique où la beauté et le sublime surgissent, grâce au langage poétique, de la réalité la plus triviale et qui exerça une influence considérable sur Arthur Rimbaud et Stéphane Mallarmé.",
     "authors": [
@@ -1632,8 +1773,11 @@
         "id": 35
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "L'Origine des espèces par le moyen de la sélection naturelle, ou la préservation des races favorisées dans la lutte pour la vie (Titre anglais original : On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life) est un ouvrage de Charles Darwin, publié le 24 novembre 1859 et dans lequel il explique le mécanisme présidant, selon lui, à l'évolution graduelle des espèces vivantes dans la nature.\nEn dépit de son titre, cet ouvrage est considéré aujourd'hui comme fondateur de la théorie de l'évolution moderne. Darwin mentionne différents prédécesseurs, à la fois concernant l'idée de \"\"descendance avec modification\"\" et l'idée de sélection naturelle dans une Notice historique ajoutée à partir de la troisième édition.",
     "authors": [
@@ -1667,8 +1811,11 @@
         "id": 38
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "J'accuse…! est le titre d'un article rédigé par Émile Zola lors de l'affaire Dreyfus et publié dans le journal L'Aurore du 13 janvier 1898 sous forme d'une lettre ouverte au Président de la République Félix Faure. Zola s'est appuyé en partie sur un dossier écrit en 1896 par l'écrivain Bernard Lazare.\nJ'accuse…! paraît deux jours après l'acquittement d'Esterhazy par le conseil de guerre (11 janvier), qui semble ruiner tous les espoirs nourris par les partisans d'une révision du procès condamnant Dreyfus. Zola y attaque nommément les généraux, les officiers responsables de l'erreur judiciaire ayant entraîné le procès et la condamnation, les experts en écritures coupables de « rapports mensongers et frauduleux. »",
     "authors": [
@@ -1702,8 +1849,11 @@
         "id": 71
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p>Qu'est-ce qu'agir moralement ? Dans ce texte de 1785, Kant part de la \nmorale populaire, non pour s'en remettre à une analyse empirique, mais \npour repérer les exigences de la raison qui s'y expriment déjà. Il ne \nlivre donc pas sa morale, mais une théorie de la morale, universelle, \nobjective, rationnelle. Cette méthode n'a cependant pas écarté la \ncritique. Accusée d'être abstraite, formelle ou inapplicable, l'approche\n kantienne de la morale, toujours très influente, éclaire pourtant \nencore nombre de débats contemporains.</p>",
     "authors": [
@@ -1737,8 +1887,11 @@
         "id": 43
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Mémoires d'outre-tombe est une autobiographie de François-René de Chateaubriand, dont la rédaction commence en 1809, sous le titre Mémoires de ma vie, et s'achève en 1841.",
     "authors": [
@@ -1772,8 +1925,11 @@
         "id": 56
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Livre de tous les superlatifs, le Zarathoustra de Nietzsche continue de fasciner, 120 ans après sa première publication. Par son écriture, d'abord, qui rappelle, à bien des égards, la Bible et sa dimension allégorique mais aussi la poésie sombre sombre d'Hölderlin. Par la présence du personnage de Zarathoustra ensuite, qui tient autant du Christ, par son côté prophétique, que du révolutionnaire, qui annonce le «surhomme», c'est à dire celui qui veut aller au-delà des valeurs reconnues et des vérités admises, sans volonté de domination. Magnifique et déroutant poème, ce texte est à l'image de cette formule du Prologue: «Il faut porter encore en soi un chaos, pour pouvoir mettre au monde une étoile dansante.»",
     "authors": [
@@ -1803,8 +1959,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "L’Éducation sentimentale, histoire d’un jeune homme est un roman écrit par Gustave Flaubert, et publié en 1869.\nLe cœur du récit est tiré du roman de Sainte-Beuve : Volupté, qu’Honoré de Balzac avait déjà traité et d’une certaine manière réécrit avec le Lys dans la vallée. Le roman de Flaubert reprend le même sujet selon des règles narratives entièrement neuves, réinventant le roman d'apprentissage pour lui donner une profondeur et une acuité jamais atteinte.",
     "authors": [
@@ -1834,8 +1993,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Charles Bovary, après avoir suivi ses études dans un lycée de province, s'établit comme officier de santé et se marie à une riche veuve. À la mort de celle-ci, Charles épouse une jeune femme, Emma Rouault, élevée dans un couvent, vivant à la ferme avec son père (un riche fermier, patient du jeune médecin). Emma se laisse séduire par Charles et se marie avec lui. Fascinée par ses lectures romantiques, elle rêve d’une nouvelle vie, en compagnie de son nouveau mari.",
     "authors": [
@@ -1873,8 +2035,11 @@
         "id": 45
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "La Désobéissance civile, titre original Civil Disobedience est un essai de Henry David Thoreau publié en 1849. H.D. Thoreau écrit sur le thème de la désobéissance civile, en se fondant sur son expérience personnelle.\nEn juillet 1846, Thoreau fut emprisonné, n'ayant volontairement pas payé un impôt à l'état américain, car il lui reprochait de soutenir l'esclavage qui régnait alors dans le Sud et de mener une guerre contre le Mexique. Il fut content d'être incarcéré pour cet acte posé. Il ne passa qu'une nuit en prison, car son entourage paya la caution, ce qui le rendit furieux.\nAvec le Discours de la servitude volontaire d'Étienne de La Boétie, La désobéissance civile est un ouvrage précurseur du concept de la désobéissance civile.\nSource: Wikipedia",
     "authors": [
@@ -1908,8 +2073,11 @@
         "id": 46
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Le roman raconte la vie que Thoreau a passée dans une cabane pendant deux ans, deux mois et deux jours, dans la forêt appartenant à son ami et mentor Ralph Waldo Emerson, jouxtant l'étang de Walden (Walden Pond), non loin de ses amis et de sa famille qui résidaient à Concord, dans le Massachusetts.\nWalden est écrit de telle façon que le séjour semble durer un an seulement. La narration suit les changements de saisons et Thoreau présente ses pensées, observations et spéculations. Il dévoile également comment, au contact de l'élément naturel, l'individu peut se renouveler et se métamorphoser, prendre conscience enfin de la nécessité de fondre toute action et toute éthique sur le rythme des éléments.\nWalden n'est ni un roman ni une véritable autobiographie, ni un journal naturaliste. Sa dimension critique à l'encontre du monde occidental en fait un véritable pamphlet. La part de l'imagination est conséquente et Thoreau consacre de nombreuses scènes à décrire l'étang de Walden mais aussi les animaux et la façon dont les gens le considèrent suite à son isolement, tout en dégageant des conclusions philosophiques. Ces longs passages concernant la nature appartiennent à la tradition transcendantaliste et appellent à refondre l'éthique.\nPlus d'un siècle plus tard, Walden reste une œuvre phare de la littérature américaine et l'ouvrage fondateur du genre littéraire du nature writing. La pensée écologiste moderne voit également en Walden le roman du retour à la nature et de la conscience environnementale. Les observations et spéculations de Thoreau font en effet de la nature, dans le récit, un protagoniste à part entière. Walden est enfin la lente introspection de Thoreau, le fil directeur d'une recherche du sens dans un monde de plus en plus marqué par l'industrialisation et la transformation de l'espace.",
     "authors": [
@@ -1943,8 +2111,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">Panique en mer ! Des navires font naufrage sous les assauts d'une \ncréature mystérieuse. Baleine ? Pieuvre ? La marine américaine expédie \nune frégate, avec à son bord, le célèbre professeur Aronnax. Mission : \nidentifier le monstre et en débarrasser les océans. La rencontre a bien \nlieu, mais l'aventure ne fait que commencer.\n\n</p>",
     "authors": [
@@ -1978,8 +2149,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">En 1872, un riche gentleman londonien, Phileas Fogg, parie vingt mille \nlivres qu'il fera le tour du monde en quatre-vingts jours. Accompagné de\n son valet de chambre, le dévoué Passepartout, il quitte Londres pour \nune formidable course contre la montre. Au prix de mille aventures, \nnotre héros va s'employer à gagner ce pari.\n\n</p>",
     "authors": [
@@ -2013,8 +2187,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Le professeur Lidenbrock trouve un document dans lequel il apprend l'existence d'un volcan éteint dont la cheminée pourrait le conduire jusqu'au centre de la Terre. Accompagné de son neveu Axel et du guide Hans, il se rend au volcan Sneffels, en Islande, et s'engouffre dans les entrailles de la Terre. Ils ne tarderont pas à faire d'étonnantes découvertes...",
     "authors": [
@@ -2052,8 +2229,11 @@
         "id": 70
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "« Ce ne sont mes gestes que j'escris ; c'est moy, c'est mon essence. Je tien qu'il faut estre prudent à estimer de soy, et pareillement conscientieux à en tesmoigner : soit bas, soit haut, indifferemment. Si je me sembloy bon et sage tout à fait, je l'entonneroy à pleine teste. De dire moins de soy, qu'il n'y en a, c'est sottise, non modestie : se payer de moins, qu'on ne vaut, c'est lascheté et pusillanimité selon Aristote. Nulle vertu ne s'ayde de la fausseté : et la verité n'est jamais matiere d'erreur. De dire de soy plus qu'il n'en y a, ce n'est pas tousjours presomption, c'est encore souvent sottise. Se complaire outre mesure de ce qu'on est, en tomber en amour de soy indiscrete, est à mon advis la substance de ce vice. Le supreme remede à le guarir, c'est faire tout le rebours de ce que ceux icy ordonnent, qui en defendant le parler de soy, defendent par consequent encore plus de penser à soy. L'orgueil gist en la pensée : la langue n'y peut avoir qu'une bien legere part. »\n\nLivre II, chapitre VI.",
     "authors": [
@@ -2091,8 +2271,11 @@
         "id": 70
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "« Ce ne sont mes gestes que j'escris ; c'est moy, c'est mon essence. Je tien qu'il faut estre prudent à estimer de soy, et pareillement conscientieux à en tesmoigner : soit bas, soit haut, indifferemment. Si je me sembloy bon et sage tout à fait, je l'entonneroy à pleine teste. De dire moins de soy, qu'il n'y en a, c'est sottise, non modestie : se payer de moins, qu'on ne vaut, c'est lascheté et pusillanimité selon Aristote. Nulle vertu ne s'ayde de la fausseté : et la verité n'est jamais matiere d'erreur. De dire de soy plus qu'il n'en y a, ce n'est pas tousjours presomption, c'est encore souvent sottise. Se complaire outre mesure de ce qu'on est, en tomber en amour de soy indiscrete, est à mon advis la substance de ce vice. Le supreme remede à le guarir, c'est faire tout le rebours de ce que ceux icy ordonnent, qui en defendant le parler de soy, defendent par consequent encore plus de penser à soy. L'orgueil gist en la pensée : la langue n'y peut avoir qu'une bien legere part. »\n\nLivre II, chapitre VI.",
     "authors": [
@@ -2130,8 +2313,11 @@
         "id": 70
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "« Ce ne sont mes gestes que j'escris ; c'est moy, c'est mon essence. Je tien qu'il faut estre prudent à estimer de soy, et pareillement conscientieux à en tesmoigner : soit bas, soit haut, indifferemment. Si je me sembloy bon et sage tout à fait, je l'entonneroy à pleine teste. De dire moins de soy, qu'il n'y en a, c'est sottise, non modestie : se payer de moins, qu'on ne vaut, c'est lascheté et pusillanimité selon Aristote. Nulle vertu ne s'ayde de la fausseté : et la verité n'est jamais matiere d'erreur. De dire de soy plus qu'il n'en y a, ce n'est pas tousjours presomption, c'est encore souvent sottise. Se complaire outre mesure de ce qu'on est, en tomber en amour de soy indiscrete, est à mon advis la substance de ce vice. Le supreme remede à le guarir, c'est faire tout le rebours de ce que ceux icy ordonnent, qui en defendant le parler de soy, defendent par consequent encore plus de penser à soy. L'orgueil gist en la pensée : la langue n'y peut avoir qu'une bien legere part. »\n\nLivre II, chapitre VI.",
     "authors": [
@@ -2165,8 +2351,11 @@
         "id": 70
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div>\n\t\n\t\n\t\n\n\n<p>Le Prince est un traité politique écrit au début du XVIe siècle\npar Nicolas Machiavel, homme politique et écrivain florentin, qui\nmontre comment devenir prince et le rester, analysant des exemples de\nl'histoire antique et de l'histoire italienne de l'époque. Parce que\nl'ouvrage ne donnait pas de conseils moraux au prince comme les\ntraités classiques adressés à des rois, et qu'au contraire il\nconseillait dans certains cas des actions contraires aux bonnes\nmœurs, il a été souvent accusé d'immoralisme, donnant lieu à\nl'épithète « machiavélique ». Cependant l'ouvrage a connu une\ngrande postérité et a été loué et analysé par de nombreux\npenseurs.</p></div>",
     "authors": [
@@ -2200,8 +2389,11 @@
         "id": 69
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Le Discours de la méthode, publié en 1637, est le premier texte philosophique écrit par René Descartes et le premier ouvrage qui traite du sujet en langue française (par opposition à la tradition scientifique de l'époque de rédiger en latin).",
     "authors": [
@@ -2231,8 +2423,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Au rouge des armes, Julien Sorel préfèrera le noir des ordres. Au cours de son ascension sociale, deux femmes se singularisent, comme pour figurer les deux penchants de son caractère : Madame de Rênal - le rêve, l'aspiration à un bonheur pur et simple - et Mathilde de La Mole - l'énergie, l'action brillante et fébrile. A ces composantes stendhaliennes (conception de la vie qui dépasse la stratégie narrative pour s'étendre à l'existence de l'auteur) correspondent deux facettes stylistiques : la sobriété et la restriction du champ de vision.",
     "authors": [
@@ -2270,8 +2465,11 @@
         "id": 72
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Traduit pour la première fois par un jésuite en 1772 sous le titre «Les treize chapitres», qui l'a fait connaître en Europe, ce texte est vite devenu un texte fondateur de la stratégie militaire auprès des différentes cours et état-majors européens. Rarement, un livre ancien (écrit entre le 6ème et le 3e siécle avant Jésus-Christ) n'est resté aussi moderne, car cette philosophie de la guerre et de la politique fondée sur la ruse et le semblant, plus que sur la force brute, qu'il décrit, est toujours d'actualité. Et même, hors de la «chose militaire», Sun tzu reste une grande référence pour décrypter la stratégie d'entreprise et la politique. La formulation précise et imagée de Sun tzu ajoute à l'intérêt du texte, une touche de sagesse millénaire...",
     "authors": [
@@ -2301,8 +2499,11 @@
         "id": 72
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Le Kâmasûtra (composé de Kâma, le désir (également dieu de l'amour, équivalent indien d'Éros ou de Cupidon) et Sûtra, l’aphorisme (soit Les Aphorismes du désir) - est un recueil indien écrit entre le IVe siècle et le VIIe siècle, attribué à Vâtsyâyana.\nLe Kâmasûtra est un traité classique de l'hindouisme",
     "authors": [
@@ -2332,8 +2533,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "À la prison de Bicêtre, un condamné à mort note heure par heure les événements d'une journée dont il apprend qu'elle sera la dernière. Il rappelle les circonstances de la sentence, puis de son emprisonnement et la raison qui le fait écrire, jusqu'au moment où il lui sera physiquement impossible de continuer. Décrivant sa cellule, détaillant la progression de la journée, évoquant d'horribles souvenirs comme le ferrement des forçats, la complainte argotique d'une jeune fille, des rêves, il en arrive au transfert à la Conciergerie....\nHugo ne donne pas son nom, ne dit presque rien sur son passé, ni pourquoi cet homme est emprisonné. Peu importe ! Ce texte est un plaidoyer contre la peine de mort, contre toutes les peines de mort, il n'a pour objet que cette mort qui apparaît dans toute son horreur inouïe et impensable, dans son inhumanité intrinsèque. Ce condamné «anonyme», n'est personne, et donc tout le monde, et nous vivons sa peur et son Enfer.",
     "authors": [
@@ -2363,8 +2567,11 @@
         "id": 69
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div><p class=\"\"description\"\" style=\"\"font-family: 'MS Shell Dlg 2', sans-serif; font-size: 12px;\"\">\n\t\n\t\n\t\n\n\n</p><p>Candide est un jeune garçon vivant au château du baron de\nThunder-ten-tronckh qui se trouve en Westphalie. Il a pour maître\nPangloss, philosophe qui enseigne la «\nmétaphysico-théologo-cosmolonigologie », et qui professait, à\nl'instar de Leibniz, que l'on vit dans le meilleur des mondes\npossibles. Candide est chassé de ce meilleur des mondes possibles à\nla suite d'un baiser interdit échangé avec Cunégonde, la fille du\nBaron. Candide découvre alors le monde, et va de déconvenue en\ndéconvenue sur les chemins d'un long voyage initiatique.</p></div>",
     "authors": [
@@ -2398,8 +2605,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">C'est la première apparition du détective inventé par Poe, le Chevalier Dupin qui doit faire face à une histoire de meurtre incompréhensible pour la police.</p>",
     "authors": [
@@ -2433,8 +2643,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Ce roman s'inspire du meurtre, à la fin du Second Empire, de la veuve Célestin Lerouge, égorgée dans le quartier de la place d'Italie et dont l'assassin n'a jamais été retrouvé. Émile Gaboriau, enquêtant pour le compte de son journal Le Soleil, va durant des semaines tenir en haleine un public toujours plus nombreux avec un art déroutant qui va tout de suite en faire un maître de l'angoisse, et l'inventeur du roman policier. Gaboriau excelle à dérouter son lecteur, utilise les renseignements que lui a fournis un de ses amis, inspecteur de la Sûreté, Tabaret, dit Tirauclair.",
     "authors": [
@@ -2468,8 +2681,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Un vol important vient d'être commis rue de Provence à Paris, au préjudice de la banque Fauvel. Or, deux personnes seulement connaissaient la combinaison du coffre duquel 300000 francs ont été soustraits... Après une enquête sommaire, la police arrête Prosper Bertomy, le caissier principal. Mais une seconde enquête commence, menée par l'inspecteur Fanferlot, surnommé l'Écureuil, qui découvre l'existence de Nina Gipsy, une mystérieuse jeune femme entretenue par le caissier... Fanferlot fait alors appel au redoutable policier Lecoq. Aux côtés de celui-ci, il remonte la piste d'une affaire beaucoup plus complexe. Et nous voilà transportés des années en arrière, sous la Restauration, tandis que l'auteur nous dévoile une mystification d'envergure, historique, tout autant que criminelle.",
     "authors": [
@@ -2503,8 +2719,11 @@
         "id": 68
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">Une ombre rôde dans l’Opéra. Une présence singulière, une apparence \ndouteuse et une voix lugubre... Un machiniste est retrouvé pendu, un \ngrand lustre se détache en pleine représentation. On parle du fantôme de\n la loge nº5. Mais a-t-on véritablement affaire à un fantôme ?\n\n</p>",
     "authors": [
@@ -2538,8 +2757,11 @@
         "id": 68
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div><p>Le Parfum de la dame en noir met en scène une nouvelle enquête menée par le très célèbre reporter Joseph Rouletabille ! <font face=\"\"MS Shell Dlg 2, sans-serif\"\"><span style=\"\"font-size: 12px;\"\">Le Mystère de la Chambre Jaune\n résolu, Mathilde Stangerson et Robert Darzac mariés, la vie aurait dû \nreprendre son cours normal. Mais à peine sont-ils partis en voyage de \nnoces que Rouletabille reçoit un appel au secours du jeune couple.</span></font></p><p class=\"\"description\"\"></p><p>Entre disparition et crime, c’est un nouveau mystère que Joseph Rouletabille s’efforce de résoudre.</p></div>",
     "authors": [
@@ -2573,8 +2795,11 @@
         "id": 68
       }
     ],
-    "series": [
-      2
+    "serie": [
+      {
+        "name": "Arsène Lupin, gentleman cambrioleur",
+        "id": 2
+      }
     ],
     "summary": "Quelle mystérieuse entreprise amène à Paris Rudolf Kesselbach, le richissime et ambitieux roi du diamant sud-africain? Que signifie ce nombre, 813, inscrit sur le coffret en sa possession ? De quel secret le nommé Pierre Leduc, qu’il recherche dans les bas-fonds de la capitale, est-il le détenteur ?\nTelles sont quelques-unes des questions à propos desquelles s’affrontent la police – en l’occurrence un certain Lenormand, chef de la Sûreté –, l’impitoyable baron Altenheim et le gentleman-cambrioleur Arsène Lupin. Lequel devra également démasquer l’invisible assassin qui cherche à lui faire porter la responsabilité de ses crimes…\nEt nous voilà entraînés sur les pas de l’orpheline Geneviève, de l’élégant prince Sernine et de bien d’autres personnages, dans une avalanche de coups de théâtre et de révélations plus incroyables les unes que les autres.",
     "authors": [
@@ -2608,8 +2833,11 @@
         "id": 68
       }
     ],
-    "series": [
-      2
+    "serie": [
+      {
+        "name": "Arsène Lupin, gentleman cambrioleur",
+        "id": 2
+      }
     ],
     "summary": "Arsène Lupin contre Herlock Sholmès ! L'homme qui défie toutes les polices françaises contre l'as des détectives anglais. « C'est justement quand je ne comprends plus que je soupçonne Arsène Lupin », avoue le célèbre limier anglais. Quand deux hommes aussi intelligents s'affrontent, leur duel est un grand spectacle.Qui a volé le petit secrétaire d'acajou contenant un billet de loterie gagnant ? Qui a volé la lampe juive, le diamant bleu, joyau de la couronne royale de France ? Qui joue les passe-murailles en plein Paris ? Arsène Lupin, toujours lui, l'éternel amoureux de la Dame Blonde, plus insolent, plus ingénieux que jamais, déjouant une à une toutes les ruses de l'Anglais par d'autres ruses plus étonnantes encore.",
     "authors": [
@@ -2643,8 +2871,11 @@
         "id": 68
       }
     ],
-    "series": [
-      2
+    "serie": [
+      {
+        "name": "Arsène Lupin, gentleman cambrioleur",
+        "id": 2
+      }
     ],
     "summary": "Svelte, élégant, raffiné, séducteur, Arsène Lupin, gentleman-cambrioleur de son état, est le modèle du dandy \"\"Belle Epoque\"\". Son intelligence, sa culture, ses talents d'illusionniste entre Fregoli et Robert-Houdin sont au service d'un culot stupéfiant. Mais cet homme du monde accompli est aussi un anarchiste dans l'âme qui se joue des conventions sociales avec une merveilleuse insolence.\n\nArsène Lupin, gentleman-cambrioleur est un recueil de nouvelles écrites par Maurice Leblanc et contant des aventures d'Arsène Lupin.\nLa première nouvelle de ce recueil a été publiée en juillet 1905 dans le journal Je sais tout. Il s'agissait de la première nouvelle mettant en œuvre Arsène Lupin. Celle-ci ayant du succès, Maurice Leblanc est encouragé à écrire la suite, en plusieurs nouvelles. Ce qui sera fait jusqu'en 1907.\nLe recueil sort en librairie le 10 juin 1907.",
     "authors": [
@@ -2678,8 +2909,11 @@
         "id": 68
       }
     ],
-    "series": [
-      2
+    "serie": [
+      {
+        "name": "Arsène Lupin, gentleman cambrioleur",
+        "id": 2
+      }
     ],
     "summary": "Arsène Lupin serait-il mort ? Isidore Beautrelet, jeune étudiant en rhétorique et détective amateur génial, n'en croit pas un traître mot. Il se lance à la recherche du célèbre gentleman cambrioleur.",
     "authors": [
@@ -2713,8 +2947,11 @@
         "id": 68
       }
     ],
-    "series": [
-      2
+    "serie": [
+      {
+        "name": "Arsène Lupin, gentleman cambrioleur",
+        "id": 2
+      }
     ],
     "summary": "« Allô…, le service de la Sûreté ? M. l’inspecteur principal Ganimard est-il ici ? Pas avant vingt minutes ? Dommage ! Enfin ! quand il sera là, vous lui direz ceci de la part de Mme Dugrival… Oui, Mme Nicolas Dugrival… Vous lui direz qu’il vienne chez moi. Il ouvrira la porte de mon armoire à glace, et, cette porte ouverte, il constatera que l’armoire cache une issue qui fait communiquer ma chambre avec deux pièces. Dans l’une d’elles, il y a un homme solidement ligoté. C’est le voleur, l’assassin de Dugrival. Vous ne me croyez pas ? Avertissez M. Ganimard. Il me croira, lui. Ah ! j’oubliais le nom de l’individu : Arsène Lupin… »",
     "authors": [
@@ -2748,8 +2985,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p>Lord Arthur Savile, jeune noble anglais, a tout pour être heureux : une \nvie facile, la promesse d un mariage agréable... jusqu'au jour où un \nchiromancien lui prédit qu'il commettra un meurtre. Dès lors, il décide \nde prendre le destin de vitesse en commettant le crime avant qu'il ne se\n présente ! Mais qui choisir ? Et comment s y prendre ? </p>",
     "authors": [
@@ -2783,8 +3023,11 @@
         "id": 60
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "La Dame aux camélias a pour thème une histoire d’amour entre une courtisane atteinte de phtisie, Marguerite Gautier, et un jeune bourgeois, Armand Duval. La narration de cette histoire d’amour constitue un récit dans le récit, puisqu’Armand Duval raconte son aventure au narrateur initial du roman.",
     "authors": [
@@ -2818,8 +3061,11 @@
         "id": 67
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Oeuvre fondatrice de la poésie italienne, épopée poétique et métaphysique, ce voyage initiatique menant à la clarté divine, s'ouvre sur la traversée des neuf cercles de l'Enfer, sondant à la fois la symbolique chrétienne et les recoins les plus funestes de l'âme humaine.",
     "authors": [
@@ -2853,8 +3099,11 @@
         "id": 62
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Unique survivant d'un naufrage, Edward Prendick est recueilli sur une île des mers du sud par un personnage singulier: le docteur Moreau. Il découvre avec effroi que l'île est peuplée de créatures monstrueuses, mi-hommes mi-bêtes, vivant sous la domination de Moreau et de Montgomery, son assistant...",
     "authors": [
@@ -2888,8 +3137,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Deux enfants, Miles et Flora, sont confiés, dans des circonstances un peu mystérieuses, à une gouvernante. Cette dernière acquiert bientôt la certitude que des esprits damnés persécutent les deux petits qui, par une sorte de connivence, gardent jalousement pour eux ce secret. Malgré tout, l'héroïne entreprend une lutte pour les libérer de cette possession dans une atmosphère de cauchemars et d'hallucinations... Dans la préface, Edmond Jaloux écrit: «Il semble que tous les personnages d'Henry James aient quelque chose de spectral. Et je le dis dans les deux sens du mot. Ce sont des projections de l'esprit sur d'autres projections de l'esprit, et il y a dans leurs passions, même les plus ardentes, quelque chose de glacé et d'étrange, parfois même d'inhumain, qui tout d'un coup nous fait souvenir qu'Henry James, après tout, a été le compatriote d'Edgar Poe.»",
     "authors": [
@@ -2923,8 +3175,11 @@
         "id": 60
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">Sans richesse ni éducation, la jeune Fanny Price n'a rien pour séduire \nla bonne société anglaise. Pourtant, dans la faste demeure de Mansfield \nPark où l'a recueillie son oncle, il lui faut faire bonne figure. Entre \nfrustrations et vexations, que sera-t-elle prête à sacrifier pour être \nacceptée dans le monde enjôleur de ses cousins ?\n\n</p>",
     "authors": [
@@ -2958,8 +3213,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Frankenstein ou Le Prométhée moderne (Frankenstein or The Modern Prometheus) est un roman gothique et considéré a posteriori comme le précurseur de la science-fiction, publié en 1818 par la jeune britannique Mary Shelley , maîtresse et future épouse du poète Shelley.\nLe roman est le récit d'une tentative d'exploration polaire par Robert Walton. La majeure partie de ce récit est constituée par l'histoire de la vie de Victor Frankenstein que Walton a recueilli sur la banquise. Ce récit tourne lui même autour de la narration à Frankenstein, par le monstre auquel il a donné vie, des tourments de celui-ci, qui justifient la haine qu'il lui porte.",
     "authors": [
@@ -2993,8 +3251,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Dorian Gray est un jeune homme d'une très grande beauté. Son ami artiste peintre Basil Hallward est obsédé par cette dernière et en tire toute son inspiration. Sa fascination pour le jeune homme le mène à faire son portrait, qui se révèle être la plus belle œuvre qu'il ait jamais peinte, et qu'il ne souhaite pas exposer : « J'y ai mis trop de moi-même ».\nDorian va faire la connaissance de Lord Henry, dit Harry, un ami de Basil. Conscient de la fascination et de la perversion que ce dernier pourrait avoir pour son idéal de beauté, « cette nature simple et belle », Basil demande à Lord Henry de ne pas tenter de le corrompre. Mais Dorian se laisse séduire par les théories sur la jeunesse et le plaisir de ce nouvel ami qui le révèle à lui-même en le flattant : « Un nouvel hédonisme […] Vous pourriez en être le symbole visible. Avec votre personnalité, il n'y a rien que vous ne puissiez faire ». Va naître dès lors en lui une profonde jalousie à l'égard de son propre portrait peint par Basil Hallward. Il souhaite que le tableau vieillisse à sa place pour que lui, Dorian Gray, garde toujours sa beauté d'adolescent. « Si le tableau pouvait changer tandis que je resterais ce que je suis ! ».",
     "authors": [
@@ -3024,8 +3285,11 @@
         "id": 66
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Dans son oeuvre majeure, poème en quinze livres, Ovide reprend les légendes grecques et décrit avec force détails les transformations des dieux et des hommes en animaux, plantes ou pierres.",
     "authors": [
@@ -3055,8 +3319,11 @@
         "id": 66
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p>Dans ce poème de 814 vers, l'auteur explique comment guérir de la \npassion amoureuse d'abord lorsque l'on est en couple puis lorsqu'on a \nrompu. Selon Ovide, l'exécution de ces conseils permettra d'éviter le \nsuicide par dépit amoureux.</p>",
     "authors": [
@@ -3090,8 +3357,11 @@
         "id": 22
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Le héros de cette histoire est Jim Hawkins, fils d'un tenancier d'auberge dans un port anglais, sur la côte ouest de l'Angleterre au XVIIIe siècle. Le principal client de cette auberge se trouve être un vieux marin, nommé Billy Bones, sur lequel pèse une obscure menace. Celle-ci se précise lorsqu'un mystérieux aveugle lui remet «la tache noire», qui annonce la mort dans le monde des pirates. Le même jour, Billy, ivrogne impénitent, meurt. En ouvrant sa malle, Jim et sa mère découvrent une carte sur laquelle est indiquée la cachette d'un fabuleux trésor que la bande du capitaine Flint a enfoui dans une île déserte...",
     "authors": [
@@ -3121,8 +3391,11 @@
         "id": 25
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Les 11 000 vers des Contemplations furent écrits dès 1834, mais surtout pendant l'exil à Jersey, puis à Guernesey, en particulier à partir de 1853 alors que Hugo composait les Châtiments. Mettant fin au silence lyrique qu'il observait depuis les Rayons et les Ombres (1840), le recueil, sommet de sa production poétique, somme de sa vie, de sa sensibilité et de sa pensée, se présente comme «les Mémoires d'une âme» (Préface). Si «une destinée est écrite là jour à jour», le recueil s'érige aussi en expression d'une expérience, celle d'un homme qui se veut comme les autres : «Quand je vous parle de moi, je vous parle de vous.»",
     "authors": [
@@ -3160,8 +3433,11 @@
         "id": 65
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">Dans les dernières années du XIXe siècle, les Martiens décident de \nconquérir la terre. Bien que mortels comme les humains, les envahisseurs\n ont une intelligence supérieure à eux. Ils sont équipés de tripodes qui\n ont une puissance dévastatrice incroyable. La bataille est commencée, \nnotre planète et ses habitants vont subir, massacres et destructions. Un\n homme va assister à cette guerre en essayant de survivre au milieu du \nchaos. C’est son histoire que vous allez vivre en lisant La Guerre des \nMondes.\n\n</p>",
     "authors": [
@@ -3195,8 +3471,11 @@
         "id": 62
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">La terre en l'an 802701 a les apparences d'un paradis. Les apparences seulement. Car derrière ces jardins magnifiques, ces bosquets somptueux, cet éternel été où les hommes devenus oisifs n'ont à se préoccuper de rien, se cache un secret...</p>",
     "authors": [
@@ -3230,8 +3509,11 @@
         "id": 62
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Le savant Griffin, après 15 ans de recherches et des dépenses qui l'ont ruiné, invente une formule pour devenir invisible. Après avoir fait l'expérience sur le chat de sa voisine, il décide d'expérimenter la formule sur lui même, notamment pour fuir ses créanciers (loyer non payé pour cause de manque d'argent et accusé de vivisection sur le chat de sa voisine; ce qui est faux). Il devient alors totalement invisible.",
     "authors": [
@@ -3269,8 +3551,11 @@
         "id": 68
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "On connaît sous le nom de Livre de la jungle les aventures du jeune Mowgli en dessin animé ou film. Mais l'ouvrage original de Rudyard Kipling regroupe en fait sept récits. Les trois premiers mettent en scène Mowgli, petit garçon volé dans un village par le tigre Shere Khan, sauvé par un clan de loups et pris sous leur protection par la panthère Bagheera et l'ours Baloo. Viennent ensuite les aventures de Kotick, le phoque blanc qui cherche pour ses semblables un lieu où les hommes ne pourront pas les massacrer, de Rikki-tikki-tavi, adorable mangouste qui sauve son petit maître d'un terrible couple de cobras, de Toomai, le petit cornac qui voulait voir danser les éléphants... L'auteur, conteur magnifique, grand amoureux et connaisseur de l'Inde et de la nature, propose un voyage fabuleux au coeur de la jungle, parmi les loups, les tigres et les éléphants. Dans son monde, les animaux parlent et font souvent montre de sagesse, parfois de cruauté, ils sont effrayants comme Kaa le serpent ou Shere Khan le tigre, attachants comme Rikki-tikki-tavi la mangouste... De magnifiques récits, pleins d'aventures, de poésie : tout un univers...",
     "authors": [
@@ -3304,8 +3589,11 @@
         "id": 55
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div><p class=\"\"description\"\">\n\t\n\t\n\t\n\n\n</p><p style=\"\"margin-bottom: 0cm\"\">L'Aiguille à repriser - Les Amours\nd'un faux-col - Les Aventures du chardon - La Bergère et le ramoneur\n- Le Bisaïeul - Le Bonhomme de neige - Bonne humeur - Le Briquet -\nCe que le Père fait est bien fait - Chacun et chaque chose à sa\nplace. - Le Chanvre - Cinq dans une cosse de pois - La Cloche - Le\nCompagnon de route - Le Concours de saut - Le Coq de poulailler et le\ncoq de girouette - Les Coureurs - Le Crapaud - Les Cygnes sauvages -\nLe Dernier Rêve du chêne - L'Escargot et le rosier - La Fée du\nsureau - Les Fleurs de la petite Ida - Le Goulot de la bouteille -\nGrand Claus et petit Claus - Les Habits neufs du grand-duc - Hans le\nbalourd - L'Heureuse Famille - Le Jardinier et ses maîtres - La\nMalle volante - Le Montreur de marionnettes - Une Semaine du petit\nelfe Ferme-l'oeil</p></div>",
     "authors": [
@@ -3331,8 +3619,11 @@
         "id": 54
       }
     ],
-    "series": [
-      3
+    "serie": [
+      {
+        "name": "Mille et une nuits",
+        "id": 3
+      }
     ],
     "summary": "<div><p style=\"\"font-family: 'MS Shell Dlg 2', sans-serif; font-size: 12px;\"\"></p><ol><li>Histoire du troisième Frère du Barbier</li><li>Histoire du quatrième Frère du Barbier</li><li>Histoire du cinquième Frère du Barbier</li><li>Histoire du sixième Frère du Barbier</li><li>Histoire d’Aboulhassan Ali Ebn Becar et de Schemselnihar, favorite du calife Haroun-al-Raschid </li><li>Histoire des amours de Camaralzaman, prince de l’île des Enfants de Khaledan, et de Badoure, princesse de la Chine </li><li>Histoire de Noureddin et de la belle Persane </li><li>Histoire de Beder, prince de Perse, et de Giauhare, princesse du royaume de Samandal </li><li>Histoire de Ganem, fils d’Abou Aibou, l’esclave d’amour </li><li>Histoire du prince Zeyn Alasnam et du roi des Génies </li><li>Histoire de Codadad et de ses frères </li><li>Histoire de la princesse de Deryabar</li></ol><p class=\"\"description\"\" style=\"\"font-family: 'MS Shell Dlg 2', sans-serif; font-size: 12px;\"\">\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t</p><p style=\"\"font-family: 'MS Shell Dlg 2', sans-serif; font-size: 12px;\"\">\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t</p></div>",
     "authors": [
@@ -3358,8 +3649,11 @@
         "id": 54
       }
     ],
-    "series": [
-      3
+    "serie": [
+      {
+        "name": "Mille et une nuits",
+        "id": 3
+      }
     ],
     "summary": "<div><p style=\"\"font-family: 'MS Shell Dlg 2', sans-serif; font-size: 12px;\"\"></p><ol><li>Histoire du Dormeur éveillé\n\n</li><li>Histoire d’Aladdin, ou la Lampe merveilleuse </li><li>Les aventures du calife Haroun-al-Raschid </li><li>Histoire de l’aveugle Baba-Abdalla </li><li>Histoire de Sidi Nouman </li><li>Histoire de Cogia Hassan Alhabbal </li><li>Histoire d’Ali Baba et de quarante voleurs exterminés par une esclave </li><li>Histoire d’Ali Cogia, marchand de Bagdad </li><li>Histoire du Cheval enchanté </li><li>Histoire du prince Ahmed et de la fée Pari-Banou </li><li>Histoire des deux sœurs jalouses de leur cadette</li></ol>\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t</div>",
     "authors": [
@@ -3397,8 +3691,11 @@
         "id": 56
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p>Le Violon de Crémone - Le Majorat - La Vie d'artiste - Le Bonheur au jeu - La Nuit du Sabbat - Le Sanctus</p>",
     "authors": [
@@ -3436,8 +3733,11 @@
         "id": 56
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<div>Marino Falieri - Salvator Rosa - La Leçon de violon - La Cour d'Artus - Gluck - Don Juan - L'Homme au Sable - Agafia.<br></div>",
     "authors": [
@@ -3475,8 +3775,11 @@
         "id": 56
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p>Le Spectre fiancé - Zacharias Werner - L'Église des jésuites - \nMademoiselle de Scudéry - Maître Martin, le tonnelier et ses apprentis.</p>",
     "authors": [
@@ -3510,8 +3813,11 @@
         "id": 68
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Imaginez-vous devant un coffre fort fermé, où vous entendriez quelqu'un crier à l'aide , vous ouvrez et, vous ne trouvez que la victime. Par où l'assassin est-il parti ? C'est le Mystère de la chambre jaune... La plus célèbre des aventures de Rouletabille...",
     "authors": [
@@ -3537,8 +3843,11 @@
         "id": 31
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "",
     "authors": [
@@ -3568,8 +3877,11 @@
         "id": 54
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "",
     "authors": [
@@ -3607,8 +3919,11 @@
         "id": 27
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "<p class=\"\"description\"\">Les frasques et mésaventures de Tom Sawyer, jeune garçon à l'esprit vif et débordant d'imagination, élevé par sa tante, au bord du Mississipi. Tom ne loupe pas une occasion de se distinguer pour plaire à la jolie Becky, et il est toujours prêt pour vivre des aventures en compagnie de son inséparable ami Huckleberry Finn, fils de l'ivrogne du village. Un soir dans un cimetière, Tom et Huck sont témoins d'un meurtre. Muff Potter est accusé du crime, mais Tom et Huck savent que le véritable assassin est Joe l'Indien...<br></p>",
     "authors": [
@@ -3646,8 +3961,11 @@
         "id": 68
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Croc-Blanc (1906) est un roman de l'écrivain américain Jack London. Le titre original est White Fang.\nL'histoire commence avant la naissance de Croc-Blanc, un chien loup. Le roman suit la meute d'où il vient et ses premières semaines de vie sauvage, sa lutte pour la vie; manger ou être mangé.",
     "authors": [
@@ -3685,8 +4003,11 @@
         "id": 68
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "Un des chefs d'oeuvre de Jack London, un grand classique de la littérature de jeunesse.\nBuck, un croisé de terre-neuve et de colley âgé de 4 ans et demi et pesant 70 kg, appartient à un magistrat de la vallée de Santa Clara (Haute-Californie). Loin d'avoir une «vie de chien», Buck coule une existence heureuse dans la famille du juge Miller. Mais tout bascule le jour où, victime de la traîtrise d'un homme, il se retrouve vendu à un conducteur de traîneau dans le Grand Nord américain. Finie la vie d'aristocrate blasé, Buck va devoir affronter son destin dans un univers glacial et sans pitié, où chaque faute, chaque erreur est sévèrement sanctionnée. Saura-t-il survivre dans ce monde cruel où règne la loi du plus fort? Qu'adviendra-t-il de cet admirable chien le jour où il découvrira, d'abord avec amertume, puis avec un plaisir trouble et instinctif, le goût du sang?",
     "authors": [
@@ -3708,8 +4029,11 @@
         "id": 73
       }
     ],
-    "series": [
-      ""
+    "serie": [
+      {
+        "name": "",
+        "id": ""
+      }
     ],
     "summary": "",
     "authors": [
