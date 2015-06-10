@@ -1,15 +1,23 @@
 <div data-ng-controller="SerieDetailCtrl">
-
-  <div class='container'>
-    <h2 class="page-header">
-      {{serie.name}}
-    </h2>
-
-    <ol>
-      <li data-ng-repeat="book in books">
-      <a data-ng-href="#/book/{{book.id}}">{{book.name}}</a>
-      </li>
-    </ol>
-  </div>
-
+ <div class='container'>
+        <ol class="breadcrumb">
+            <li>
+                <a href="#/books">Livres numérique</a>
+            </li>
+            <li>
+                <a href="#/series">Séries</a>
+            </li>
+            <li class="active">{{serie.name}}</li>
+        </ol>
+        <h4>Il y a {{serie.books.length}} livres dans cette série :
+        </h4>
+        <ul>
+            <a data-ng-repeat="book in serie.books" data-ng-href="#/book/{{book.id}}">
+                <li class='row listElement'>
+                    <div class='col-md-8'>{{book.title}}</div>
+                </li>
+            </a>
+        </ul>
+    </div>
 </div>
+

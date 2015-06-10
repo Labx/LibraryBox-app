@@ -30,7 +30,7 @@ angular.module('libraryboxApp')
   });
 
   // just stupidly retrieve 6 books to design the view
-  Books.all().then(function(data) {
+  Tags.all().then(function(data) {
     $scope.books = data.slice(0,6);
   });
 

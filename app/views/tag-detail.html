@@ -2,19 +2,17 @@
     <div class='container'>
         <ol class="breadcrumb">
             <li>
-                <a href="#">Livres numérique</a>
+                <a href="#/books">Livres numérique</a>
             </li>
             <li>
-                <a href="#">Catégories</a>
+                <a href="#/tags">Catégories</a>
             </li>
             <li class="active">{{tag.name}}</li>
         </ol>
-        <h4>{{books.length}} livres correspondent à cette 
-
-            <a href="#/tags">catégorie :</a>
+        <h4>{{tag.books.length}} livres correspondent à cette catégorie :
         </h4>
         <ul>
-            <a data-ng-repeat="book in books" data-ng-href="#/book/{{book.id}}">
+            <a data-ng-repeat="book in tag.books" data-ng-href="#/book/{{book.id}}">
                 <li class='row listElement'>
                     <div class='col-md-8'>{{book.title}}</div>
                 </li>

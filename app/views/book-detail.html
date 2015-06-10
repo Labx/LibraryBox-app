@@ -1,26 +1,31 @@
 <div data-ng-controller="BookDetailCtrl">
-
-  <div class='container'>
-      
-      <div class="row">
-          
-        <h2 class="page-header">{{book.title}}</h2>
-          
-        <div class="col-md-2">
-            <img src="/data/{{book.path}}/c2o_thumbnail.jpg"/>
+    <div class='container'>
+        <ol class="breadcrumb">
+            <li>
+                <a href="#/books">Livres numérique</a>
+            </li>
+            <li class="active">{{book.title}}</li>
+        </ol>
+        <div class="row">
+            <h2 class="page-header">{{book.title}}</h2>
+            <div class="col-md-2">
+                <img src="/data/{{book.path}}/c2o_thumbnail.jpg"/>
             </div>
-        <div class="col-md-10">    
-            <h4>
-                <li ng-repeat="author in book.authors | orderBy:'sort'">{{author.name}}</li>
-            </h4>
-            <div ng-bind-html="book.summary"></div>
-            <h5 ng-if="book.series">Série : {{book.series[0]}}</h5>
-            <h5>Catégories : <li ng-repeat="tag in book.tags">{{tag.name}}</li></h5>
-            
-            <a href='/data/{{book.path}}' class='btn btn-primary col-md-2 col-md-offset-5'>Télécharger</a>
-            
+            <div class="col-md-10">
+                <h4 ng-repeat="author in book.authors | orderBy:'sort'">{{author.name}}
+                </h4>
+                <div ng-bind-html="book.summary"></div>
+                <h5 ng-if="book.series[0]">Série : {{book.series[0]}}</h5>
+                <h5>Catégories :</h5>
+                <ul>
+                    <a data-ng-repeat="tag in book.tags" data-ng-href="#/tag/{{tag.id}}">
+                        <li class='row listElement'>
+                            <div class='col-md-8'>{{tag.name}}</div>
+                        </li>
+                    </a>
+                </ul>
+                <a href='/data/{{book.path}}' class='btn btn-primary col-md-2 col-md-offset-5'>Télécharger</a>
+            </div>
         </div>
-    </div>
-
     </div>
 </div>
