@@ -13,9 +13,9 @@
             <h4>
                 <li ng-repeat="author in book.authors | orderBy:'sort'">{{author.name}}</li>
             </h4>
-            <h5>{{book.summary}}</h5>
-            <h5>Série : {{book.serie}}</h5>
-            <h5>Catégories : <li ng-repeat="tag in book.tags">{{tag}}</li></h5>
+            <div ng-bind-html="book.summary"></div>
+            <h5 ng-if="book.series">Série : {{book.series[0]}}</h5>
+            <h5>Catégories : <li ng-repeat="tag in book.tags">{{tag.name}}</li></h5>
             
             <a href='/data/{{book.path}}' class='btn btn-primary col-md-2 col-md-offset-5'>Télécharger</a>
             

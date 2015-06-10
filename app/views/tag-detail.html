@@ -1,18 +1,24 @@
 <div data-ng-controller="TagDetailCtrl">
+    <div class='container'>
+        <ol class="breadcrumb">
+            <li>
+                <a href="#">Livres numérique</a>
+            </li>
+            <li>
+                <a href="#">Catégories</a>
+            </li>
+            <li class="active">{{tag.name}}</li>
+        </ol>
+        <h4>{{books.length}} livres correspondent à cette 
 
-  <div class='container'>
-    <h2 class="page-header">
-    {{tag.name}}
-    </h2>
-      <h4>{{books.length}} livres correspondent à cette <a href="#/tags">catégorie :</a></h4>
-
-    <ul>
-      <a data-ng-repeat="book in books" data-ng-href="#/book/{{book.id}}">
-        <li class='row listElement'>
-          <div class='col-md-8'>{{book.title}}</div>
-        </li>
-      </a>
-    </ul>
-  </div>
-
+            <a href="#/tags">catégorie :</a>
+        </h4>
+        <ul>
+            <a data-ng-repeat="book in books" data-ng-href="#/book/{{book.id}}">
+                <li class='row listElement'>
+                    <div class='col-md-8'>{{book.title}}</div>
+                </li>
+            </a>
+        </ul>
+    </div>
 </div>
